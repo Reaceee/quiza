@@ -1,101 +1,188 @@
-import Image from "next/image";
+"use client";
+import React, { useState, useEffect } from "react";
+import questionsData from "./questions.json";
 
-export default function Home() {
+const QuizApp = () => {
+  const [numQuestions, setNumQuestions] = useState(10);
+  const [timeLimit, setTimeLimit] = useState(10);
+  const [quizStarted, setQuizStarted] = useState(false);
+  const [timer, setTimer] = useState(0);
+  const [questions, setQuestions] = useState([]);
+  const [userAnswers, setUserAnswers] = useState({});
+  const [score, setScore] = useState(null);
+  const [percent, setPercent] = useState(null);
+
+  useEffect(() => {
+    if (quizStarted && timer > 0) {
+      const interval = setInterval(() => setTimer((prev) => prev - 1), 1000);
+      return () => clearInterval(interval);
+    }
+  }, [quizStarted, timer]);
+
+  const startQuiz = () => {
+    const shuffled = [...questionsData].sort(() => 0.5 - Math.random());
+    setQuestions(shuffled.slice(0, numQuestions));
+    setUserAnswers({});
+    setQuizStarted(true);
+    setTimer(timeLimit * 60);
+    setScore(null);
+    setPercent(null);
+  };
+
+  const handleAnswer = (questionId, answer) => {
+    setUserAnswers({ ...userAnswers, [questionId]: answer });
+  };
+
+  const submitQuiz = () => {
+    let correctAnswers = 0;
+    questions.forEach((q) => {
+      if (userAnswers[q.id] === q.correct) correctAnswers++;
+    });
+    const calculatedScore = correctAnswers;
+    const calculatedPercent = (correctAnswers / questions.length) * 100;
+    setScore(calculatedScore);
+    setPercent(calculatedPercent.toFixed(2));
+    setQuizStarted(false);
+  };
+
+  const retryQuiz = () => {
+    setQuizStarted(false);
+    setNumQuestions(30);
+    setTimeLimit(10);
+    setScore(null);
+    setPercent(null);
+  };
+
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.js
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <div className="p-5  min-h-screen flex flex-col max-w-2xl mx-auto text-center">
+        {score !== null && (
+          <div className="mt-4 text-center items-center py-20 flex flex-col gap-2">
+            <h2 className=" font-bold text-3xl pb-4">Your result</h2>
+            <p>
+              Score: {score} / {questions.length}
+            </p>
+            <p>Percentage: {Math.round(percent)}%</p>
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+            <p className="text-lg text-[#999999] py-4">
+              {" "}
+              {percent < 1
+                ? "Did you even try?!"
+                : percent >= 100
+                ? "Go ace that exam!"
+                : percent > 70
+                ? "Little more practice to perfection "
+                : percent > 50
+                ? "You just might be ready "
+                : "You definitely can do better"}
+            </p>
+
+            <button
+              className="mt-4 w-max bg-red-500 text-white px-6 py-3 rounded-xl hover:brightness-105 hover:shadow-xl duration-150"
+              onClick={retryQuiz}
+            >
+              Retry
+            </button>
+          </div>
+        )}
+
+        {!quizStarted ? (
+          <div className="SETTINGS  h-full w-full my-auto flex flex-col items-center gap-4  ">
+            <h1 className="text-2xl font-bold">Quiz settings</h1>
+            <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
+              <label className="block  text-[#999999]">
+                Number of Questions:
+              </label>
+              <select
+                className="bg-[#99999920] p-4 rounded-xl cursor-pointer hover:bg-[#99999940] duration-150 px-4 w-full"
+                value={numQuestions}
+                onChange={(e) => setNumQuestions(Number(e.target.value))}
+              >
+                {[10, 20, 30].map((num) => (
+                  <option key={num} value={num} >
+                    {num}
+                  </option>
+                ))}
+              </select>
+            </div>
+            <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
+              <label className="block  text-[#999999]">Time Limit:</label>
+              <select
+                className="bg-[#99999920] p-4 rounded-xl cursor-pointer hover:bg-[#99999940] duration-150 px-4 w-full"
+                value={timeLimit}
+                onChange={(e) => setTimeLimit(Number(e.target.value))}
+              >
+                {[10, 20, 30, 40].map((time) => (
+                  <option key={time} value={time}>
+                    {time} minutes
+                  </option>
+                ))}
+              </select>
+            </div>
+            <button
+              className="mt-4 bg-blue-500 hover:brightness-105 active:bg-blue-600 text-white px-6 py-3 rounded-xl hover:shadow-xl duration-150"
+              onClick={startQuiz}
+            >
+              Start Quiz
+            </button>
+          </div>
+        ) : (
+          <div>
+            <div className="Header w-full flex flex-col items-start bg-[#f9f9f9] sticky top-0">
+              <h1 className="text-2xl  font-bold">Quiza</h1>
+              <div className="my-3 w-full text-sm text-[#999999] text-start">
+                Time Left: {Math.floor(timer / 60)}:{timer % 60}
+              </div>
+              <div className="w-full bg-gray-300 h-2 rounded">
+                <div
+                  className="bg-green-500 w-full h-2 rounded"
+                  style={{ width: `${(timer / (timeLimit * 60)) * 100}%` }}
+                ></div>
+              </div>
+            </div>
+
+            {questions.map((q, index) => (
+              <div
+                key={q.id}
+                className="my-4 bg-white p-4 border-gray-500 rounded"
+              >
+                <p className="font-bold py-4  text-left">
+                  {index + 1}. {q.question}
+                </p>
+                {q.options.map((opt) => (
+                  <label
+                    key={opt}
+                    className="py-2 items-center max-w-[400px] flex gap-2 text-left"
+                  >
+                    <input
+                      type="radio"
+                      name={q.id}
+                      value={opt}
+                      checked={userAnswers[q.id] === opt}
+                      onChange={() => handleAnswer(q.id, opt)}
+                    />{" "}
+                    {opt}
+                  </label>
+                ))}
+              </div>
+            ))}
+
+            <button
+              className="mt-4 my-8 bg-green-500 active:bg-green-600 text-white px-6 py-3 rounded-xl hover:shadow-xl duration-150 hover:brightness-105"
+              onClick={submitQuiz}
+            >
+              Submit Quiz
+            </button>
+          </div>
+        )}
+      </div>
+
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+      </style>
+    </>
   );
-}
+};
+
+export default QuizApp;

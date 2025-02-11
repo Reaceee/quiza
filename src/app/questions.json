@@ -1,0 +1,251 @@
+[
+    {
+      "id": 1,
+      "question": "Which of these is not one of the five functions of an operating system?",
+      "options": [
+        "Monitors system health and functionality",
+        "Provides an environment for software to function",
+        "Coordinates the activities of hardware components",
+        "Sends and receives e-mail messages"
+      ],
+      "correct": "Sends and receives e-mail messages"
+    },
+    {
+      "id": 2,
+      "question": "CTRL-V is an example of what?",
+      "options": ["Hotkeys", "System keys", "Function keys", "Launch keys"],
+      "correct": "Hotkeys"
+    },
+    {
+      "id": 3,
+      "question":
+        "Which key combination switches between open applications in Windows and Linux (Unity)?",
+      "options": ["F1", "ALT-F4", "ALT-TAB", "WINDOWS-PRINT SCREEN"],
+      "correct": "ALT-TAB"
+    },
+    {
+      "id": 4,
+      "question": "A __________ is a pointer that refers to a file.",
+      "options": ["Launcher", "Taskbar", "Shortcut", "GUI"],
+      "correct": "Shortcut"
+    },
+    {
+      "id": 5,
+      "question":
+        "The Dock on a Mac is equivalent to what feature of a Windows 8.1 desktop?",
+      "options": ["Start button", "Notification area", "Launcher", "Taskbar"],
+      "correct": "Taskbar"
+    },
+    {
+      "id": 6,
+      "question": "Which of these is an accessibility option for people who have limited mobility?",
+      "options": [
+        "Speech recognition",
+        "High-contrast color scheme",
+        "Magnifier",
+        "Windows flashing or blinking when a sound is played"
+      ],
+      "correct": "Speech recognition"
+    },
+    {
+      "id": 7,
+      "question": "What feature in Windows 10 is equivalent to Finder in macOS?",
+      "options": [
+        "File Explorer",
+        "Control Panel",
+        "Start screen",
+        "Start menu"
+      ],
+      "correct": "File Explorer"
+    },
+    {
+      "id": 8,
+      "question": "Which of these is an open-source operating system?",
+      "options": ["Windows", "Linux", "iOS", "macOS"],
+      "correct": "Linux"
+    },
+    {
+      "id": 9,
+      "question": "What is the defining feature of a commercial OS?",
+      "options": ["Open source", "Free", "Not free", "Public domain"],
+      "correct": "Not free"
+    },
+    {
+      "id": 10,
+      "question": "Which OS configuration uses data labels to control resource access?",
+      "options": [
+        "Services",
+        "Scheduled tasks",
+        "Mandatory access control",
+        "EULA"
+      ],
+      "correct": "Mandatory access control"
+    },
+    {
+      "id": 11,
+      "question": "Which of these is the flow of static electricity?",
+      "options": ["EMI", "ESD", "AC", "DC"],
+      "correct": "ESD"
+    },
+    {
+      "id": 12,
+      "question": "Which of these is a type of Windows user account?",
+      "options": ["Kid", "Standard", "Supervisor", "Normal"],
+      "correct": "Standard"
+    },
+    {
+      "id": 13,
+      "question": "What device can help correct power sags?",
+      "options": ["Power supply", "Power strip", "Surge suppressor", "UPS"],
+      "correct": "UPS"
+    },
+    {
+      "id": 14,
+      "question": "Where in the Control Panel can you remove unwanted applications?",
+      "options": ["Programs", "Ergonomics", "Setup", "Start menu"],
+      "correct": "Programs"
+    },
+    {
+      "id": 15,
+      "question":
+        "How far should a user’s face be from a monitor screen for most comfortable viewing?",
+      "options": [
+        "10 to 12 inches",
+        "12 to 16 inches",
+        "16 to 24 inches",
+        "24 to 32 inches"
+      ],
+      "correct": "16 to 24 inches"
+    },
+    {
+      "id": 16,
+      "question":
+        "Where in Windows can you access the configuration settings for hardware devices like mice and printers?",
+      "options": [
+        "File Explorer",
+        "EMI",
+        "Start menu",
+        "Control Panel"
+      ],
+      "correct": "Control Panel"
+    },
+    {
+      "id": 17,
+      "question":
+        "What should you install before you download and install additional software on a new PC?",
+      "options": [
+        "Security software",
+        "Nothing",
+        "Updates to other applications",
+        "Drivers for hardware devices"
+      ],
+      "correct": "Security software"
+    },
+    {
+      "id": 18,
+      "question": "What component protects against occasional electrical spikes?",
+      "options": [
+        "Surge suppressor",
+        "Motherboard",
+        "Hard disk drive",
+        "Printer"
+      ],
+      "correct": "Surge suppressor"
+    },
+    {
+      "id": 19,
+      "question":
+        "What kind of cable is most often used to connect a PC to a broadband modem or router?",
+      "options": ["VGA", "DVI", "Ethernet", "RJ-11"],
+      "correct": "Ethernet"
+    },
+    {
+      "id": 20,
+      "question":
+        "In which environment would a desktop computer be safest and operate the best?",
+      "options": [
+        "Inside a small, tightly sealed cabinet",
+        "In a clean room with a powerful air conditioner running",
+        "On the balcony at a tropical beachfront condo",
+        "On a TV tray in a living room"
+      ],
+      "correct": "In a clean room with a powerful air conditionerrunning"
+    },
+    {
+      "id": 21,
+      "question": "Which of these passcodes is more secure?",
+      "options": [
+        "Six-digit alphanumeric",
+        "Six-digit number",
+        "Four-digit number",
+        "All are equally secure"
+      ],
+      "correct": "Six-digit alphanumeric"
+    },
+    {
+      "id": 22,
+      "question": "The name of a WiFi access point is its:",
+      "options": ["POP", "IMAP", "NFC", "SSID"],
+      "correct": "SSID"
+    },
+    {
+      "id": 23,
+      "question": "What kind of wireless connectivity is Bluetooth best suited for?",
+      "options": [
+        "Sending and receiving phone calls",
+        "Connecting to a wireless headset",
+        "Connecting to the Internet",
+        "Connecting to a computer in a nearby building"
+      ],
+      "correct": "Connecting to a wireless headset"
+    },
+    {
+      "id": 24,
+      "question":
+        "What app does an iPhone use to synchronize music and videos from a computer?",
+      "options": ["iMusic", "iTunes", "Google Play", "doubleTwist"],
+      "correct": "iTunes"
+    },
+    {
+      "id": 25,
+      "question": "3G, 4G, and LTE are all kinds of what kind of wireless communication?",
+      "options": ["WiFi", "Bluetooth", "Cellular", "NFC"],
+      "correct": "Cellular"
+    },
+    {
+      "id": 26,
+      "question": "How is screen orientation determined, if it is not locked?",
+      "options": [
+        "The user sets it once, and it never changes.",
+        "Orientation hardware button.",
+        "Orientation command.",
+        "Physical orientation of the device"
+      ],
+      "correct": "Physical orientation of the device"
+    },
+    {
+      "id": 27,
+      "question":
+        "What is the gesture where you touch the surface with two fingers spread apart and then drag them closer together?",
+      "options": ["Rotate", "Tap", "Pinch", "Spread"],
+      "correct": "Pinch"
+    },
+    {
+      "id": 28,
+      "question": "Connecting a Bluetooth peripheral to a smartphone is known as:",
+      "options": ["Pairing", "WiFi", "4G", "NFC"],
+      "correct": "Pairing"
+    },
+    {
+      "id": 29,
+      "question": "Which of these terms is not associated with kinetics?",
+      "options": ["Magnetometer", "Gyroscope", "Barometer", "Accelerometer"],
+      "correct": "Barometer"
+    },
+    {
+      "id": 30,
+      "question": "Which of these is not a protocol for sending or receiving e-mail?",
+      "options": ["IMAP", "SMTP", "POP3", "NFC"],
+      "correct": "NFC"
+    }
+  ]
