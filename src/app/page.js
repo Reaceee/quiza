@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import questionsData from "./questions.json";
+import logo from "../logo.svg";
 
 const QuizApp = () => {
   const [numQuestions, setNumQuestions] = useState(10);
@@ -78,10 +79,10 @@ const QuizApp = () => {
             </p>
 
             <button
-              className="mt-4 w-max bg-red-500 text-white px-6 py-3 rounded-xl hover:brightness-105 hover:shadow-xl duration-150"
+              className="mt-4 w-max bg-gray-900 text-white px-6 py-3 rounded-xl hover:brightness-105 hover:shadow-xl duration-150"
               onClick={retryQuiz}
             >
-              Retry
+              Hide result
             </button>
           </div>
         )}
@@ -98,8 +99,8 @@ const QuizApp = () => {
                 value={numQuestions}
                 onChange={(e) => setNumQuestions(Number(e.target.value))}
               >
-                {[10, 20, 30].map((num) => (
-                  <option key={num} value={num} >
+                {[10, 20, 30, 60, 85].map((num) => (
+                  <option key={num} value={num}>
                     {num}
                   </option>
                 ))}
@@ -120,7 +121,7 @@ const QuizApp = () => {
               </select>
             </div>
             <button
-              className="mt-4 bg-blue-500 hover:brightness-105 active:bg-blue-600 text-white px-6 py-3 rounded-xl hover:shadow-xl duration-150"
+              className="mt-4 bg-blue-500 hover:brightness-105 active:bg-blue-600 text-white px-6 py-3 rounded-xl hover:shadow-xl duration-150 mb-8"
               onClick={startQuiz}
             >
               Start Quiz
@@ -130,6 +131,7 @@ const QuizApp = () => {
           <div>
             <div className="Header w-full flex flex-col items-start bg-[#f9f9f9] sticky top-0">
               <h1 className="text-2xl  font-bold">Quiza</h1>
+           
               <div className="my-3 w-full text-sm text-[#999999] text-start">
                 Time Left: {Math.floor(timer / 60)}:{timer % 60}
               </div>
@@ -173,8 +175,12 @@ const QuizApp = () => {
             >
               Submit Quiz
             </button>
-          </div>
-        )}
+            </div>
+            
+
+
+          )}
+          <p className="text-sm text-[#999999]">&copy; 2025. Crafted by David Austin</p>
       </div>
 
       <style>

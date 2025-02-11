@@ -1,251 +1,1023 @@
 [
-    {
-      "id": 1,
-      "question": "Which of these is not one of the five functions of an operating system?",
-      "options": [
-        "Monitors system health and functionality",
-        "Provides an environment for software to function",
-        "Coordinates the activities of hardware components",
-        "Sends and receives e-mail messages"
-      ],
-      "correct": "Sends and receives e-mail messages"
+  {
+    "id": 1,
+    "section": "Operating Systems",
+    "question": "Which of these is not one of the five functions of an operating system?",
+    "options": [
+      "Monitors system health and functionality",
+      "Provides an environment for software to function",
+      "Coordinates the activities of hardware components",
+      "Sends and receives e-mail messages"
+    ],
+    "correct": "Sends and receives e-mail messages"
+  },
+  {
+    "id": 2,
+    "section": "Operating Systems",
+    "question": "CTRL-V is an example of what?",
+    "options": [
+      "Hotkeys",
+      "System keys",
+      "Function keys",
+      "Launch keys"
+    ],
+    "correct": "Hotkeys"
+  },
+  {
+    "id": 3,
+    "section": "Operating Systems",
+    "question": "Which key combination switches between open applications in Windows and Linux (Unity)?",
+    "options": [
+      "F1",
+      "ALT-F4",
+      "ALT-TAB",
+      "WINDOWS-PRINT SCREEN"
+    ],
+    "correct": "ALT-TAB"
+  },
+  {
+    "id": 4,
+    "section": "Operating Systems",
+    "question": "A __________ is a pointer that refers to a file.",
+    "options": [
+      "Launcher",
+      "Taskbar",
+      "Shortcut",
+      "GUI"
+    ],
+    "correct": "Shortcut"
+  },
+  {
+    "id": 5,
+    "section": "Operating Systems",
+    "question": "The Dock on a Mac is equivalent to what feature of a Windows 8.1 desktop?",
+    "options": [
+      "Start button",
+      "Notification area",
+      "Launcher",
+      "Taskbar"
+    ],
+    "correct": "Taskbar"
+  },
+  {
+    "id": 6,
+    "section": "Operating Systems",
+    "question": "Which of these is an accessibility option for people who have limited mobility?",
+    "options": [
+      "Speech recognition",
+      "High-contrast color scheme",
+      "Magnifier",
+      "Windows flashing or blinking when a sound is played"
+    ],
+    "correct": "Speech recognition"
+  },
+  {
+    "id": 7,
+    "section": "Operating Systems",
+    "question": "What feature in Windows 10 is equivalent to Finder in macOS?",
+    "options": [
+      "File Explorer",
+      "Control Panel",
+      "Start screen",
+      "Start menu"
+    ],
+    "correct": "File Explorer"
+  },
+  {
+    "id": 8,
+    "section": "Operating Systems",
+    "question": "Which of these is an open source operating system?",
+    "options": [
+      "Windows",
+      "Linux",
+      "iOS",
+      "macOS"
+    ],
+    "correct": "Linux"
+  },
+  {
+    "id": 9,
+    "section": "Operating Systems",
+    "question": "What is the defining feature of a commercial OS?",
+    "options": [
+      "Open source",
+      "Free",
+      "Not free",
+      "Public domain"
+    ],
+    "correct": "Not free"
+  },
+  {
+    "id": 10,
+    "section": "Operating Systems",
+    "question": "Which OS configuration uses data labels to control resource access?",
+    "options": [
+      "Services",
+      "Scheduled tasks",
+      "Mandatory access control",
+      "EULA"
+    ],
+    "correct": "Mandatory access control"
+  },
+  {
+    "id": 11,
+    "section": "Hardware",
+    "question": "Which of these is the flow of static electricity?",
+    "options": [
+      "EMI",
+      "ESD",
+      "AC",
+      "DC"
+    ],
+    "correct": "ESD"
+  },
+  {
+    "id": 12,
+    "section": "Hardware",
+    "question": "Which of these is a type of Windows user account?",
+    "options": [
+      "Kid",
+      "Standard",
+      "Supervisor",
+      "Normal"
+    ],
+    "correct": "Standard"
+  },
+  {
+    "id": 13,
+    "section": "Hardware",
+    "question": "What device can help correct power sags?",
+    "options": [
+      "Power supply",
+      "Power strip",
+      "Surge suppressor",
+      "UPS"
+    ],
+    "correct": "UPS"
+  },
+  {
+    "id": 14,
+    "section": "Hardware",
+    "question": "Where in the Control Panel can you remove unwanted applications?",
+    "options": [
+      "Programs",
+      "Ergonomics",
+      "Setup",
+      "Start menu"
+    ],
+    "correct": "Programs"
+  },
+  {
+    "id": 15,
+    "section": "Hardware",
+    "question": "How far should a user's face be from a monitor screen for most comfortable viewing?",
+    "options": [
+      "10 to 12 inches",
+      "12 to 16 inches",
+      "16 to 24 inches",
+      "24 to 32 inches"
+    ],
+    "correct": "16 to 24 inches"
+  },
+  {
+    "id": 16,
+    "section": "Hardware",
+    "question": "Where in Windows can you access the configuration settings for hardware devices like mice and printers?",
+    "options": [
+      "File Explorer",
+      "EMI",
+      "Start menu",
+      "Control Panel"
+    ],
+    "correct": "Control Panel"
+  },
+  {
+    "id": 17,
+    "section": "Hardware",
+    "question": "What should you install before you download and install additional software on a new PC?",
+    "options": [
+      "Security software",
+      "Nothing",
+      "Updates to other applications",
+      "Drivers for hardware devices"
+    ],
+    "correct": "Security software"
+  },
+  {
+    "id": 18,
+    "section": "Hardware",
+    "question": "What component protects against occasional electrical spikes?",
+    "options": [
+      "Surge suppressor",
+      "Motherboard",
+      "Hard disk drive",
+      "Printer"
+    ],
+    "correct": "Surge suppressor"
+  },
+  {
+    "id": 19,
+    "section": "Hardware",
+    "question": "What kind of cable is most often used to connect a PC to a broadband modem or router?",
+    "options": [
+      "VGA",
+      "DVI",
+      "Ethernet",
+      "RJ-11"
+    ],
+    "correct": "Ethernet"
+  },
+  {
+    "id": 20,
+    "section": "Hardware",
+    "question": "In which environment would a desktop computer be safest and operate the best?",
+    "options": [
+      "Inside a small, tightly sealed cabinet",
+      "In a clean room with a powerful air conditioner running",
+      "On the balcony at a tropical beachfront condo",
+      "On a TV tray in a living room"
+    ],
+    "correct": "In a clean room with a powerful air conditioner running"
+  },
+  {
+    "id": 21,
+    "section": "Mobile Devices",
+    "question": "Which of these passcodes is more secure?",
+    "options": [
+      "Six-digit alphanumeric",
+      "Six-digit number",
+      "Four-digit number",
+      "All are equally secure"
+    ],
+    "correct": "Six-digit alphanumeric"
+  },
+  {
+    "id": 22,
+    "section": "Mobile Devices",
+    "question": "The name of a WiFi access point is its:",
+    "options": [
+      "POP",
+      "IMAP",
+      "NFC",
+      "SSID"
+    ],
+    "correct": "SSID"
+  },
+  {
+    "id": 23,
+    "section": "Mobile Devices",
+    "question": "What kind of wireless connectivity is Bluetooth best suited for?",
+    "options": [
+      "Sending and receiving phone calls",
+      "Connecting to a wireless headset",
+      "Connecting to the Internet",
+      "Connecting to a computer in a nearby building"
+    ],
+    "correct": "Connecting to a wireless headset"
+  },
+  {
+    "id": 24,
+    "section": "Mobile Devices",
+    "question": "What app does an iPhone use to synchronize music and videos from a computer?",
+    "options": [
+      "iMusic",
+      "iTunes",
+      "Google Play",
+      "doubleTwist"
+    ],
+    "correct": "iTunes"
+  },
+  {
+    "id": 25,
+    "section": "Mobile Devices",
+    "question": "3G, 4G, and LTE are all kinds of what kind of wireless communication?",
+    "options": [
+      "WiFi",
+      "Bluetooth",
+      "Cellular",
+      "NFC"
+    ],
+    "correct": "Cellular"
+  },
+  {
+    "id": 26,
+    "section": "Mobile Devices",
+    "question": "How is screen orientation determined, if it is not locked?",
+    "options": [
+      "The user sets it once, and it never changes",
+      "Orientation hardware button",
+      "Orientation command",
+      "Physical orientation of the device"
+    ],
+    "correct": "Physical orientation of the device"
+  },
+  {
+    "id": 27,
+    "section": "Mobile Devices",
+    "question": "What is the gesture where you touch the surface with two fingers spread apart and then drag them closer together?",
+    "options": [
+      "Rotate",
+      "Tap",
+      "Pinch",
+      "Spread"
+    ],
+    "correct": "Pinch"
+  },
+  {
+    "id": 28,
+    "section": "Mobile Devices",
+    "question": "Connecting a Bluetooth peripheral to a smartphone is known as:",
+    "options": [
+      "Pairing",
+      "WiFi",
+      "4G",
+      "NFC"
+    ],
+    "correct": "Pairing"
+  },
+  {
+    "id": 29,
+    "section": "Mobile Devices",
+    "question": "Which of these terms is not associated with kinetics?",
+    "options": [
+      "Magnetometer",
+      "Gyroscope",
+      "Barometer",
+      "Accelerometer"
+    ],
+    "correct": "Barometer"
+  },
+  {
+    "id": 30,
+    "section": "Mobile Devices",
+    "question": "Which of these is not a protocol for sending or receiving e-mail?",
+    "options": [
+      "IMAP",
+      "SMTP",
+      "POP3",
+      "NFC"
+    ],
+    "correct": "NFC"
+  },
+  {
+    "id": 31,
+    "section": "File Management",
+    "question": "CTRL-V is a keyboard shortcut in Windows for what activity?",
+    "options": [
+      "Copy",
+      "Paste",
+      "Cut",
+      "Delete"
+    ],
+    "correct": "Paste"
+  },
+  {
+    "id": 32,
+    "section": "File Management",
+    "question": "How do you select multiple noncontiguous files in a file listing?",
+    "options": [
+      "CTRL-click",
+      "SHIFT-click",
+      "Double-click",
+      "Right-click"
+    ],
+    "correct": "CTRL-click"
+  },
+  {
+    "id": 33,
+    "section": "File Management",
+    "question": "What action opens a data file for editing in the application associated with its extension?",
+    "options": [
+      "Double-click",
+      "Right-click",
+      "CTRL-click",
+      "SHIFT-click"
+    ],
+    "correct": "Double-click"
+  },
+  {
+    "id": 34,
+    "section": "File Management",
+    "question": "In File Explorer, from which tab can you select a different view?",
+    "options": [
+      "View",
+      "Share",
+      "Details",
+      "Home"
+    ],
+    "correct": "View"
+  },
+  {
+    "id": 35,
+    "section": "File Management",
+    "question": "Which of these is an on/off flag for a file?",
+    "options": [
+      "Size",
+      "Archive",
+      "Date modified",
+      "Date created"
+    ],
+    "correct": "Archive"
+  },
+  {
+    "id": 36,
+    "section": "File Management",
+    "question": "What is a root directory?",
+    "options": [
+      "The top-level storage location on a volume",
+      "The folder containing the system files",
+      "The folder containing the boot files",
+      "The folder containing the signed-in user's personal files"
+    ],
+    "correct": "The top-level storage location on a volume"
+  },
+  {
+    "id": 37,
+    "section": "File Management",
+    "question": "What is the file management tool in macOS?",
+    "options": [
+      "File Explorer",
+      "Dock",
+      "Launcher",
+      "Finder"
+    ],
+    "correct": "Finder"
+  },
+  {
+    "id": 38,
+    "section": "File Management",
+    "question": "Which utility in macOS backs up user files automatically?",
+    "options": [
+      "Backup",
+      "File Explorer",
+      "File History",
+      "Time Machine"
+    ],
+    "correct": "Time Machine"
+  },
+  {
+    "id": 39,
+    "section": "File Management",
+    "question": "Which file property makes a search faster for content within files?",
+    "options": [
+      "Archive",
+      "Indexed",
+      "Compressed",
+      "Encrypted"
+    ],
+    "correct": "Indexed"
+  },
+  {
+    "id": 40,
+    "section": "Applications",
+    "question": "Which of these is a collaboration application?",
+    "options": [
+      "TurboTax",
+      "Microsoft Word",
+      "SharePoint",
+      "Symantec Endpoint Protection"
+    ],
+    "correct": "SharePoint"
+  },
+  {
+    "id": 41,
+    "section": "Applications",
+    "question": "What is the purpose of an application patch?",
+    "options": [
+      "Adding new features",
+      "Removing the application",
+      "Upgrading to a new version",
+      "Correcting a problem"
+    ],
+    "correct": "Correcting a problem"
+  },
+  {
+    "id": 42,
+    "section": "Applications",
+    "question": "How do you install a Modern app in Windows 8.1 or 10?",
+    "options": [
+      "From the Control Panel",
+      "From a downloaded executable file",
+      "From the Store app",
+      "From the Start menu/screen"
+    ],
+    "correct": "From the Store app"
+  },
+  {
+    "id": 43,
+    "section": "Applications",
+    "question": "Which of these is a productivity application?",
+    "options": [
+      "Microsoft Excel",
+      "Candy Crush",
+      "Windows Firewall",
+      "Spotify"
+    ],
+    "correct": "Microsoft Excel"
+  },
+  {
+    "id": 44,
+    "section": "Applications",
+    "question": "Where can you see what applications are installed in Ubuntu Linux?",
+    "options": [
+      "Apps list",
+      "Dash pane",
+      "Dock",
+      "Windows Store"
+    ],
+    "correct": "Dash pane"
+  },
+  {
+    "id": 45,
+    "section": "Applications",
+    "question": "What can you find out about an application by choosing Help | About?",
+    "options": [
+      "Most recent data file used",
+      "Supported extensions",
+      "Application version number",
+      "Windows version"
+    ],
+    "correct": "Application version number"
+  },
+  {
+    "id": 46,
+    "section": "Applications",
+    "question": "Where in Windows 8.1 can you browse installed applications?",
+    "options": [
+      "Apps list",
+      "Dash pane",
+      "Dock",
+      "Windows Store"
+    ],
+    "correct": "Apps list"
+  },
+  {
+    "id": 47,
+    "section": "Applications",
+    "question": "Which of these is a graphic format?",
+    "options": [
+      "PNG",
+      "PPTX",
+      "AVI",
+      "TAR"
+    ],
+    "correct": "PNG"
+  },
+  {
+    "id": 48,
+    "section": "Applications",
+    "question": "Which of these is a compression format?",
+    "options": [
+      "WAV",
+      "TXT",
+      "XLS",
+      "RAR"
+    ],
+    "correct": "RAR"
+  },
+  {
+    "id": 49,
+    "section": "Applications",
+    "question": "How can you remove a Windows desktop application?",
+    "options": [
+      "From the Control Panel",
+      "From the Store app",
+      "From the Start menu/Start screen",
+      "From the Dock"
+    ],
+    "correct": "From the Control Panel"
+  },
+  {
+    "id": 50,
+    "section": "Networking",
+    "question": "Which wireless encryption standard is the most secure?",
+    "options": [
+      "WPA",
+      "WEP",
+      "WPA2",
+      "WPS"
+    ],
+    "correct": "WPA2"
+  },
+  {
+    "id": 51,
+    "section": "Networking",
+    "question": "What kind of ports are on the back of a SOHO router for making wired connections?",
+    "options": [
+      "RJ-11",
+      "DVI",
+      "RJ-45",
+      "VGA"
+    ],
+    "correct": "RJ-45"
+  },
+  {
+    "id": 52,
+    "section": "Networking",
+    "question": "Where in the Control Panel would you go to connect to a network printer on a client PC?",
+    "options": [
+      "Network and Internet",
+      "System and Security",
+      "Ease of Access",
+      "Devices and Printers"
+    ],
+    "correct": "Devices and Printers"
+  },
+  {
+    "id": 53,
+    "section": "Networking",
+    "question": "What differentiates a router from a switch?",
+    "options": [
+      "Routers are for WANs, and switches are for LANs",
+      "A switch provides a path out of the LAN, such as to the Internet",
+      "A router provides a path out of the LAN, such as to the Internet",
+      "Routers are for client-server networks, and switches are for peer-to-peer networks"
+    ],
+    "correct": "A router provides a path out of the LAN, such as to the Internet"
+  },
+  {
+    "id": 54,
+    "section": "Networking",
+    "question": "When shopping for a SOHO router, look for the latest available standard, which is:",
+    "options": [
+      "802.11b",
+      "802.11ac",
+      "802.11g",
+      "802.11n"
+    ],
+    "correct": "802.11ac"
+  },
+  {
+    "id": 55,
+    "section": "Networking",
+    "question": "How do you access a router configuration utility?",
+    "options": [
+      "Buttons on the back of the router",
+      "Buttons on the top of the router",
+      "Domain name in a web browser",
+      "IP address in a web browser"
+    ],
+    "correct": "IP address in a web browser"
+  },
+  {
+    "id": 56,
+    "section": "Networking",
+    "question": "What is an advantage of using a homegroup?",
+    "options": [
+      "Higher security level",
+      "Easier folder and printer sharing",
+      "Faster file transfer",
+      "Makes router use less power"
+    ],
+    "correct": "Easier folder and printer sharing"
+  },
+  {
+    "id": 57,
+    "section": "Networking",
+    "question": "In which way is a cellular Internet connection superior to wired and WiFi?",
+    "options": [
+      "Bandwidth",
+      "Mobility",
+      "Security",
+      "Number of concurrent connections"
+    ],
+    "correct": "Mobility"
+  },
+  {
+    "id": 58,
+    "section": "Networking",
+    "question": "What is the router's SSID?",
+    "options": [
+      "IP address",
+      "Network name",
+      "Serial number",
+      "Model number"
+    ],
+    "correct": "Network name"
+  },
+  {
+    "id": 59,
+    "section": "Security",
+    "question": "Which of the following can prevent people from snooping on a device that you leave unattended for several minutes?",
+    "options": [
+      "Shoulder surfing",
+      "Disabling WiFi",
+      "Using a strong password",
+      "Configuring a lock-out time"
+    ],
+    "correct": "Configuring a lock-out time"
+  },
+  {
+    "id": 60,
+    "section": "Security",
+    "question": "What indicates that you've browsed to a secure web page?",
+    "options": [
+      "The web address starts with http://",
+      "A small key appears in the browser",
+      "The web address starts with https://",
+      "A small lock appears in the browser"
+    ],
+    "correct": "The web address starts with https://"
+  },
+  {
+    "id": 61,
+    "section": "Security",
+    "question": "Which of the following might you want to disable to protect your privacy?",
+    "options": [
+      "Autofill forms",
+      "Certificates",
+      "InPrivate browsing",
+      "Hyperlinks"
+    ],
+    "correct": "Autofill forms"
+  },
+  {
+    "id": 62,
+    "section": "Security",
+    "question": "Which type of malware tries to get you to pay a fee to decrypt your files?",
+    "options": [
+      "Ransomware",
+      "Trojan",
+      "Spyware",
+      "Worm"
+    ],
+    "correct": "Ransomware"
+  },
+  {
+    "id": 63,
+    "section": "Security",
+    "question": "After you have recognized that there is a virus on your PC, what is the next step to removing the virus?",
+    "options": [
+      "To search and destroy",
+      "To quarantine",
+      "To educate",
+      "To remediate"
+    ],
+    "correct": "To quarantine"
+  },
+  {
+    "id": 64,
+    "section": "Security",
+    "question": "How can you defend against malware delivered by e-mail?",
+    "options": [
+      "Only use Mozilla Thunderbird",
+      "Don't open attachments from unknown senders",
+      "Delete old messages regularly",
+      "Only use the preview window"
+    ],
+    "correct": "Don't open attachments from unknown senders"
+  },
+  {
+    "id": 65,
+    "section": "Security",
+    "question": "What kind of theft does someone practice when they loiter at a café taking notes on what people type?",
+    "options": [
+      "Infiltration",
+      "Shoulder surfing",
+      "Cracking",
+      "Dumpster diving"
+    ],
+    "correct": "Shoulder surfing"
+  },
+  {
+    "id": 66,
+    "section": "Security",
+    "question": "Disabling the Bluetooth adapter on a laptop when it is not in use is an example of:",
+    "options": [
+      "Device hardening",
+      "Hardware theft prevention",
+      "Dumpster diving",
+      "Cracking"
+    ],
+    "correct": "Device hardening"
+  },
+  {
+    "id": 67,
+    "section": "Maintenance",
+    "question": "What can you use to prevent ESD from damaging components when cleaning inside a computer?",
+    "options": [
+      "Antistatic wipe",
+      "Antistatic bag",
+      "ESD presents no danger to components, so nothing special is needed",
+      "Antistatic wrist strap"
+    ],
+    "correct": "Antistatic wrist strap"
+  },
+  {
+    "id": 68,
+    "section": "Maintenance",
+    "question": "What should you use to remove dust and animal hair from inside a computer case?",
+    "options": [
+      "Compressed air",
+      "Household vacuum cleaner",
+      "Mild soap and water",
+      "Blow dryer"
+    ],
+    "correct": "Compressed air"
+  },
+  {
+    "id": 69,
+    "section": "Maintenance",
+    "question": "What computer component contains a lot of lead and must be recycled?",
+    "options": [
+      "Toner cartridge",
+      "CRT",
+      "Ink cartridge",
+      "Hard disk drive"
+    ],
+    "correct": "CRT"
+  },
+  {
+    "id": 70,
+    "section": "Maintenance",
+    "question": "What problem can missing slot covers on the case cause?",
+    "options": [
+      "Electromagnetic interference from other electronics nearby",
+      "Disruption of airflow outside the computer leading to overheating",
+      "Electrostatic discharge from dust and animal hair",
+      "Disruption of airflow inside the computer leading to overheating"
+    ],
+    "correct": "Disruption of airflow inside the computer leading to overheating"
+  },
+  {
+    "id": 71,
+    "section": "Maintenance",
+    "question": "What standard offers computer part makers guidelines for making environmentally friendly parts?",
+    "options": [
+      "VHS",
+      "FTC",
+      "RIAA",
+      "RoHS"
+    ],
+    "correct": "RoHS"
+  },
+  {
+    "id": 72,
+    "section": "Maintenance",
+    "question": "How should you clean removable media, such as a DVD?",
+    "options": [
+      "Use a soft cloth and wipe with a circular movement",
+      "Use a soft scrub brush and wipe left to right",
+      "Use a soft cloth and wipe inside to outside with a straight movement",
+      "Put the disc in the dishwashing machine"
+    ],
+    "correct": "Use a soft cloth and wipe inside to outside with a straight movement"
+  },
+  {
+    "id": 73,
+    "section": "Maintenance",
+    "question": "How should you clean a computer that used to live in a machine shop?",
+    "options": [
+      "A soft cloth with a commercial cleaning solution",
+      "A soft cloth with mild soap and water",
+      "A soft cloth with distilled water",
+      "A dry, soft cloth"
+    ],
+    "correct": "A soft cloth with mild soap and water"
+  },
+  {
+    "id": 74,
+    "section": "Maintenance",
+    "question": "Which type of contingency plan is specific to an IT system or service?",
+    "options": [
+      "Incident response",
+      "Disaster recovery",
+      "Business continuity",
+      "Data restoration"
+    ],
+    "correct": "Disaster recovery"
+  },
+  {
+    "id": 75,
+    "section": "Maintenance",
+    "question": "How long can a laptop remain in Hibernate mode without running out of battery power?",
+    "options": [
+      "It depends on the battery condition and capacity",
+      "36 hours",
+      "Indefinitely",
+      "12 hours"
+    ],
+    "correct": "Indefinitely"
+  },
+  {
+    "id": 76,
+    "section": "Maintenance",
+    "question": "In California, how should small alkaline batteries be disposed of?",
+    "options": [
+      "Regular trash",
+      "Any of the above",
+      "Incinerated",
+      "Recycling center"
+    ],
+    "correct": "Regular trash"
+  },
+  {
+    "id": 77,
+    "section": "Maintenance",
+    "question": "In Sleep mode, the __________ remains powered; everything else shuts off.",
+    "options": [
+      "CPU",
+      "Monitor",
+      "Memory",
+      "Hard drives"
+    ],
+    "correct": "Memory"
+  },
+  {
+    "id": 78,
+    "section": "Troubleshooting",
+    "question": "What is the FAQ?",
+    "options": [
+      "The main page of a manufacturer's support web site",
+      "A web page containing frequently asked questions and their answers",
+      "A utility that identifies your product's model number",
+      "An index of all help topics on a web site"
+    ],
+    "correct": "A web page containing frequently asked questions and their answers"
+  },
+  {
+    "id": 79,
+    "section": "Troubleshooting",
+    "question": "Which is the most authoritative source of information about a device?",
+    "options": [
+      "Internet search",
+      "Friend and relatives",
+      "Manufacturer's web site",
+      "Community user groups"
+    ],
+    "correct": "Manufacturer's web site"
+  },
+  {
+    "id": 80,
+    "section": "Troubleshooting",
+    "question": "What should you try if a USB printer can print a test page but the computer doesn't see it?",
+    "options": [
+      "Use a different printer cable",
+      "Replace the ink cartridges",
+      "Turn the printer off and then back on again",
+      "Use a different kind of paper in the printer"
+    ],
+    "correct": "Use a different printer cable"
+  },
+  {
+    "id": 81,
+    "section": "Troubleshooting",
+    "question": "What Windows utility returns the computer's system files to previously saved versions?",
+    "options": [
+      "File Explorer",
+      "System Restore",
+      "Compatibility Mode",
+      "Control Panel"
+    ],
+    "correct": "System Restore"
+  },
+  {
+    "id": 82,
+    "section": "Troubleshooting",
+    "question": "Which of these might correct a problem with an application not running correctly?",
+    "options": [
+      "Clean the display screen",
+      "Uninstall and reinstall the application",
+      "Create a shortcut to the application on the desktop",
+      "Delete your data files"
+    ],
+    "correct": "Uninstall and reinstall the application"
+  },
+
+  {
+    "id": 83,
+    "section": "Troubleshooting",
+    "question": "Suppose you have a wireless mouse that doesn't work at all. Which of these is not likely to be the cause?",
+    "options": [
+    "The power switch on the mouse is turned off",
+    "The mouse is dirty",
+    "The batteries are dead",
+    "The transceiver is not connected to the computer"
+    ],
+    "correct": "The mouse is dirty"
     },
     {
-      "id": 2,
-      "question": "CTRL-V is an example of what?",
-      "options": ["Hotkeys", "System keys", "Function keys", "Launch keys"],
-      "correct": "Hotkeys"
+    "id": 84,
+    "section": "Troubleshooting",
+    "question": "If you need to cancel an online subscription, what department of the company do you need to contact?",
+    "options": [
+    "Customer service",
+    "Technical support",
+    "Service",
+    "Sales"
+    ],
+    "correct": "Customer service"
     },
     {
-      "id": 3,
-      "question":
-        "Which key combination switches between open applications in Windows and Linux (Unity)?",
-      "options": ["F1", "ALT-F4", "ALT-TAB", "WINDOWS-PRINT SCREEN"],
-      "correct": "ALT-TAB"
-    },
-    {
-      "id": 4,
-      "question": "A __________ is a pointer that refers to a file.",
-      "options": ["Launcher", "Taskbar", "Shortcut", "GUI"],
-      "correct": "Shortcut"
-    },
-    {
-      "id": 5,
-      "question":
-        "The Dock on a Mac is equivalent to what feature of a Windows 8.1 desktop?",
-      "options": ["Start button", "Notification area", "Launcher", "Taskbar"],
-      "correct": "Taskbar"
-    },
-    {
-      "id": 6,
-      "question": "Which of these is an accessibility option for people who have limited mobility?",
-      "options": [
-        "Speech recognition",
-        "High-contrast color scheme",
-        "Magnifier",
-        "Windows flashing or blinking when a sound is played"
-      ],
-      "correct": "Speech recognition"
-    },
-    {
-      "id": 7,
-      "question": "What feature in Windows 10 is equivalent to Finder in macOS?",
-      "options": [
-        "File Explorer",
-        "Control Panel",
-        "Start screen",
-        "Start menu"
-      ],
-      "correct": "File Explorer"
-    },
-    {
-      "id": 8,
-      "question": "Which of these is an open-source operating system?",
-      "options": ["Windows", "Linux", "iOS", "macOS"],
-      "correct": "Linux"
-    },
-    {
-      "id": 9,
-      "question": "What is the defining feature of a commercial OS?",
-      "options": ["Open source", "Free", "Not free", "Public domain"],
-      "correct": "Not free"
-    },
-    {
-      "id": 10,
-      "question": "Which OS configuration uses data labels to control resource access?",
-      "options": [
-        "Services",
-        "Scheduled tasks",
-        "Mandatory access control",
-        "EULA"
-      ],
-      "correct": "Mandatory access control"
-    },
-    {
-      "id": 11,
-      "question": "Which of these is the flow of static electricity?",
-      "options": ["EMI", "ESD", "AC", "DC"],
-      "correct": "ESD"
-    },
-    {
-      "id": 12,
-      "question": "Which of these is a type of Windows user account?",
-      "options": ["Kid", "Standard", "Supervisor", "Normal"],
-      "correct": "Standard"
-    },
-    {
-      "id": 13,
-      "question": "What device can help correct power sags?",
-      "options": ["Power supply", "Power strip", "Surge suppressor", "UPS"],
-      "correct": "UPS"
-    },
-    {
-      "id": 14,
-      "question": "Where in the Control Panel can you remove unwanted applications?",
-      "options": ["Programs", "Ergonomics", "Setup", "Start menu"],
-      "correct": "Programs"
-    },
-    {
-      "id": 15,
-      "question":
-        "How far should a user’s face be from a monitor screen for most comfortable viewing?",
-      "options": [
-        "10 to 12 inches",
-        "12 to 16 inches",
-        "16 to 24 inches",
-        "24 to 32 inches"
-      ],
-      "correct": "16 to 24 inches"
-    },
-    {
-      "id": 16,
-      "question":
-        "Where in Windows can you access the configuration settings for hardware devices like mice and printers?",
-      "options": [
-        "File Explorer",
-        "EMI",
-        "Start menu",
-        "Control Panel"
-      ],
-      "correct": "Control Panel"
-    },
-    {
-      "id": 17,
-      "question":
-        "What should you install before you download and install additional software on a new PC?",
-      "options": [
-        "Security software",
-        "Nothing",
-        "Updates to other applications",
-        "Drivers for hardware devices"
-      ],
-      "correct": "Security software"
-    },
-    {
-      "id": 18,
-      "question": "What component protects against occasional electrical spikes?",
-      "options": [
-        "Surge suppressor",
-        "Motherboard",
-        "Hard disk drive",
-        "Printer"
-      ],
-      "correct": "Surge suppressor"
-    },
-    {
-      "id": 19,
-      "question":
-        "What kind of cable is most often used to connect a PC to a broadband modem or router?",
-      "options": ["VGA", "DVI", "Ethernet", "RJ-11"],
-      "correct": "Ethernet"
-    },
-    {
-      "id": 20,
-      "question":
-        "In which environment would a desktop computer be safest and operate the best?",
-      "options": [
-        "Inside a small, tightly sealed cabinet",
-        "In a clean room with a powerful air conditioner running",
-        "On the balcony at a tropical beachfront condo",
-        "On a TV tray in a living room"
-      ],
-      "correct": "In a clean room with a powerful air conditionerrunning"
-    },
-    {
-      "id": 21,
-      "question": "Which of these passcodes is more secure?",
-      "options": [
-        "Six-digit alphanumeric",
-        "Six-digit number",
-        "Four-digit number",
-        "All are equally secure"
-      ],
-      "correct": "Six-digit alphanumeric"
-    },
-    {
-      "id": 22,
-      "question": "The name of a WiFi access point is its:",
-      "options": ["POP", "IMAP", "NFC", "SSID"],
-      "correct": "SSID"
-    },
-    {
-      "id": 23,
-      "question": "What kind of wireless connectivity is Bluetooth best suited for?",
-      "options": [
-        "Sending and receiving phone calls",
-        "Connecting to a wireless headset",
-        "Connecting to the Internet",
-        "Connecting to a computer in a nearby building"
-      ],
-      "correct": "Connecting to a wireless headset"
-    },
-    {
-      "id": 24,
-      "question":
-        "What app does an iPhone use to synchronize music and videos from a computer?",
-      "options": ["iMusic", "iTunes", "Google Play", "doubleTwist"],
-      "correct": "iTunes"
-    },
-    {
-      "id": 25,
-      "question": "3G, 4G, and LTE are all kinds of what kind of wireless communication?",
-      "options": ["WiFi", "Bluetooth", "Cellular", "NFC"],
-      "correct": "Cellular"
-    },
-    {
-      "id": 26,
-      "question": "How is screen orientation determined, if it is not locked?",
-      "options": [
-        "The user sets it once, and it never changes.",
-        "Orientation hardware button.",
-        "Orientation command.",
-        "Physical orientation of the device"
-      ],
-      "correct": "Physical orientation of the device"
-    },
-    {
-      "id": 27,
-      "question":
-        "What is the gesture where you touch the surface with two fingers spread apart and then drag them closer together?",
-      "options": ["Rotate", "Tap", "Pinch", "Spread"],
-      "correct": "Pinch"
-    },
-    {
-      "id": 28,
-      "question": "Connecting a Bluetooth peripheral to a smartphone is known as:",
-      "options": ["Pairing", "WiFi", "4G", "NFC"],
-      "correct": "Pairing"
-    },
-    {
-      "id": 29,
-      "question": "Which of these terms is not associated with kinetics?",
-      "options": ["Magnetometer", "Gyroscope", "Barometer", "Accelerometer"],
-      "correct": "Barometer"
-    },
-    {
-      "id": 30,
-      "question": "Which of these is not a protocol for sending or receiving e-mail?",
-      "options": ["IMAP", "SMTP", "POP3", "NFC"],
-      "correct": "NFC"
+    "id": 85,
+    "section": "Troubleshooting",
+    "question": "Which of these could not be the cause of a computer appearing completely dead?",
+    "options": [
+    "Bad keyboard",
+    "Hibernate mode",
+    "Disconnected power cable",
+    "Bad power cable"
+    ],
+    "correct": "Bad keyboard"
     }
-  ]
+]
