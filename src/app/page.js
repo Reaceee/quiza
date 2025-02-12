@@ -1,7 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import questionsData from "./questions.json";
-import logo from "../logo.svg";
+// import questionsData from "./questions.json";
+import questionsData from "./characterQuestions.json";
+const logo = "../logo.svg";
 
 const QuizApp = () => {
   const [numQuestions, setNumQuestions] = useState(10);
@@ -12,12 +13,19 @@ const QuizApp = () => {
   const [userAnswers, setUserAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [percent, setPercent] = useState(null);
-
+  const [course, setCourse] = useState("Character in Leadership II");
+  const [courseCode, setCourseCode] = useState("GST 221");
   useEffect(() => {
-    if (quizStarted && timer > 0) {
+    if (quizStarted && timer >= 0) {
       const interval = setInterval(() => setTimer((prev) => prev - 1), 1000);
+      // console.log("Time left: " +timer)
+      if (timer < 1) {
+        submitQuiz();
+      }
       return () => clearInterval(interval);
     }
+
+    //ADD A FUNCTION TO REMIND USER THAT 5  MINS LEFT
   }, [quizStarted, timer]);
 
   const startQuiz = () => {
@@ -91,6 +99,16 @@ const QuizApp = () => {
           <div className="SETTINGS  h-full w-full my-auto flex flex-col items-center gap-4  ">
             <h1 className="text-2xl font-bold">Quiz settings</h1>
             <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
+              <label className="block  text-[#999999]">Course Title</label>
+              <div
+                disabled
+                className="bg-[#99999920] p-4 rounded-xl cursor-not-allowed  duration-150 px-4 w-full"
+                value={course}
+              >
+                {course}
+              </div>
+            </div>
+            <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
               <label className="block  text-[#999999]">
                 Number of Questions:
               </label>
@@ -99,7 +117,8 @@ const QuizApp = () => {
                 value={numQuestions}
                 onChange={(e) => setNumQuestions(Number(e.target.value))}
               >
-                {[10, 20, 30, 60, 85].map((num) => (
+                {/* [ 10, 20, 30, 60, 85] */}
+                {[10, 20, 30, 55].map((num) => (
                   <option key={num} value={num}>
                     {num}
                   </option>
@@ -113,7 +132,8 @@ const QuizApp = () => {
                 value={timeLimit}
                 onChange={(e) => setTimeLimit(Number(e.target.value))}
               >
-                {[10, 20, 30, 40].map((time) => (
+                {/* Add 0.2s for 12s */}
+                {[0.2, 10, 20, 30, 40].map((time) => (
                   <option key={time} value={time}>
                     {time} minutes
                   </option>
@@ -129,40 +149,55 @@ const QuizApp = () => {
           </div>
         ) : (
           <div>
-            <div className="Header w-full flex flex-col items-start bg-[#f9f9f9] sticky top-0">
-              <h1 className="text-2xl  font-bold">Quiza</h1>
-           
-              <div className="my-3 w-full text-sm text-[#999999] text-start">
+            <div className="Header z-[20] w-full flex flex-col items-start bg-[#f9f9f9] shadow-2xl shadow-[#f9f9f9] py-4 md:scale-105 sticky top-0">
+              <img
+                src={logo}
+                alt="Quiza"
+                className="w-[120px] logo text-2xl duration-200  font-bold"
+              />
+
+             
+              <div className="my-4  w-full text-sm text-[#999999] text-start">
                 Time Left: {Math.floor(timer / 60)}:{timer % 60}
               </div>
-              <div className="w-full bg-gray-300 h-2 rounded">
+              <div className="w-full bg-gray-200/50 h-max p-1 rounded-full">
                 <div
-                  className="bg-green-500 w-full h-2 rounded"
+                  className="bg-green-500 duration-1000 w-full h-2 rounded"
                   style={{ width: `${(timer / (timeLimit * 60)) * 100}%` }}
                 ></div>
-              </div>
+                </div>
+                <h1 className=" text-left text-2xl duration-200 my-4   font-bold">
+                  <span className="text-green-600 text-xs font-normal bg-[#4bb84b28] p-1.5 px-3 rounded-full whitespace-nowrap">{courseCode}</span>
+ { " "}
+                   {course}
+              </h1>
             </div>
 
             {questions.map((q, index) => (
               <div
                 key={q.id}
-                className="my-4 bg-white p-4 border-gray-500 rounded"
+                className="questionCard sticky top-0 bg-white p-2   border-spacing-9  rounded-xl  my-4  "
               >
-                <p className="font-bold py-4  text-left">
+                <p className="font-bold p-4  text-left">
                   {index + 1}. {q.question}
                 </p>
                 {q.options.map((opt) => (
                   <label
                     key={opt}
-                    className="py-2 items-center max-w-[400px] flex gap-2 text-left"
+                    className="option hover:bg-[#99999910] duration-150 py-2 rounded-lg cursor-pointer px-4 items-center flex gap-2 text-left"
                   >
                     <input
                       type="radio"
+                      hidden={true}
+                      className="invisible hidden opacity-0"
                       name={q.id}
                       value={opt}
                       checked={userAnswers[q.id] === opt}
                       onChange={() => handleAnswer(q.id, opt)}
                     />{" "}
+                    <div className="radio flex items-center justify-center min-h-2 min-w-2 shrink-0 w-4 h-4 border-2 border-gray-300 rounded">
+                      <div className="radio-check w-2 h-2 min-w-2 min-h-2 bg-gray-600 rounded-sm shrink-0"></div>
+                    </div>
                     {opt}
                   </label>
                 ))}
@@ -175,12 +210,11 @@ const QuizApp = () => {
             >
               Submit Quiz
             </button>
-            </div>
-            
-
-
-          )}
-          <p className="text-sm text-[#999999]">&copy; 2025. Crafted by David Austin</p>
+          </div>
+        )}
+        <p className="text-sm text-[#999999]">
+          &copy; 2025. Crafted by David Austin
+        </p>
       </div>
 
       <style>

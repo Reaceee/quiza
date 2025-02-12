@@ -10,6 +10,61 @@
   font-style: normal;
 }
 
+*{
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+*::selection{
+  background: none;
+}
+
+.questionCard{
+  background: linear-gradient(45deg, #ffffff, #f9f9f9);
+  box-shadow:  #F9F9F9 0px -2px 20px -8px;
+  /* border: 1px solid red; */
+  /* box-shadow:  #99999930 0px -2px 20px -8px; */
+}
+
+.option:hover .radio{
+  animation: shake .6s linear;
+}
+
+.option:hover {
+font-weight: 600;
+
+/* font-size: large; */
+}
+
+
+.logo:hover{
+  font-size: xx-large;
+}
+
+.option:has(input:checked) .radio-check{
+visibility: visible ;
+}
+.option:not(:has(input:checked)) .radio-check{
+visibility: hidden;
+}
+@keyframes shake {
+  0% {
+    transform: translate(2px, -2px);
+  }
+  25% {
+    transform: translate(-2px, 2px);
+  }
+  50% {
+    transform: translate(1px, -1px);
+  }
+  75% {
+    transform: translate(-1px, 1px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
 /* :root {
   --background: #ffffff;
   --foreground: #171717;

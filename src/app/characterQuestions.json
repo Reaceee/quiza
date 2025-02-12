@@ -1,0 +1,608 @@
+[
+  {
+    "id": 1,
+    "question": "What is the primary difference between power and influence in leadership?",
+    "options": [
+      "Power is the ability to force action, influence is the ability to inspire action",
+      "Power is always negative, influence is always positive",
+      "Influence is only used in politics",
+      "Power and influence are the same"
+    ],
+    "correct": "Power is the ability to force action, influence is the ability to inspire action"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is a source of power for a leader?",
+    "options": [
+      "Personal charisma",
+      "Organizational hierarchy",
+      "Knowledge and expertise",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 3,
+    "question": "What type of power is derived from a leader's formal position in an organization?",
+    "options": [
+      "Reward power",
+      "Legitimate power",
+      "Expert power",
+      "Referent power"
+    ],
+    "correct": "Legitimate power"
+  },
+  {
+    "id": 4,
+    "question": "Which type of leadership influence is based on admiration and respect?",
+    "options": [
+      "Coercive influence",
+      "Expert influence",
+      "Referent influence",
+      "Reward influence"
+    ],
+    "correct": "Referent influence"
+  },
+  {
+    "id": 5,
+    "question": "Which of the following is NOT a method leaders use to influence others?",
+    "options": [
+      "Persuasion",
+      "Coercion",
+      "Avoidance",
+      "Negotiation"
+    ],
+    "correct": "Avoidance"
+  },
+  {
+    "id": 6,
+    "question": "Which of the following is a key quality of a good leader?",
+    "options": [
+      "Arrogance",
+      "Integrity",
+      "Indecisiveness",
+      "Selfishness"
+    ],
+    "correct": "Integrity"
+  },
+  {
+    "id": 7,
+    "question": "Which leadership trait involves the ability to adapt to new situations?",
+    "options": [
+      "Flexibility",
+      "Stubbornness",
+      "Ego",
+      "Ignorance"
+    ],
+    "correct": "Flexibility"
+  },
+  {
+    "id": 8,
+    "question": "A good leader should possess which of the following skills?",
+    "options": [
+      "Communication",
+      "Delegation",
+      "Problem-solving",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 9,
+    "question": "Why is emotional intelligence important for a leader?",
+    "options": [
+      "It helps in decision-making",
+      "It allows leaders to understand and manage emotions",
+      "It improves teamwork",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 10,
+    "question": "What is the most important communication skill for a leader?",
+    "options": [
+      "Active listening",
+      "Interrupting others",
+      "Talking more than others",
+      "Ignoring feedback"
+    ],
+    "correct": "Active listening"
+  },
+  {
+    "id": 11,
+    "question": "What is the main difference between a leader and a manager?",
+    "options": [
+      "Leaders focus on vision, managers focus on processes",
+      "Leaders do not communicate, managers do",
+      "Managers inspire people, leaders do not",
+      "Leaders only exist in politics"
+    ],
+    "correct": "Leaders focus on vision, managers focus on processes"
+  },
+  {
+    "id": 12,
+    "question": "Which of the following is a trait of a manager rather than a leader?",
+    "options": [
+      "Motivating employees",
+      "Maintaining organizational structure",
+      "Creating a vision",
+      "Inspiring change"
+    ],
+    "correct": "Maintaining organizational structure"
+  },
+  {
+    "id": 13,
+    "question": "A leader is most likely to:",
+    "options": [
+      "Focus on short-term goals",
+      "Encourage innovation and risk-taking",
+      "Micromanage employees",
+      "Follow strict rules"
+    ],
+    "correct": "Encourage innovation and risk-taking"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following best describes a manager's approach?",
+    "options": [
+      "Risk-taking and long-term vision",
+      "Stability and efficiency",
+      "Emotional connection",
+      "Breaking all the rules"
+    ],
+    "correct": "Stability and efficiency"
+  },
+  {
+    "id": 15,
+    "question": "Which of these is NOT a key responsibility of a leader?",
+    "options": [
+      "Setting a clear vision",
+      "Micromanaging employees",
+      "Inspiring and motivating others",
+      "Making strategic decisions"
+    ],
+    "correct": "Micromanaging employees"
+  },
+  {
+    "id": 16,
+    "question": "Which type of power is derived from an individual's position within an organization?",
+    "options": [
+      "Expert Power",
+      "Referent Power",
+      "Legitimate Power",
+      "Coercive Power"
+    ],
+    "correct": "Legitimate Power"
+  },
+  {
+    "id": 17,
+    "question": "A leader who can provide rewards to employees has which type of power?",
+    "options": [
+      "Reward Power",
+      "Informational Power",
+      "Expert Power",
+      "Referent Power"
+    ],
+    "correct": "Reward Power"
+  },
+  {
+    "id": 18,
+    "question": "Influence tactics that involve logical arguments and factual evidence are known as:",
+    "options": [
+      "Inspirational Appeals",
+      "Rational Persuasion",
+      "Consultation",
+      "Ingratiation"
+    ],
+    "correct": "Rational Persuasion"
+  },
+  {
+    "id": 19,
+    "question": "The capacity to influence others through charisma and personal appeal is referred to as:",
+    "options": [
+      "Legitimate Power",
+      "Expert Power",
+      "Referent Power",
+      "Coercive Power"
+    ],
+    "correct": "Referent Power"
+  },
+  {
+    "id": 20,
+    "question": "Which influence tactic involves seeking the aid of others to persuade someone?",
+    "options": [
+      "Coalition Tactics",
+      "Pressure Tactics",
+      "Exchange Tactics",
+      "Legitimating Tactics"
+    ],
+    "correct": "Coalition Tactics"
+  },
+  {
+    "id": 21,
+    "question": "Which of the following is NOT considered a key quality of effective leadership?",
+    "options": [
+      "Integrity",
+      "Narcissism",
+      "Empathy",
+      "Vision"
+    ],
+    "correct": "Narcissism"
+  },
+  {
+    "id": 22,
+    "question": "The ability to understand and share the feelings of others is known as:",
+    "options": [
+      "Sympathy",
+      "Empathy",
+      "Compassion",
+      "Sensitivity"
+    ],
+    "correct": "Empathy"
+  },
+  {
+    "id": 23,
+    "question": "A leader's clear and compelling picture of the future is referred to as their:",
+    "options": [
+      "Mission",
+      "Strategy",
+      "Vision",
+      "Goal"
+    ],
+    "correct": "Vision"
+  },
+  {
+    "id": 24,
+    "question": "Which quality involves a leader being honest and having strong moral principles?",
+    "options": [
+      "Charisma",
+      "Integrity",
+      "Confidence",
+      "Flexibility"
+    ],
+    "correct": "Integrity"
+  },
+  {
+    "id": 25,
+    "question": "Adaptability in leadership refers to:",
+    "options": [
+      "Sticking to one's plans regardless of circumstances",
+      "Changing one's approach based on the situation",
+      "Avoiding decision-making",
+      "Delegating all tasks to subordinates"
+    ],
+    "correct": "Changing one's approach based on the situation"
+  },
+  {
+    "id": 26,
+    "question": "Which of the following best distinguishes a leader from a manager?",
+    "options": [
+      "Leaders focus on maintaining systems; managers focus on innovating",
+      "Leaders prioritize short-term goals; managers prioritize long-term vision",
+      "Leaders inspire change; managers maintain stability",
+      "Leaders control processes; managers motivate people"
+    ],
+    "correct": "Leaders inspire change; managers maintain stability"
+  },
+  {
+    "id": 27,
+    "question": "Managers typically focus on:",
+    "options": [
+      "Inspiring and motivating employees",
+      "Establishing direction and vision",
+      "Controlling and problem-solving",
+      "Challenging the status quo"
+    ],
+    "correct": "Controlling and problem-solving"
+  },
+  {
+    "id": 28,
+    "question": "Leaders are more likely to:",
+    "options": [
+      "Administer and maintain",
+      "Innovate and develop",
+      "Imitate and conform",
+      "Accept the status quo"
+    ],
+    "correct": "Innovate and develop"
+  },
+  {
+    "id": 29,
+    "question": "Which statement is true about managers?",
+    "options": [
+      "They focus on people and relationships",
+      "They emphasize vision and strategy",
+      "They ensure compliance with organizational policies",
+      "They seek to inspire and motivate"
+    ],
+    "correct": "They ensure compliance with organizational policies"
+  },
+  {
+    "id": 30,
+    "question": "A primary function of leadership is to:",
+    "options": [
+      "Plan and budget",
+      "Organize and staff",
+      "Control and problem-solve",
+      "Establish direction"
+    ],
+    "correct": "Establish direction"
+  },
+  {
+    "id": 31,
+    "question": "Transformational leaders are known for:",
+    "options": [
+      "Maintaining existing processes",
+      "Encouraging innovation and change",
+      "Focusing solely on short-term goals",
+      "Avoiding risks"
+    ],
+    "correct": "Encouraging innovation and change"
+  },
+  {
+    "id": 32,
+    "question": "The leadership style that involves making decisions unilaterally is called:",
+    "options": [
+      "Democratic",
+      "Laissez-faire",
+      "Autocratic",
+      "Transformational"
+    ],
+    "correct": "Autocratic"
+  },
+  {
+    "id": 33,
+    "question": "Servant leadership emphasizes:",
+    "options": [
+      "The leader's authority over followers",
+      "Serving the needs of others",
+      "Achieving organizational profitability",
+      "Maintaining strict hierarchical structures"
+    ],
+    "correct": "Serving the needs of others"
+  },
+  {
+    "id": 34,
+    "question": "Emotional intelligence in leadership involves:",
+    "options": [
+      "Suppressing emotions to make rational decisions",
+      "Recognizing and managing one's own and others' emotions",
+      "Relying solely on logical reasoning",
+      "Delegating emotional issues to human resources"
+    ],
+    "correct": "Recognizing and managing one's own and others' emotions"
+  },
+  {
+    "id": 35,
+    "question": "A leader who sets high standards and expects excellence from followers is demonstrating:",
+    "options": [
+      "Supportive leadership",
+      "Achievement-oriented leadership",
+      "Participative leadership",
+      "Directive leadership"
+    ],
+    "correct": "Achievement-oriented leadership"
+  },
+  {
+    "id": 36,
+    "question": "Which type of power is based on fear and the ability to punish?",
+    "options": [
+      "Reward Power",
+      "Coercive Power",
+      "Referent Power",
+      "Expert Power"
+    ],
+    "correct": "Coercive Power"
+  },
+  {
+    "id": 37,
+    "question": "A leader who influences others through knowledge and expertise possesses:",
+    "options": [
+      "Reward Power",
+      "Coercive Power",
+      "Expert Power",
+      "Legitimate Power"
+    ],
+    "correct": "Expert Power"
+  },
+  {
+    "id": 38,
+    "question": "Power that comes from personal characteristics and relationships rather than position is called:",
+    "options": [
+      "Legitimate Power",
+      "Informational Power",
+      "Referent Power",
+      "Positional Power"
+    ],
+    "correct": "Referent Power"
+  },
+  {
+    "id": 39,
+    "question": "Which type of influence tactic involves using friendly behavior to make someone feel good before making a request?",
+    "options": [
+      "Inspirational Appeals",
+      "Rational Persuasion",
+      "Ingratiation",
+      "Exchange Tactics"
+    ],
+    "correct": "Ingratiation"
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is an example of soft power?",
+    "options": [
+      "Coercion",
+      "Manipulation",
+      "Persuasion",
+      "Force"
+    ],
+    "correct": "Persuasion"
+  },
+  {
+    "id": 41,
+    "question": "A leader's ability to make strategic decisions based on information and experience is a form of:",
+    "options": [
+      "Political Power",
+      "Expert Power",
+      "Reward Power",
+      "Coercive Power"
+    ],
+    "correct": "Expert Power"
+  },
+  {
+    "id": 42,
+    "question": "Which of the following is NOT a source of power for a leader?",
+    "options": [
+      "Expertise",
+      "Relationships",
+      "Intelligence",
+      "Position"
+    ],
+    "correct": "Intelligence"
+  },
+  {
+    "id": 43,
+    "question": "What is the key difference between power and influence?",
+    "options": [
+      "Power is temporary; influence is permanent",
+      "Power is the ability to enforce decisions, while influence shapes behavior",
+      "Influence is direct, while power is indirect",
+      "Influence only works in small groups, while power is organizational"
+    ],
+    "correct": "Power is the ability to enforce decisions, while influence shapes behavior"
+  },
+  {
+    "id": 44,
+    "question": "Leaders who inspire and motivate followers without using force or authority rely on:",
+    "options": [
+      "Coercive Power",
+      "Transformational Leadership",
+      "Transactional Leadership",
+      "Positional Power"
+    ],
+    "correct": "Transformational Leadership"
+  },
+  {
+    "id": 45,
+    "question": "Which of the following strategies reduces resistance to leadership influence?",
+    "options": [
+      "Using force and punishment",
+      "Ignoring opposition",
+      "Engaging in open communication",
+      "Avoiding feedback"
+    ],
+    "correct": "Engaging in open communication"
+  },
+  {
+    "id": 46,
+    "question": "What is the most important trait of a successful leader?",
+    "options": [
+      "Arrogance",
+      "Confidence",
+      "Aggression",
+      "Manipulation"
+    ],
+    "correct": "Confidence"
+  },
+  {
+    "id": 47,
+    "question": "A leader who can remain calm and make rational decisions under pressure demonstrates:",
+    "options": [
+      "Charisma",
+      "Self-regulation",
+      "Social intelligence",
+      "Flexibility"
+    ],
+    "correct": "Self-regulation"
+  },
+  {
+    "id": 48,
+    "question": "A leader who shares decision-making power with their team is practicing:",
+    "options": [
+      "Authoritarian Leadership",
+      "Democratic Leadership",
+      "Autocratic Leadership",
+      "Laissez-faire Leadership"
+    ],
+    "correct": "Democratic Leadership"
+  },
+  {
+    "id": 49,
+    "question": "Which of these leadership qualities helps in building trust?",
+    "options": [
+      "Integrity",
+      "Secrecy",
+      "Avoidance",
+      "Inconsistency"
+    ],
+    "correct": "Integrity"
+  },
+  {
+    "id": 50,
+    "question": "A visionary leader is someone who:",
+    "options": [
+      "Focuses only on short-term goals",
+      "Has a clear and inspiring vision for the future",
+      "Avoids taking risks",
+      "Delegates all responsibilities"
+    ],
+    "correct": "Has a clear and inspiring vision for the future"
+  },
+  {
+    "id": 51,
+    "question": "A leader who adapts to different situations and changes their approach as needed is said to be:",
+    "options": [
+      "Rigid",
+      "Flexible",
+      "Autocratic",
+      "Passive"
+    ],
+    "correct": "Flexible"
+  },
+  {
+    "id": 52,
+    "question": "Which of these is not a key leadership quality?",
+    "options": [
+      "Empathy",
+      "Accountability",
+      "Dishonesty",
+      "Resilience"
+    ],
+    "correct": "Dishonesty"
+  },
+  {
+    "id": 53,
+    "question": "Which leadership quality ensures that goals are met efficiently?",
+    "options": [
+      "Creativity",
+      "Discipline",
+      "Popularity",
+      "Procrastination"
+    ],
+    "correct": "Discipline"
+  },
+  {
+    "id": 54,
+    "question": "What is an essential communication skill for a good leader?",
+    "options": [
+      "Speaking loudly",
+      "Active listening",
+      "Interrupting frequently",
+      "Ignoring criticism"
+    ],
+    "correct": "Active listening"
+  },
+  {
+    "id": 55,
+    "question": "Which leadership style focuses on developing and empowering team members?",
+    "options": [
+      "Servant Leadership",
+      "Transactional Leadership",
+      "Autocratic Leadership",
+      "Bureaucratic Leadership"
+    ],
+    "correct": "Servant Leadership"
+  }
+
+  ]
