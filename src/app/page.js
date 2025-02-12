@@ -62,8 +62,34 @@ const QuizApp = () => {
     setPercent(null);
   };
 
+  const [loading, setLoading] = useState(true);
+  let waitTime = Math.round(Math.random() * 3) + 2;
+
+  useEffect(() => {
+    console.log(waitTime);
+    setTimeout(() => {
+      if (loading) {
+        setLoading(false);
+      }
+    }, waitTime * 1000);
+  }, []);
+
   return (
     <>
+      {loading ? (
+        <div className="LoaderOverlay scale-105 z-[80] fixed top-0 left-0 w-full h-full bg-[#191919] p-4 flex items-center justify-center">
+          <img
+            src={logo}
+            alt="Quiza"
+            className="w-[80%] max-w-[250px] logo text-2xl duration-200 animate-pulse  font-bold"
+          />
+
+          {/* {loading.toString()} */}
+        </div>
+      ) : (
+        <></>
+      )}
+
       <div className="p-5  min-h-screen flex flex-col max-w-2xl mx-auto text-center">
         {score !== null && (
           <div className="mt-4 text-center items-center py-20 flex flex-col gap-2">
@@ -87,7 +113,7 @@ const QuizApp = () => {
             </p>
 
             <button
-              className="mt-4 w-max bg-gray-900 text-white px-6 py-3 rounded-xl hover:brightness-105 hover:shadow-xl duration-150"
+              className="mt-4 w-max bg-[#f9f9f9] text-[#191919] px-6 py-3 rounded-xl hover:brightness-105 hover:shadow-xl hover:shadow-[#99999920] duration-150"
               onClick={retryQuiz}
             >
               Hide result
@@ -141,7 +167,7 @@ const QuizApp = () => {
               </select>
             </div>
             <button
-              className="mt-4 bg-blue-500 hover:brightness-105 active:bg-blue-600 text-white px-6 py-3 rounded-xl hover:shadow-xl duration-150 mb-8"
+              className="mt-4 bg-blue-500 hover:brightness-105 active:bg-blue-600 text-white px-6 py-3 rounded-xl hover:shadow-xl hover:shadow-[#99999920] duration-150 mb-8"
               onClick={startQuiz}
             >
               Start Quiz
@@ -149,34 +175,34 @@ const QuizApp = () => {
           </div>
         ) : (
           <div>
-            <div className="Header z-[20] w-full flex flex-col items-start bg-[#f9f9f9] shadow-2xl shadow-[#f9f9f9] py-4 md:scale-105 sticky top-0">
+            <div className="Header z-[20] w-full flex flex-col items-start bg-[#191919] shadow-2xl shadow-[#191919] py-4 md:scale-105 sticky top-0">
               <img
                 src={logo}
                 alt="Quiza"
-                className="w-[120px] logo text-2xl duration-200  font-bold"
+                className="w-[120px] mt-4 logo text-2xl duration-200  font-bold"
               />
 
-             
               <div className="my-4  w-full text-sm text-[#999999] text-start">
                 Time Left: {Math.floor(timer / 60)}:{timer % 60}
               </div>
-              <div className="w-full bg-gray-200/50 h-max p-1 rounded-full">
+              <div className="METER-BAR w-full bg-[#99999930] h-max p-1 rounded-full">
                 <div
-                  className="bg-green-500 duration-1000 w-full h-2 rounded"
+                  className="meter bg-green-500 duration-1000 w-full h-2 rounded"
                   style={{ width: `${(timer / (timeLimit * 60)) * 100}%` }}
                 ></div>
-                </div>
-                <h1 className=" text-left text-2xl duration-200 my-4   font-bold">
-                  <span className="text-green-600 text-xs font-normal bg-[#4bb84b28] p-1.5 px-3 rounded-full whitespace-nowrap">{courseCode}</span>
- { " "}
-                   {course}
+              </div>
+              <h1 className=" text-left text-2xl duration-200 my-4   font-bold">
+                <span className="text-green-600 text-xs font-normal bg-[#4bb84b28] p-1.5 px-3 rounded-full whitespace-nowrap">
+                  {courseCode}
+                </span>{" "}
+                {course}
               </h1>
             </div>
 
             {questions.map((q, index) => (
               <div
                 key={q.id}
-                className="questionCard sticky top-0 bg-white p-2   border-spacing-9  rounded-xl  my-4  "
+                className="questionCard stickytop-0 bgwhite bg-[#99999915]  p-2 backdrop-blur-sm   border-spacing-9  rounded-xl  my-4  "
               >
                 <p className="font-bold p-4  text-left">
                   {index + 1}. {q.question}
@@ -205,7 +231,7 @@ const QuizApp = () => {
             ))}
 
             <button
-              className="mt-4 my-8 bg-green-500 active:bg-green-600 text-white px-6 py-3 rounded-xl hover:shadow-xl duration-150 hover:brightness-105"
+              className="mt-4 my-8 bg-green-500 active:bg-green-600 text-white px-6 py-3 rounded-xl hover:shadow-xl hover:shadow-[#99999920] duration-150 hover:brightness-105"
               onClick={submitQuiz}
             >
               Submit Quiz
