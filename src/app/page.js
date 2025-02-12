@@ -145,7 +145,7 @@ const QuizApp = () => {
               >
                 {/* [ 10, 20, 30, 60, 85] */}
                 {[10, 20, 30, 55].map((num) => (
-                  <option key={num} value={num}>
+                  <option className="text-white bg-[#0e0e0e]" key={num} value={num}>
                     {num}
                   </option>
                 ))}
@@ -160,7 +160,7 @@ const QuizApp = () => {
               >
                 {/* Add 0.2s for 12s */}
                 {[0.2, 10, 20, 30, 40].map((time) => (
-                  <option key={time} value={time}>
+                  <option className="text-white bg-[#0e0e0e]"  key={time} value={time}>
                     {time} minutes
                   </option>
                 ))}
@@ -222,7 +222,7 @@ const QuizApp = () => {
                       onChange={() => handleAnswer(q.id, opt)}
                     />{" "}
                     <div className="radio flex items-center justify-center min-h-2 min-w-2 shrink-0 w-4 h-4 border-2 border-gray-300 rounded">
-                      <div className="radio-check w-2 h-2 min-w-2 min-h-2 bg-gray-600 rounded-sm shrink-0"></div>
+                      <div className="ticked radio-check grow-0 w-2 h-2 min-w-2 min-h-2 bg-green-500 rounded-sm shrink-0"></div>
                     </div>
                     {opt}
                   </label>
