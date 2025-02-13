@@ -1,7 +1,8 @@
 "use client";
 import React, { useState, useEffect } from "react";
 // import questionsData from "./questions.json";
-import questionsData from "./characterQuestions.json";
+// import questionsData from "./characterQuestions.json";
+import questionsData from "./entQuestions.json";
 const logo = "../logo.svg";
 
 const QuizApp = () => {
@@ -13,8 +14,8 @@ const QuizApp = () => {
   const [userAnswers, setUserAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [percent, setPercent] = useState(null);
-  const [course, setCourse] = useState("Character in Leadership II");
-  const [courseCode, setCourseCode] = useState("GST 221");
+  const [course, setCourse] = useState("Enterpreneurship and Innovation");
+  const [courseCode, setCourseCode] = useState("ENT 211");
   useEffect(() => {
     if (quizStarted && timer >= 0) {
       const interval = setInterval(() => setTimer((prev) => prev - 1), 1000);
@@ -143,8 +144,10 @@ const QuizApp = () => {
                 value={numQuestions}
                 onChange={(e) => setNumQuestions(Number(e.target.value))}
               >
+                {/* MAPPING NUMBER OF QUESTIONS */}
                 {/* [ 10, 20, 30, 60, 85] */}
-                {[10, 20, 30, 55].map((num) => (
+                {/* [10, 20, 30, 55] */}
+                {[10, 30, 40, 50].map((num) => (
                   <option className="text-white bg-[#0e0e0e]" key={num} value={num}>
                     {num}
                   </option>
@@ -159,7 +162,7 @@ const QuizApp = () => {
                 onChange={(e) => setTimeLimit(Number(e.target.value))}
               >
                 {/* Add 0.2s for 12s */}
-                {[0.2, 10, 20, 30, 40].map((time) => (
+                {[ 10, 20, 30, 60].map((time) => (
                   <option className="text-white bg-[#0e0e0e]"  key={time} value={time}>
                     {time} minutes
                   </option>
@@ -192,7 +195,7 @@ const QuizApp = () => {
                 ></div>
               </div>
               <h1 className=" text-left text-2xl duration-200 my-4   font-bold">
-                <span className="text-green-600 text-xs font-normal bg-[#4bb84b28] p-1.5 px-3 rounded-full whitespace-nowrap">
+                <span className="text-green-500 text-xs font-normal bg-[#64dd6428] p-1.5 px-3 rounded-full whitespace-nowrap">
                   {courseCode}
                 </span>{" "}
                 {course}

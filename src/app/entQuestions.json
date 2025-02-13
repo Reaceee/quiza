@@ -1,0 +1,478 @@
+[
+  {
+    "id": 123,
+    "question": "An entrepreneur is a wealth generator",
+    "options": ["Yes", "No", "I don't know"],
+    "correct": "Yes"
+  },
+  {
+    "id": 1,
+    "question": "\"Opportunity is missed by most people because it is dressed in overalls and looks like work\"",
+    "options": [
+      "Thomas Edison",
+      "Thomas Brush",
+      "Hisrich Edison",
+      "Thomas Boom"
+    ],
+    "correct": "Thomas Edison"
+  },
+  {
+    "id": 2,
+    "question": "All of the activities concerned with obtaining and utilizing money for business ventures are called",
+    "options": [
+      "unsecured financing",
+      "long term financing",
+      "budgeting",
+      "financial planning"
+    ],
+    "correct": "financial planning"
+  },
+  {
+    "id": 3,
+    "question": "The body responsible for business incorporation in Nigeria is",
+    "options": ["Registrar of companies", "INEC", "CAC", "ICPC"],
+    "correct": "CAC"
+  },
+  {
+    "id": 4,
+    "question": "Wealth creation, job creation, Exports are the roles of",
+    "options": [
+      "Entrepreneurship",
+      "Crime",
+      "Playing",
+      "Thinking",
+      "Enhanced standard of living"
+    ],
+    "correct": "Entrepreneurship"
+  },
+  {
+    "id": 5,
+    "question": "Entrepreneurship has a __________ impact on a country",
+    "options": ["Positve", "Negative", "Abusive", "Small"],
+    "correct": "Positve"
+  },
+  {
+    "id": 6,
+    "question": "Risk advice is a way to",
+    "options": [
+      "Low level risk",
+      "High level risk",
+      "Medium level risk",
+      "Good level risk"
+    ],
+    "correct": "Low level risk"
+  },
+  {
+    "id": 7,
+    "question": "Conducting research implies",
+    "options": [
+      "gathering and analyzing information",
+      "understand market trends",
+      "understand consumer behavior",
+      "Report on your findings",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 8,
+    "question": "Value creation covers Development, Marketing, Manufacturing and",
+    "options": ["Distibution", "Competition", "Sharehoiding", "Cartering"],
+    "correct": "Distibution"
+  },
+  {
+    "id": 9,
+    "question": "Value creation has __________ Stages",
+    "options": ["Four", "Three", "Two", "Six"],
+    "correct": "Four"
+  },
+  {
+    "id": 10,
+    "question": "Opportunity recognition has __________ processes",
+    "options": ["Four", "Three", "Two", "Five", "Six"],
+    "correct": "Four"
+  },
+  {
+    "id": 11,
+    "question": "___________ is the greatest resource of an enterprise",
+    "options": [
+      "money",
+      "raw material",
+      "machinery and equipment",
+      "employees"
+    ],
+    "correct": "employees"
+  },
+  {
+    "id": 12,
+    "question": "Entrepreneurship is creation of value means",
+    "options": [
+      "Satisfaction of needs",
+      "Risky transaction",
+      "Rewarding transaction",
+      "Physical outfit"
+    ],
+    "correct": "Satisfaction of needs"
+  },
+  {
+    "id": 13,
+    "question": "ENT 211 Means",
+    "options": [
+      "Entrepreneurship",
+      "Innovation",
+      "Entrepreneurship and Innovation",
+      "Entrepreneurship and Technology"
+    ],
+    "correct": "Entrepreneurship and Innovation"
+  },
+  {
+    "id": 14,
+    "question": "Successful opportunity recognition often hinges on an entrepreneur's ability to",
+    "options": ["Perceive change", "Music", "Acting", "Garage"],
+    "correct": "Perceive change"
+  },
+  {
+    "id": 15,
+    "question": "A transaction with rewards for the entrepreneur implies",
+    "options": [
+      "Entrepreneurship is profitable",
+      "Entrpreneurship is money loss",
+      "Entrepreneurship is difficult",
+      "Entrepreneurship should be managed well"
+    ],
+    "correct": "Entrepreneurship is profitable"
+  },
+  {
+    "id": 16,
+    "question": "Entreprenuers are money managers because",
+    "options": [
+      "It takes time to make money",
+      "association",
+      "delivery",
+      "accuracy"
+    ],
+    "correct": "It takes time to make money"
+  },
+  {
+    "id": 17,
+    "question": "Creativity and innovation are essential for an entrepreneurial start-up survival",
+    "options": ["true", "false", "neither a nor b"],
+    "correct": "true"
+  },
+  {
+    "id": 18,
+    "question": "NEPC is responsible for",
+    "options": ["Exports", "Imports", "Local Marketing", "None of the above"],
+    "correct": "Exports"
+  },
+  {
+    "id": 19,
+    "question": "Value creation refers to",
+    "options": [
+      "creating beneficial products from raw inputs Products with unique selling points",
+      "Products with more worth than the inputs",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 20,
+    "question": "Goodwill of a business may arise from",
+    "options": [
+      "its reputation for excellent customer service",
+      "its reputation for friendly employee",
+      "its reputation for high prices",
+      "only A & B",
+      "A,B and C"
+    ],
+    "correct": "A,B and C"
+  },
+  {
+    "id": 21,
+    "question": "Risk management identifies risk through using the risk",
+    "options": ["Book", "Paper", "Magazine", "Registry"],
+    "correct": "Registry"
+  },
+  {
+    "id": 22,
+    "question": "The ability to identify opportunities as an entrepreneur is called",
+    "options": [
+      "Oppotunities recognition",
+      "Oppotunities satisfaction",
+      "Opportunities speed",
+      "Opportunities physical"
+    ],
+    "correct": "Oppotunities recognition"
+  },
+  {
+    "id": 23,
+    "question": "Real demand, return on investment, competition and availability of resources, are characteristics of",
+    "options": [
+      "business promotion",
+      "business ideas",
+      "business guide",
+      "business opportunity"
+    ],
+    "correct": "business opportunity"
+  },
+  {
+    "id": 24,
+    "question": "Owner's contribution to business is called",
+    "options": [
+      "personal money",
+      "shot term lending",
+      "equity",
+      "trade credit"
+    ],
+    "correct": "equity"
+  },
+  {
+    "id": 25,
+    "question": "Two types of value creation are customer value creation and",
+    "options": [
+      "Supplier value creation",
+      "Competitors value creation",
+      "Shareholder value creation",
+      "All of the above"
+    ],
+    "correct": "Shareholder value creation"
+  },
+  {
+    "id": 26,
+    "question": "Owner's contribution to business is called",
+    "options": [
+      "lending",
+      "trade credit",
+      "equity",
+      "shot term lending",
+      "personal money"
+    ],
+    "correct": "equity"
+  },
+  {
+    "id": 27,
+    "question": "Entrepreneurs are team players because",
+    "options": [
+      "One person cannot achieve much",
+      "Everybody is nobody",
+      "worker's are powerful",
+      "worker's recruitment"
+    ],
+    "correct": "One person cannot achieve much"
+  },
+  {
+    "id": 28,
+    "question": "The capital requirements that are needed before a business begins operation is",
+    "options": [
+      "set-up capital",
+      "operating capital",
+      "start-up capital",
+      "all of the above"
+    ],
+    "correct": "start-up capital"
+  },
+  {
+    "id": 29,
+    "question": "An entrepreneur does __________ primary functions",
+    "options": ["one", "Two", "Three", "Four"],
+    "correct": "Four"
+  },
+  {
+    "id": 30,
+    "question": "Sources of funds are both internal and",
+    "options": ["External", "Friends", "family"],
+    "correct": "External"
+  },
+  {
+    "id": 31,
+    "question": "Entrepreneurship is risky",
+    "options": ["True", "False", "Nine of the above"],
+    "correct": "True"
+  },
+  {
+    "id": 32,
+    "question": "Value is determined transformation, distribution and",
+    "options": [
+      "the competitors",
+      "the customer/container",
+      "the government",
+      "Consumption",
+      "All of the above"
+    ],
+    "correct": "Consumption"
+  },
+  {
+    "id": 33,
+    "question": "Follow Trends implies",
+    "options": [
+      "staying informed about the latest developments",
+      "Long term financing",
+      "budgeting",
+      "Financial Planning",
+      "Auditing"
+    ],
+    "correct": "staying informed about the latest developments"
+  },
+  {
+    "id": 34,
+    "question": "C.A.C means",
+    "options": [
+      "Corporate Affairs Commission",
+      "Corporate Affars Commission",
+      "Corporate Afford Commission",
+      "Corporate Assessment Commission",
+      "Corporate Acquiring Commission"
+    ],
+    "correct": "Corporate Affairs Commission"
+  },
+  {
+    "id": 35,
+    "question": "Part of risk management is",
+    "options": [
+      "Monitoring your risk",
+      "Following your risk",
+      "Appreciating your risk"
+    ],
+    "correct": "Monitoring your risk"
+  },
+  {
+    "id": 36,
+    "question": "Histrich and __________ are entrepreneurs",
+    "options": ["Brush", "Push", "Lush", "Much"],
+    "correct": "Brush"
+  },
+  {
+    "id": 37,
+    "question": "The goal of risk management is to help management team identifies risk, analyzes risk and",
+    "options": [
+      "Responds to risks",
+      "Helps customers know risk",
+      "Embraces risk"
+    ],
+    "correct": "Responds to risks"
+  },
+  {
+    "id": 38,
+    "question": "Opportunity recognition is not just about having a great idea; it's also about having the foresight to see its potential and the resilience to pursue it despite challenges",
+    "options": ["True", "False", "I dont know", "All of the above"],
+    "correct": "True"
+  },
+  {
+    "id": 39,
+    "question": "Communication can be Verbal, Non-verbal, and",
+    "options": ["In writing", "Shouting Music", "all of the above"],
+    "correct": "In writing"
+  },
+
+  {
+    "id": 41,
+    "question": "How do entrepreneurs contribute to wealth distribution in a nation?",
+    "options": [
+      "By keeping all profits to themselves",
+      "Through creation of employment, goods and services",
+      "By increasing prices of products",
+      "By reducing market competition"
+    ],
+    "correct": "Through creation of employment, goods and services"
+  },
+  {
+    "id": 42,
+    "question": "What is one of the ways entrepreneurs contribute to balanced national development?",
+    "options": [
+      "By concentrating all businesses in urban areas",
+      "By focusing only on profitable regions",
+      "By setting up businesses in less developed and backward areas",
+      "By avoiding infrastructure development"
+    ],
+    "correct": "By setting up businesses in less developed and backward areas"
+  },
+  {
+    "id": 43,
+    "question": "How do exports by entrepreneurs benefit the national economy?",
+    "options": [
+      "They decrease foreign currency reserves",
+      "They limit access to foreign markets",
+      "They lead to foreign currency inflows and access to latest technologies",
+      "They increase dependency on local markets"
+    ],
+    "correct": "They lead to foreign currency inflows and access to latest technologies"
+  },
+  {
+    "id": 44,
+    "question": "What is the relationship between entrepreneurs and job creation?",
+    "options": [
+      "Entrepreneurs are primarily job seekers",
+      "Entrepreneurs only create temporary jobs",
+      "Entrepreneurs reduce job seekers by becoming employers themselves",
+      "Entrepreneurs have no impact on employment"
+    ],
+    "correct": "Entrepreneurs reduce job seekers by becoming employers themselves"
+  },
+  {
+    "id": 45,
+    "question": "How do entrepreneurs enhance the standard of living in a community?",
+    "options": [
+      "Only through job creation",
+      "By increasing product prices",
+      "Through both job creation and adoption of innovations that improve quality of life",
+      "By reducing production"
+    ],
+    "correct": "Through both job creation and adoption of innovations that improve quality of life"
+  },
+
+  {
+    "id": 46,
+    "question": "What is entrepreneurial thinking primarily described as?",
+    "options": [
+        "An inherent trait that cannot be developed",
+        "The ability to see things differently than the rest of the world",
+        "A skill only business owners need",
+        "A fixed mindset that cannot be changed"
+    ],
+    "correct": "The ability to see things differently than the rest of the world"
+},
+{
+    "id": 47,
+    "question": "Which of the following best describes an entrepreneurial mindset?",
+    "options": [
+        "A set of skills focused on avoiding risks",
+        "A mindset that only sees problems as obstacles",
+        "A set of skills that relies heavily on positive and resilient thinking",
+        "A mindset that waits for others to solve problems"
+    ],
+    "correct": "A set of skills that relies heavily on positive and resilient thinking"
+},
+{
+    "id": 48,
+    "question": "What makes an employee demonstrate entrepreneurial thinking in the workplace?",
+    "options": [
+        "Working strictly 9-to-5 hours",
+        "Dealing with company interests as if they were their own",
+        "Avoiding any changes to existing processes",
+        "Waiting for instructions from superiors"
+    ],
+    "correct": "Dealing with company interests as if they were their own"
+},
+{
+    "id": 49,
+    "question": "According to the text, what is strategic thinking?",
+    "options": [
+        "The ability to only focus on present problems",
+        "The ability to analyze the present and solve complex problems to plan for future success",
+        "The acceptance of generalized theories without question",
+        "The practice of avoiding market mechanisms"
+    ],
+    "correct": "The ability to analyze the present and solve complex problems to plan for future success"
+},
+{
+    "id": 50,
+    "question": "Which quality of entrepreneurial thinking involves the ability to make rational decisions quickly to avoid wasteful thoughts and actions?",
+    "options": [
+        "Focus",
+        "Drive",
+        "Decisiveness",
+        "Flexibility"
+    ],
+    "correct": "Decisiveness"
+}
+]
