@@ -30,6 +30,7 @@ const QuizApp = () => {
   }, [quizStarted, timer]);
 
   const startQuiz = () => {
+    window.scrollTo({top: 0, behavior: "smooth"})
     const shuffled = [...questionsData].sort(() => 0.5 - Math.random());
     setQuestions(shuffled.slice(0, numQuestions));
     setUserAnswers({});
@@ -44,6 +45,8 @@ const QuizApp = () => {
   };
 
   const submitQuiz = () => {
+    window.scrollTo({top: 0, behavior: "smooth"})
+
     let correctAnswers = 0;
     questions.forEach((q) => {
       if (userAnswers[q.id] === q.correct) correctAnswers++;
