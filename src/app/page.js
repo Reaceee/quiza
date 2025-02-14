@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useId } from "react";
 // import questionsData from "./questions.json";
 // import questionsData from "./characterQuestions.json";
 import questionsData from "./entQuestions.json";
@@ -14,6 +14,7 @@ const QuizApp = () => {
   const [userAnswers, setUserAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [percent, setPercent] = useState(null);
+  const [allFailed, setAllFailed] = useState([]);
   const [course, setCourse] = useState("Enterpreneurship and Innovation");
   const [courseCode, setCourseCode] = useState("ENT 211");
   useEffect(() => {
@@ -30,7 +31,9 @@ const QuizApp = () => {
   }, [quizStarted, timer]);
 
   const startQuiz = () => {
-    window.scrollTo({top: 0, behavior: "smooth"})
+    setAllFailed([]);
+
+    window.scrollTo({ top: 0, behavior: "smooth" });
     const shuffled = [...questionsData].sort(() => 0.5 - Math.random());
     setQuestions(shuffled.slice(0, numQuestions));
     setUserAnswers({});
@@ -45,11 +48,16 @@ const QuizApp = () => {
   };
 
   const submitQuiz = () => {
-    window.scrollTo({top: 0, behavior: "smooth"})
+    setAllFailed([]);
+    window.scrollTo({ top: 0, behavior: "smooth" });
 
     let correctAnswers = 0;
     questions.forEach((q) => {
-      if (userAnswers[q.id] === q.correct) correctAnswers++;
+      if (userAnswers[q.id] === q.correct) {
+        correctAnswers++;
+      } else {
+        setAllFailed(allFailed.concat(q))
+      }
     });
     const calculatedScore = correctAnswers;
     const calculatedPercent = (correctAnswers / questions.length) * 100;
@@ -59,8 +67,10 @@ const QuizApp = () => {
   };
 
   const retryQuiz = () => {
+    setAllFailed([])
     setQuizStarted(false);
     setNumQuestions(30);
+
     setTimeLimit(10);
     setScore(null);
     setPercent(null);
@@ -96,6 +106,7 @@ const QuizApp = () => {
 
       <div className="p-5  min-h-screen flex flex-col max-w-2xl mx-auto text-center">
         {score !== null && (
+          <>
           <div className="mt-4 text-center items-center py-20 flex flex-col gap-2">
             <h2 className=" font-bold text-3xl pb-4">Your result</h2>
             <p>
@@ -123,6 +134,15 @@ const QuizApp = () => {
               Hide result
             </button>
           </div>
+
+
+            {/* {allFailed.map(x => (
+              <>
+                <div key={useId()}>
+                jdjdj
+                </div></>
+          ))} */}
+          </>
         )}
 
         {!quizStarted ? (
@@ -150,8 +170,12 @@ const QuizApp = () => {
                 {/* MAPPING NUMBER OF QUESTIONS */}
                 {/* [ 10, 20, 30, 60, 85] */}
                 {/* [10, 20, 30, 55] */}
-                {[10, 30, 40, 50].map((num) => (
-                  <option className="text-white bg-[#0e0e0e]" key={num} value={num}>
+                {[10, 30, 60, 100, 130].map((num) => (
+                  <option
+                    className="text-white bg-[#0e0e0e]"
+                    key={num}
+                    value={num}
+                  >
                     {num}
                   </option>
                 ))}
@@ -165,8 +189,12 @@ const QuizApp = () => {
                 onChange={(e) => setTimeLimit(Number(e.target.value))}
               >
                 {/* Add 0.2s for 12s */}
-                {[ 10, 20, 30, 60].map((time) => (
-                  <option className="text-white bg-[#0e0e0e]"  key={time} value={time}>
+                {[10, 20, 30, 60, 90].map((time) => (
+                  <option
+                    className="text-white bg-[#0e0e0e]"
+                    key={time}
+                    value={time}
+                  >
                     {time} minutes
                   </option>
                 ))}

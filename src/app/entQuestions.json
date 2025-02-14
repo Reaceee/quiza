@@ -1,6 +1,6 @@
 [
   {
-    "id": 123,
+    "id": 223,
     "question": "An entrepreneur is a wealth generator",
     "options": ["Yes", "No", "I don't know"],
     "correct": "Yes"
@@ -331,7 +331,8 @@
     "options": [
       "Monitoring your risk",
       "Following your risk",
-      "Appreciating your risk"
+      "Appreciating your risk",
+      "Trashing all risks"
     ],
     "correct": "Monitoring your risk"
   },
@@ -347,7 +348,8 @@
     "options": [
       "Responds to risks",
       "Helps customers know risk",
-      "Embraces risk"
+      "Embraces risk",
+      "Ignore risk"
     ],
     "correct": "Responds to risks"
   },
@@ -424,55 +426,891 @@
     "id": 46,
     "question": "What is entrepreneurial thinking primarily described as?",
     "options": [
-        "An inherent trait that cannot be developed",
-        "The ability to see things differently than the rest of the world",
-        "A skill only business owners need",
-        "A fixed mindset that cannot be changed"
+      "An inherent trait that cannot be developed",
+      "The ability to see things differently than the rest of the world",
+      "A skill only business owners need",
+      "A fixed mindset that cannot be changed"
     ],
     "correct": "The ability to see things differently than the rest of the world"
-},
-{
+  },
+  {
     "id": 47,
     "question": "Which of the following best describes an entrepreneurial mindset?",
     "options": [
-        "A set of skills focused on avoiding risks",
-        "A mindset that only sees problems as obstacles",
-        "A set of skills that relies heavily on positive and resilient thinking",
-        "A mindset that waits for others to solve problems"
+      "A set of skills focused on avoiding risks",
+      "A mindset that only sees problems as obstacles",
+      "A set of skills that relies heavily on positive and resilient thinking",
+      "A mindset that waits for others to solve problems"
     ],
     "correct": "A set of skills that relies heavily on positive and resilient thinking"
-},
-{
+  },
+  {
     "id": 48,
     "question": "What makes an employee demonstrate entrepreneurial thinking in the workplace?",
     "options": [
-        "Working strictly 9-to-5 hours",
-        "Dealing with company interests as if they were their own",
-        "Avoiding any changes to existing processes",
-        "Waiting for instructions from superiors"
+      "Working strictly 9-to-5 hours",
+      "Dealing with company interests as if they were their own",
+      "Avoiding any changes to existing processes",
+      "Waiting for instructions from superiors"
     ],
     "correct": "Dealing with company interests as if they were their own"
-},
-{
+  },
+  {
     "id": 49,
     "question": "According to the text, what is strategic thinking?",
     "options": [
-        "The ability to only focus on present problems",
-        "The ability to analyze the present and solve complex problems to plan for future success",
-        "The acceptance of generalized theories without question",
-        "The practice of avoiding market mechanisms"
+      "The ability to only focus on present problems",
+      "The ability to analyze the present and solve complex problems to plan for future success",
+      "The acceptance of generalized theories without question",
+      "The practice of avoiding market mechanisms"
     ],
     "correct": "The ability to analyze the present and solve complex problems to plan for future success"
-},
-{
+  },
+  {
     "id": 50,
     "question": "Which quality of entrepreneurial thinking involves the ability to make rational decisions quickly to avoid wasteful thoughts and actions?",
-    "options": [
-        "Focus",
-        "Drive",
-        "Decisiveness",
-        "Flexibility"
-    ],
+    "options": ["Focus", "Drive", "Decisiveness", "Flexibility"],
     "correct": "Decisiveness"
-}
+  },
+
+  {
+    "id": 51,
+    "question": "Entrepreneurship involves __________.",
+    "options": [
+      "Taking risks",
+      "Avoiding risks",
+      "Copying competitors",
+      "Following trends"
+    ],
+    "correct": "Taking risks"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is NOT a characteristic of an entrepreneur?",
+    "options": ["Creativity", "Risk-taking", "Procrastination", "Innovation"],
+    "correct": "Procrastination"
+  },
+  {
+    "id": 53,
+    "question": "An entrepreneur who starts a business by bringing a new product to market is called?",
+    "options": ["Inventor", "Manager", "Innovator", "Customer"],
+    "correct": "Innovator"
+  },
+  {
+    "id": 54,
+    "question": "What is the process of identifying and exploiting a business opportunity?",
+    "options": [
+      "Market research",
+      "Innovation",
+      "Entrepreneurship",
+      "Risk management"
+    ],
+    "correct": "Entrepreneurship"
+  },
+  {
+    "id": 55,
+    "question": "What is the first step in starting a business?",
+    "options": [
+      "Hiring staff",
+      "Generating a business idea",
+      "Applying for a loan",
+      "Renting an office"
+    ],
+    "correct": "Generating a business idea"
+  },
+  {
+    "id": 56,
+    "question": "What is the primary goal of an entrepreneur?",
+    "options": [
+      "Job security",
+      "Profit-making",
+      "Wealth redistribution",
+      "Risk avoidance"
+    ],
+    "correct": "Profit-making"
+  },
+  {
+    "id": 57,
+    "question": "What is a startup?",
+    "options": [
+      "A large company",
+      "A newly established business",
+      "A government agency",
+      "A non-profit organization"
+    ],
+    "correct": "A newly established business"
+  },
+  {
+    "id": 58,
+    "question": "The person who provides funds to a startup is known as?",
+    "options": ["Consumer", "Employee", "Investor", "Accountant"],
+    "correct": "Investor"
+  },
+  {
+    "id": 59,
+    "question": "Which of the following is NOT a type of entrepreneurship?",
+    "options": [
+      "Social entrepreneurship",
+      "Corporate entrepreneurship",
+      "Government entrepreneurship",
+      "Small business entrepreneurship"
+    ],
+    "correct": "Government entrepreneurship"
+  },
+  {
+    "id": 60,
+    "question": "What is the main reason most startups fail?",
+    "options": [
+      "Lack of office space",
+      "Poor financial management",
+      "Too much profit",
+      "Hiring too many employees"
+    ],
+    "correct": "Poor financial management"
+  },
+  {
+    "id": 61,
+    "question": "One major challenge entrepreneurs face is?",
+    "options": [
+      "Unlimited capital",
+      "Lack of risk",
+      "Financial constraints",
+      "No competition"
+    ],
+    "correct": "Financial constraints"
+  },
+  {
+    "id": 62,
+    "question": "What helps entrepreneurs secure funding?",
+    "options": [
+      "Business plan",
+      "Vacation plan",
+      "Hobbies list",
+      "Ignoring investors"
+    ],
+    "correct": "Business plan"
+  },
+  {
+    "id": 63,
+    "question": "Entrepreneurs who solve social problems instead of making profits are called?",
+    "options": [
+      "Business owners",
+      "Social entrepreneurs",
+      "Investors",
+      "Corporate managers"
+    ],
+    "correct": "Social entrepreneurs"
+  },
+  {
+    "id": 64,
+    "question": "What is the purpose of a feasibility study?",
+    "options": [
+      "To determine if a business idea is profitable",
+      "To prepare financial statements",
+      "To hire employees",
+      "To create a website"
+    ],
+    "correct": "To determine if a business idea is profitable"
+  },
+  {
+    "id": 65,
+    "question": "The most important resource for a startup is?",
+    "options": [
+      "Experience",
+      "Capital",
+      "Business location",
+      "Competitor data"
+    ],
+    "correct": "Capital"
+  },
+  {
+    "id": 66,
+    "question": "What is a key section of a business plan?",
+    "options": [
+      "Executive summary",
+      "Hobbies",
+      "Family background",
+      "Favorite colors"
+    ],
+    "correct": "Executive summary"
+  },
+  {
+    "id": 67,
+    "question": "Which of the following is NOT included in a business plan?",
+    "options": [
+      "Market analysis",
+      "Vacation plan",
+      "Financial projections",
+      "Marketing strategy"
+    ],
+    "correct": "Vacation plan"
+  },
+  {
+    "id": 68,
+    "question": "The purpose of a SWOT analysis is to identify?",
+    "options": [
+      "Sales trends",
+      "Business strengths and weaknesses",
+      "Customer age groups",
+      "Government policies"
+    ],
+    "correct": "Business strengths and weaknesses"
+  },
+  {
+    "id": 69,
+    "question": "The legal structure of a business includes?",
+    "options": [
+      "Sole proprietorship",
+      "Employee salaries",
+      "Office decorations",
+      "Marketing budget"
+    ],
+    "correct": "Sole proprietorship"
+  },
+  {
+    "id": 70,
+    "question": "What is the key factor in developing a successful marketing strategy?",
+    "options": [
+      "Understanding customer needs",
+      "Lowering prices indefinitely",
+      "Hiring only family members",
+      "Avoiding competitors"
+    ],
+    "correct": "Understanding customer needs"
+  },
+  {
+    "id": 71,
+    "question": "Leadership in entrepreneurship involves?",
+    "options": [
+      "Dictatorship",
+      "Guiding and inspiring others",
+      "Avoiding responsibility",
+      "Ignoring teamwork"
+    ],
+    "correct": "Guiding and inspiring others"
+  },
+  {
+    "id": 72,
+    "question": "What is a characteristic of a good leader?",
+    "options": ["Vision", "Laziness", "Dishonesty", "Fearfulness"],
+    "correct": "Vision"
+  },
+  {
+    "id": 73,
+    "question": "What is the main difference between a leader and a manager?",
+    "options": [
+      "Leaders inspire, managers organize",
+      "Managers take risks, leaders avoid risks",
+      "Leaders only work for profits",
+      "Managers never supervise employees"
+    ],
+    "correct": "Leaders inspire, managers organize"
+  },
+  {
+    "id": 74,
+    "question": "Leaders influence people through?",
+    "options": ["Power", "Corruption", "Force", "Politics"],
+    "correct": "Power"
+  },
+  {
+    "id": 75,
+    "question": "A leader must have the ability to?",
+    "options": [
+      "Influence others",
+      "Ignore team goals",
+      "Avoid competition",
+      "Focus only on personal gain"
+    ],
+    "correct": "Influence others"
+  },
+  {
+    "id": 76,
+    "question": "Innovation in entrepreneurship means?",
+    "options": [
+      "Introducing new ideas, products, or methods",
+      "Copying competitors",
+      "Ignoring market trends",
+      "Increasing prices only"
+    ],
+    "correct": "Introducing new ideas, products, or methods"
+  },
+  {
+    "id": 77,
+    "question": "Which of the following is an example of innovation?",
+    "options": [
+      "Using outdated technology",
+      "Developing a new app",
+      "Avoiding social media marketing",
+      "Ignoring customer feedback"
+    ],
+    "correct": "Developing a new app"
+  },
+  {
+    "id": 78,
+    "question": "Entrepreneurs who bring technological advancements to industries are called?",
+    "options": [
+      "Tech entrepreneurs",
+      "Small business owners",
+      "Investors",
+      "Government workers"
+    ],
+    "correct": "Tech entrepreneurs"
+  },
+  {
+    "id": 79,
+    "question": "What is the key benefit of innovation in business?",
+    "options": [
+      "Competitive advantage",
+      "Increased production cost",
+      "Lower employee motivation",
+      "Ignoring customer needs"
+    ],
+    "correct": "Competitive advantage"
+  },
+  {
+    "id": 80,
+    "question": "What is the relationship between entrepreneurship and innovation?",
+    "options": [
+      "Entrepreneurs use innovation to create new opportunities",
+      "Innovation only applies to large businesses",
+      "Entrepreneurs do not need innovation",
+      "Innovation is a disadvantage in business"
+    ],
+    "correct": "Entrepreneurs use innovation to create new opportunities"
+  },
+  {
+    "id": 81,
+    "question": "The financial statement that shows a company's profit and loss is called?",
+    "options": [
+      "Income statement",
+      "Balance sheet",
+      "Cash flow statement",
+      "Business plan"
+    ],
+    "correct": "Income statement"
+  },
+  {
+    "id": 82,
+    "question": "Which of the following is an example of a startup expense?",
+    "options": [
+      "Buying office equipment",
+      "Paying dividends",
+      "Stock market investment",
+      "Holiday bonuses"
+    ],
+    "correct": "Buying office equipment"
+  },
+  {
+    "id": 83,
+    "question": "Which type of funding requires the entrepreneur to repay the amount with interest?",
+    "options": [
+      "Debt financing",
+      "Equity financing",
+      "Crowdfunding",
+      "Grant funding"
+    ],
+    "correct": "Debt financing"
+  },
+  {
+    "id": 84,
+    "question": "A business plan should include financial projections for?",
+    "options": [
+      "1-5 years",
+      "10-20 years",
+      "No time frame needed",
+      "The next 100 years"
+    ],
+    "correct": "1-5 years"
+  },
+  {
+    "id": 85,
+    "question": "Why is cash flow management important for a business?",
+    "options": [
+      "To ensure there is enough cash to cover expenses",
+      "To increase employee salaries only",
+      "To eliminate taxes",
+      "To hide financial information"
+    ],
+    "correct": "To ensure there is enough cash to cover expenses"
+  },
+  {
+    "id": 86,
+    "question": "What is the primary goal of marketing?",
+    "options": [
+      "Attract and retain customers",
+      "Reduce employee salaries",
+      "Avoid competition",
+      "Increase production cost"
+    ],
+    "correct": "Attract and retain customers"
+  },
+  {
+    "id": 87,
+    "question": "What is a target market?",
+    "options": [
+      "A specific group of consumers",
+      "A large number of random customers",
+      "Government agencies",
+      "All business owners"
+    ],
+    "correct": "A specific group of consumers"
+  },
+  {
+    "id": 88,
+    "question": "Which marketing strategy is most effective for startups?",
+    "options": [
+      "Social media marketing",
+      "Ignoring customer feedback",
+      "Increasing product prices only",
+      "Selling without advertisements"
+    ],
+    "correct": "Social media marketing"
+  },
+  {
+    "id": 89,
+    "question": "A good marketing strategy includes?",
+    "options": [
+      "Market research",
+      "No advertising",
+      "Ignoring competition",
+      "Selling without customer feedback"
+    ],
+    "correct": "Market research"
+  },
+  {
+    "id": 90,
+    "question": "What is the main benefit of digital marketing for entrepreneurs?",
+    "options": [
+      "It reaches a large audience at a low cost",
+      "It is expensive and ineffective",
+      "It only works for large businesses",
+      "It reduces product quality"
+    ],
+    "correct": "It reaches a large audience at a low cost"
+  },
+  {
+    "id": 91,
+    "question": "What is risk management?",
+    "options": [
+      "Identifying and minimizing potential business risks",
+      "Ignoring risks in business",
+      "Increasing risk factors",
+      "Avoiding business opportunities"
+    ],
+    "correct": "Identifying and minimizing potential business risks"
+  },
+  {
+    "id": 92,
+    "question": "Which type of risk do entrepreneurs face?",
+    "options": [
+      "Financial risks",
+      "Legal risks",
+      "Market risks",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 93,
+    "question": "How can entrepreneurs reduce financial risk?",
+    "options": [
+      "Proper budgeting and planning",
+      "Spending all profits immediately",
+      "Avoiding financial records",
+      "Ignoring expenses"
+    ],
+    "correct": "Proper budgeting and planning"
+  },
+  {
+    "id": 94,
+    "question": "What is an example of a legal risk?",
+    "options": [
+      "Violating business regulations",
+      "Expanding customer base",
+      "Hiring employees",
+      "Selling quality products"
+    ],
+    "correct": "Violating business regulations"
+  },
+  {
+    "id": 95,
+    "question": "Why should entrepreneurs have business insurance?",
+    "options": [
+      "To protect against unexpected losses",
+      "To increase business risk",
+      "To eliminate competition",
+      "To avoid paying employees"
+    ],
+    "correct": "To protect against unexpected losses"
+  },
+  {
+    "id": 96,
+    "question": "Social entrepreneurship focuses on?",
+    "options": [
+      "Solving social problems",
+      "Increasing personal profit only",
+      "Avoiding social impact",
+      "Ignoring customer needs"
+    ],
+    "correct": "Solving social problems"
+  },
+  {
+    "id": 97,
+    "question": "An example of a social entrepreneur is?",
+    "options": [
+      "Someone who creates a business to help the poor",
+      "A CEO focused only on profit",
+      "A stock market investor",
+      "A business owner who avoids corporate social responsibility"
+    ],
+    "correct": "Someone who creates a business to help the poor"
+  },
+  {
+    "id": 98,
+    "question": "Which sector benefits most from social entrepreneurship?",
+    "options": ["Healthcare", "Government", "Entertainment", "Gambling"],
+    "correct": "Healthcare"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following is NOT a feature of social entrepreneurship?",
+    "options": [
+      "Profit-maximization only",
+      "Social impact",
+      "Innovation",
+      "Sustainability"
+    ],
+    "correct": "Profit-maximization only"
+  },
+  {
+    "id": 100,
+    "question": "The goal of social entrepreneurship is to?",
+    "options": [
+      "Create solutions for social issues",
+      "Focus only on increasing wealth",
+      "Reduce market competition",
+      "Avoid government policies"
+    ],
+    "correct": "Create solutions for social issues"
+  },
+  {
+    "id": 101,
+    "question": "What is a business plan?",
+    "options": [
+      "A written document outlining a business's goals and strategies",
+      "A random collection of ideas",
+      "A list of employee names",
+      "A tax report"
+    ],
+    "correct": "A written document outlining a business's goals and strategies"
+  },
+  {
+    "id": 102,
+    "question": "Which of the following is NOT a component of a business plan?",
+    "options": [
+      "Executive summary",
+      "Market analysis",
+      "Personal expenses report",
+      "Financial projections"
+    ],
+    "correct": "Personal expenses report"
+  },
+  {
+    "id": 103,
+    "question": "Why is a business plan important?",
+    "options": [
+      "It helps in decision-making and securing funding",
+      "It increases business risk",
+      "It discourages investors",
+      "It only benefits large businesses"
+    ],
+    "correct": "It helps in decision-making and securing funding"
+  },
+  {
+    "id": 104,
+    "question": "The section of a business plan that describes the company's mission and objectives is called?",
+    "options": [
+      "Executive summary",
+      "Marketing strategy",
+      "Sales forecast",
+      "Expense report"
+    ],
+    "correct": "Executive summary"
+  },
+  {
+    "id": 105,
+    "question": "A well-structured business plan should be?",
+    "options": [
+      "Clear, concise, and realistic",
+      "Confusing and lengthy",
+      "Full of unrealistic expectations",
+      "Lacking financial details"
+    ],
+    "correct": "Clear, concise, and realistic"
+  },
+  {
+    "id": 106,
+    "question": "Business ethics refers to?",
+    "options": [
+      "Moral principles that guide business decisions",
+      "Ignoring laws in business",
+      "Increasing product prices unfairly",
+      "Avoiding employee benefits"
+    ],
+    "correct": "Moral principles that guide business decisions"
+  },
+  {
+    "id": 107,
+    "question": "Corporate Social Responsibility (CSR) means?",
+    "options": [
+      "A company's efforts to contribute to society",
+      "Maximizing profits at any cost",
+      "Avoiding environmental concerns",
+      "Ignoring stakeholders' interests"
+    ],
+    "correct": "A company's efforts to contribute to society"
+  },
+  {
+    "id": 108,
+    "question": "A company that donates part of its profits to charity is practicing?",
+    "options": [
+      "Corporate Social Responsibility",
+      "Tax evasion",
+      "Unethical behavior",
+      "Business fraud"
+    ],
+    "correct": "Corporate Social Responsibility"
+  },
+  {
+    "id": 109,
+    "question": "Ethical business practices help in?",
+    "options": [
+      "Building customer trust and loyalty",
+      "Reducing employee wages",
+      "Decreasing company growth",
+      "Avoiding competition"
+    ],
+    "correct": "Building customer trust and loyalty"
+  },
+  {
+    "id": 110,
+    "question": "Which of the following is an unethical business practice?",
+    "options": [
+      "False advertising",
+      "Fair employee wages",
+      "Sustainable product sourcing",
+      "Customer satisfaction policies"
+    ],
+    "correct": "False advertising"
+  },
+  {
+    "id": 111,
+    "question": "An entrepreneur is someone who?",
+    "options": [
+      "Identifies and exploits business opportunities",
+      "Works only for a salary",
+      "Avoids taking risks",
+      "Depends on government jobs"
+    ],
+    "correct": "Identifies and exploits business opportunities"
+  },
+  {
+    "id": 112,
+    "question": "Which of the following is NOT a characteristic of an entrepreneur?",
+    "options": ["Risk-taking", "Procrastination", "Innovation", "Perseverance"],
+    "correct": "Procrastination"
+  },
+  {
+    "id": 113,
+    "question": "Entrepreneurs are known for their ability to?",
+    "options": [
+      "Take calculated risks",
+      "Avoid challenges",
+      "Follow only traditional methods",
+      "Depend on others for decisions"
+    ],
+    "correct": "Take calculated risks"
+  },
+  {
+    "id": 114,
+    "question": "A good entrepreneur must be?",
+    "options": [
+      "Creative and adaptable",
+      "Fearful of challenges",
+      "Unwilling to learn",
+      "Lazy and disorganized"
+    ],
+    "correct": "Creative and adaptable"
+  },
+  {
+    "id": 115,
+    "question": "The ability to bounce back from failure is called?",
+    "options": ["Resilience", "Fear", "Insecurity", "Rigidity"],
+    "correct": "Resilience"
+  },
+  {
+    "id": 116,
+    "question": "Identifying a gap in the market is an example of?",
+    "options": [
+      "Opportunity recognition",
+      "Business failure",
+      "Lack of innovation",
+      "Customer neglect"
+    ],
+    "correct": "Opportunity recognition"
+  },
+  {
+    "id": 117,
+    "question": "What is the first step in generating a business idea?",
+    "options": [
+      "Identifying a problem or need",
+      "Copying an existing business",
+      "Avoiding competition",
+      "Waiting for investors"
+    ],
+    "correct": "Identifying a problem or need"
+  },
+  {
+    "id": 118,
+    "question": "A successful business idea should be?",
+    "options": [
+      "Feasible and scalable",
+      "Confusing and unrealistic",
+      "Illegal and unethical",
+      "Lacking market demand"
+    ],
+    "correct": "Feasible and scalable"
+  },
+  {
+    "id": 119,
+    "question": "Which of the following is an example of a business opportunity?",
+    "options": [
+      "An increasing demand for solar energy",
+      "A decreasing number of customers",
+      "A ban on business operations",
+      "A lack of raw materials"
+    ],
+    "correct": "An increasing demand for solar energy"
+  },
+  {
+    "id": 120,
+    "question": "The best way to validate a business idea is?",
+    "options": [
+      "Conducting market research",
+      "Guessing customer needs",
+      "Ignoring competitors",
+      "Relying only on personal opinions"
+    ],
+    "correct": "Conducting market research"
+  },
+  {
+    "id": 121,
+    "question": "Technology has helped entrepreneurs by?",
+    "options": [
+      "Making business processes more efficient",
+      "Eliminating innovation",
+      "Increasing manual work",
+      "Decreasing customer reach"
+    ],
+    "correct": "Making business processes more efficient"
+  },
+  {
+    "id": 122,
+    "question": "E-commerce allows businesses to?",
+    "options": [
+      "Sell products and services online",
+      "Avoid customer interactions",
+      "Reduce product quality",
+      "Ignore online marketing"
+    ],
+    "correct": "Sell products and services online"
+  },
+  {
+    "id": 123,
+    "question": "A major advantage of digital marketing is?",
+    "options": [
+      "Lower advertising costs",
+      "Reduced customer base",
+      "Limited global reach",
+      "Increased business expenses"
+    ],
+    "correct": "Lower advertising costs"
+  },
+  {
+    "id": 124,
+    "question": "Which technology is commonly used for online payments?",
+    "options": [
+      "PayPal and mobile banking",
+      "Traditional cash payments",
+      "Paper invoices",
+      "Barter trade"
+    ],
+    "correct": "PayPal and mobile banking"
+  },
+  {
+    "id": 125,
+    "question": "Social media marketing helps businesses by?",
+    "options": [
+      "Increasing brand awareness",
+      "Reducing customer engagement",
+      "Limiting market expansion",
+      "Avoiding customer feedback"
+    ],
+    "correct": "Increasing brand awareness"
+  },
+  {
+    "id": 126,
+    "question": "Successful entrepreneurs are known for?",
+    "options": [
+      "Strategic thinking and innovation",
+      "Avoiding risks",
+      "Depending on luck",
+      "Refusing to adapt"
+    ],
+    "correct": "Strategic thinking and innovation"
+  },
+  {
+    "id": 127,
+    "question": "What is the most important trait of a successful entrepreneur?",
+    "options": [
+      "Perseverance",
+      "Laziness",
+      "Fear of failure",
+      "Avoiding challenges"
+    ],
+    "correct": "Perseverance"
+  },
+  {
+    "id": 128,
+    "question": "An entrepreneur who started a successful business from scratch is called?",
+    "options": [
+      "A self-made entrepreneur",
+      "A government worker",
+      "A franchise owner",
+      "An employee"
+    ],
+    "correct": "A self-made entrepreneur"
+  },
+  {
+    "id": 129,
+    "question": "Entrepreneurs who solve global problems are called?",
+    "options": [
+      "Social entrepreneurs",
+      "Retail store owners",
+      "Local traders",
+      "Business investors"
+    ],
+    "correct": "Social entrepreneurs"
+  },
+  {
+    "id": 130,
+    "question": "A key factor in entrepreneurial success is?",
+    "options": [
+      "Continuous learning and improvement",
+      "Ignoring market trends",
+      "Depending only on past success",
+      "Avoiding innovation"
+    ],
+    "correct": "Continuous learning and improvement"
+  }
 ]
