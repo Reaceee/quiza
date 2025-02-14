@@ -15,7 +15,7 @@ const QuizApp = () => {
   const [score, setScore] = useState(null);
   const [percent, setPercent] = useState(null);
   const [allFailed, setAllFailed] = useState([]);
-  const [course, setCourse] = useState("Enterpreneurship and Innovation");
+  const [course, setCourse] = useState("Entrepreneurship and Innovation");
   const [courseCode, setCourseCode] = useState("ENT 211");
   useEffect(() => {
     if (quizStarted && timer >= 0) {
