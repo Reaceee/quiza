@@ -1,0 +1,442 @@
+[
+  {
+    "id": 1,
+    "question": "The Greek word Logike means",
+    "options": [
+      "Argument",
+      "Art of reason",
+      "Instrument of action",
+      "Knowledge of the art"
+    ],
+    "correct": "Art of reason"
+  },
+  {
+    "id": 2,
+    "question": "The main proponents of pragmatism are the following except",
+    "options": [
+      "C.S. Peirce",
+      "John Locke",
+      "William James",
+      "John Dewey"
+    ],
+    "correct": "John Locke"
+  },
+  {
+    "id": 3,
+    "question": "According to Plato, true justice can be found in",
+    "options": [
+      "When the peasants, soldiers and guardians perform the specific duties they are trained to perform",
+      "When the soldiers take the place of peasants",
+      "When the guardians perform the work of the soldiers",
+      "When both the peasants and soldiers take up the activities of the guardians"
+    ],
+    "correct": "When the peasants, soldiers and guardians perform the specific duties they are trained to perform"
+  },
+  {
+    "id": 4,
+    "question": "The famous idealist dictum “esse est percipi” is translated as",
+    "options": [
+      "To be full of knowledge",
+      "To have understanding of reality",
+      "To be is to be perceived",
+      "None of the above"
+    ],
+    "correct": "To be is to be perceived"
+  },
+  {
+    "id": 5,
+    "question": "The following are the idealists except",
+    "options": [
+      "Plato",
+      "Leibniz",
+      "Aristotle",
+      "Berkeley"
+    ],
+    "correct": "Aristotle"
+  },
+  {
+    "id": 6,
+    "question": "According to George Berkeley, the existence of anything depends on its being perceived by the",
+    "options": [
+      "The brain",
+      "The mind",
+      "Heart",
+      "Emotive mind"
+    ],
+    "correct": "The mind"
+  },
+  {
+    "id": 7,
+    "question": "Philosophy is known as a wide discipline because",
+    "options": [
+      "It deals with whole realm of human experiences",
+      "It deals with specific areas of discipline",
+      "It deals with particular areas of human endeavor",
+      "None of the above"
+    ],
+    "correct": "It deals with whole realm of human experiences"
+  },
+  {
+    "id": 8,
+    "question": "The following are features of philosophy except",
+    "options": [
+      "Critical and analysis",
+      "Rational",
+      "Judgemental value",
+      "Coherent"
+    ],
+    "correct": "Judgemental value"
+  },
+  {
+    "id": 9,
+    "question": "The story of philosophy began with",
+    "options": [
+      "Mythology and poetry",
+      "Scientific knowledge",
+      "Education",
+      "Work of art"
+    ],
+    "correct": "Mythology and poetry"
+  },
+  {
+    "id": 10,
+    "question": "Materialism holds that the ultimately real is",
+    "options": [
+      "Mind",
+      "Matter",
+      "Spirit",
+      "Soul"
+    ],
+    "correct": "Matter"
+  },
+  {
+    "id": 11,
+    "question": "Which is the odd one",
+    "options": [
+      "Correspondence method",
+      "Pragmatic method",
+      "Coherence method",
+      "Propositional calculus"
+    ],
+    "correct": "Propositional calculus"
+  },
+  {
+    "id": 12,
+    "question": "Demonstrative knowledge involves",
+    "options": [
+      "Reasoning",
+      "It entails the deductive or inductive procedures",
+      "It involves coherent method",
+      "A and B above are correct"
+    ],
+    "correct": "A and B above are correct"
+  },
+  {
+    "id": 13,
+    "question": "The dot (.) sign represents",
+    "options": [
+      "Conjunction",
+      "Negation",
+      "Biconditional",
+      "Conditional"
+    ],
+    "correct": "Conjunction"
+  },
+  {
+    "id": 14,
+    "question": "The logical expression “if and only if” is symbolized as",
+    "options": [
+      "V",
+      "⊃",
+      "≡",
+      "≥"
+    ],
+    "correct": "≡"
+  },
+  {
+    "id": 15,
+    "question": "Ethics is also known as",
+    "options": [
+      "Moral philosophy",
+      "Philosophical analysis",
+      "Philosophical language",
+      "Atomistic philosophy"
+    ],
+    "correct": "Moral philosophy"
+  },
+  {
+    "id": 16,
+    "question": "The hallmark of philosophy is",
+    "options": [
+      "Ideas",
+      "Criticism",
+      "Consensus",
+      "Abstractions"
+    ],
+    "correct": "Criticism"
+  },
+  {
+    "id": 17,
+    "question": "Another name for Ordinary Language Philosophy is",
+    "options": [
+      "Logical atomism",
+      "Logical positivism",
+      "Existentialism",
+      "Contemporary philosophy"
+    ],
+    "correct": "Logical atomism"
+  },
+  {
+    "id": 18,
+    "question": "Pragmatism is a movement of American origin associated with",
+    "options": [
+      "Plato",
+      "Rene Descartes",
+      "Berkeley",
+      "C.S. Peirce"
+    ],
+    "correct": "C.S. Peirce"
+  },
+  {
+    "id": 19,
+    "question": "The prominent names in existentialism are the following except",
+    "options": [
+      "Soren Kierkegaard",
+      "Maltin Buber",
+      "Kant",
+      "Jean Paul Sartre"
+    ],
+    "correct": "Kant"
+  },
+  {
+    "id": 20,
+    "question": "The Islamic philosophers are the following except",
+    "options": [
+      "Avicenna",
+      "Averroes",
+      "Alfarabi",
+      "Aquinas"
+    ],
+    "correct": "Aquinas"
+  },
+  {
+    "id": 21,
+    "question": "_____ Sceptic is attributed to the statement “nothing exists, that even if anything existed, it cannot be known, and that even if it can be known, it can be communicated to other people”",
+    "options": [
+      "Timon",
+      "Georgias",
+      "Kant",
+      "Augustine"
+    ],
+    "correct": "Georgias"
+  },
+  {
+    "id": 22,
+    "question": "Epistemology derives from two Greek words _________ & _________",
+    "options": [
+      "Episteme & matter",
+      "Logos & ideas",
+      "Episteme & logos",
+      "Mind & matter"
+    ],
+    "correct": "Episteme & logos"
+  },
+  {
+    "id": 23,
+    "question": "Plato holds that the true nature or the essences of things are _______ except",
+    "options": [
+      "Visible",
+      "Immutable",
+      "Eternal",
+      "Immaterial"
+    ],
+    "correct": "Visible"
+  },
+  {
+    "id": 24,
+    "question": "To say that the scope of philosophy is very wide means that",
+    "options": [
+      "Philosophy deals with the whole realm of human experience.",
+      "Philosophy questions whatever is at all",
+      "Philosophy at the very beginning with the Greeks embraced all subjects",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 25,
+    "question": "The way a philosopher perceives philosophy is often coloured by",
+    "options": [
+      "His peculiar experience",
+      "His orientation or training",
+      "His circumstances and environment",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 26,
+    "question": "The ad verecundiam fallacy is committed when one",
+    "options": [
+      "Appeals to authority rather than to the facts or evidence",
+      "Appeals to force",
+      "Appeals to ignorance",
+      "Appeals to God"
+    ],
+    "correct": "Appeals to authority rather than to the facts or evidence"
+  },
+  {
+    "id": 27,
+    "question": "When a few bad persons are cited as examples to condemn all persons, which fallacy is committed?",
+    "options": [
+      "False cause",
+      "Converse accident",
+      "Argumentum ad populum",
+      "Accident"
+    ],
+    "correct": "Converse accident"
+  },
+  {
+    "id": 28,
+    "question": "All kinds of logic deal with argument forms",
+    "options": [
+      "True",
+      "False",
+      "None of the above",
+      "All of the above"
+    ],
+    "correct": "True"
+  },
+  {
+    "id": 29,
+    "question": "The types of propositions to exclude in logic are",
+    "options": [
+      "Exclamatory sentence",
+      "Interrogative sentences",
+      "Imperative sentences",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is not true of existentialism?",
+    "options": [
+      "It is a continental European philosophy, prominent in France and Germany",
+      "Reality is in action and truth must start from subjectivity",
+      "A theory is meaningful if it has cash value",
+      "Man first of all exists, turns up and only afterwards defines himself"
+    ],
+    "correct": "A theory is meaningful if it has cash value"
+  },
+  {
+    "id": 31,
+    "question": "Laws of thought are the basic principles of the thinking process because",
+    "options": [
+      "They constitute the absolute starting points of all forms of reasoning.",
+      "They form the backgrounders to all human thinking processes and discourse",
+      "Only (a) to (b)",
+      "None of the above"
+    ],
+    "correct": "Only (a) to (b)"
+  },
+  {
+    "id": 32,
+    "question": "_____________ & _____________ are the two broad classes of informal fallacies",
+    "options": [
+      "Equivocation & division",
+      "Ambiguity & relevance",
+      "Complex & false cause",
+      "Composition & accident"
+    ],
+    "correct": "Ambiguity & relevance"
+  },
+  {
+    "id": 33,
+    "question": "______ is a philosopher who asserted that you cannot step twice into the same river",
+    "options": [
+      "Heraclitus",
+      "Parmenides",
+      "Plato",
+      "Anaximenes"
+    ],
+    "correct": "Heraclitus"
+  },
+  {
+    "id": 34,
+    "question": "______ postulated the idealist dictum 'Esse Est Percipi' — to be is to be perceived",
+    "options": [
+      "Rene Descartes",
+      "George Berkeley",
+      "Plato",
+      "Parmenides"
+    ],
+    "correct": "George Berkeley"
+  },
+  {
+    "id": 35,
+    "question": "_______ was the philosopher who first coined the word metaphysics",
+    "options": [
+      "Aristotle",
+      "Plato",
+      "Andronicus of Rhodes",
+      "Rene Descartes"
+    ],
+    "correct": "Andronicus of Rhodes"
+  },
+  {
+    "id": 36,
+    "question": "Which fallacy is committed when we pose questions to our opponent in such a way that whichever answer he gives would make him guilty?",
+    "options": [
+      "Ignorantio Elenchi",
+      "False cause",
+      "Complex question",
+      "Accident"
+    ],
+    "correct": "Complex question"
+  },
+  {
+    "id": 37,
+    "question": "Which type of fallacy of relevance attacks personalities rather than the point at stake?",
+    "options": [
+      "Argumentum ad ignorantiam",
+      "False cause",
+      "The abusive variety of the ad hominem argument",
+      "Accident"
+    ],
+    "correct": "The abusive variety of the ad hominem argument"
+  },
+  {
+    "id": 38,
+    "question": "Modern philosophy concentrated on",
+    "options": [
+      "The elaboration of rationalism and empiricism",
+      "The espousal of two-realm cosmologies",
+      "The elaboration of atomism",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 39,
+    "question": "Argument types that thrive not on formal validity, but on the truth or falsity, correctness or incorrectness of their propositions are known as",
+    "options": [
+      "Reductive arguments",
+      "Syllogisms",
+      "Inductive arguments",
+      "Deductive inference"
+    ],
+    "correct": "Inductive arguments"
+  },
+  {
+    "id": 40,
+    "question": "The following form of invalid argument is typical of which fallacy? 'I have taken your car. I am bigger and stronger than you are. Therefore, you cannot get your car back.'",
+    "options": [
+      "Argumentum ad Hominem",
+      "Argumentum ad Misericordiam",
+      "Argumentum ad Baculum",
+      "Ignoratio elenchi"
+    ],
+    "correct": "Argumentum ad Baculum"
+  }
+]

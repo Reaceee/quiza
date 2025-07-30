@@ -3,6 +3,7 @@ import React, { useState, useEffect, useId } from "react";
 // import questionsData from "./questions.json";
 // import questionsData from "./characterQuestions.json";
 import questionsData from "./PhilosophyQuestions.json";
+import testOnly from "./PhilosophyTestsOnly.json";
 const logo = "../logo.svg";
 
 const QuizApp = () => {
@@ -17,6 +18,7 @@ const QuizApp = () => {
   const [allFailed, setAllFailed] = useState([]);
   const [course, setCourse] = useState("Philosophy, Logic and Human Existence");
   const [courseCode, setCourseCode] = useState("GST 212");
+  const [testOnlyMode, setTestOnlyMode] = useState(false);
   useEffect(() => {
     if (quizStarted && timer >= 0) {
       const interval = setInterval(() => setTimer((prev) => prev - 1), 1000);
@@ -30,16 +32,24 @@ const QuizApp = () => {
     //ADD A FUNCTION TO REMIND USER THAT 5  MINS LEFT
   }, [quizStarted, timer]);
 
+  // useEffect(() => {
+  //   if (testOnlyMode) {
+  //     setNumQuestions(40);
+  //   } else {
+  //     setNumQuestions(10);
+  //   }
+  // }, [testOnlyMode]);
+
   const startQuiz = () => {
     setAllFailed([]);
 
     window.scrollTo({ top: 0, behavior: "smooth" });
-    const shuffled = [...questionsData].sort(() => 0.5 - Math.random());
-    console.log("Total questions in data:", questionsData.length);
-    console.log("Number of questions requested:", numQuestions);
-    console.log("Shuffled array length:", shuffled.length);
+    
+    // Choose question source based on test-only mode
+    const questionSource = testOnlyMode ? testOnly : questionsData;
+    
+    const shuffled = [...questionSource].sort(() => 0.5 - Math.random());
     const selectedQuestions = shuffled.slice(0, numQuestions);
-    console.log("Selected questions length:", selectedQuestions.length);
     setQuestions(selectedQuestions);
     setUserAnswers({});
     setQuizStarted(true);
@@ -74,8 +84,8 @@ const QuizApp = () => {
   const retryQuiz = () => {
     setAllFailed([])
     setQuizStarted(false);
-    setNumQuestions(30);
-
+    setTestOnlyMode(false);
+    setNumQuestions(10);
     setTimeLimit(10);
     setScore(null);
     setPercent(null);
@@ -163,19 +173,23 @@ const QuizApp = () => {
                 {course}
               </div>
             </div>
-            <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
+            {
+              testOnlyMode ?
+              <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
               <label className="block  text-[#999999]">
                 Number of Questions:
               </label>
               <select
-                className="bg-[#99999920] p-4 rounded-xl cursor-pointer hover:bg-[#99999940] duration-150 px-4 w-full"
-                value={numQuestions}
-                onChange={(e) => setNumQuestions(Number(e.target.value))}
+                className={`p-4 rounded-xl px-4 w-full ${
+                  testOnlyMode 
+                    ? "bg-[#99999910] cursor-not-allowed" 
+                    : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
+                } duration-150`}
+                value={40}
+                disabled={testOnlyMode}
               >
-                {/* MAPPING NUMBER OF QUESTIONS */}
-                {/* [ 10, 20, 30, 60, 85] */}
-                {/* [10, 20, 30, 55] */}
-                {[10, 30, 60, 100].map((num) => (
+               
+                {["40 (MAX)"].map((num) => (
                   <option
                     className="text-white bg-[#0e0e0e]"
                     key={num}
@@ -185,7 +199,37 @@ const QuizApp = () => {
                   </option>
                 ))}
               </select>
-            </div>
+                </div> :
+                
+                <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
+                <label className="block  text-[#999999]">
+                  Number of Questions:
+                </label>
+                <select
+                  className={`p-4 rounded-xl px-4 w-full ${
+                    testOnlyMode 
+                      ? "bg-[#99999910] cursor-not-allowed" 
+                      : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
+                  } duration-150`}
+                  value={numQuestions}
+                  onChange={(e) => setNumQuestions(Number(e.target.value))}
+                  disabled={testOnlyMode}
+                >
+                  {/* MAPPING NUMBER OF QUESTIONS */}
+                  {/* [ 10, 20, 30, 60, 85] */}
+                  {/* [10, 20, 30, 55] */}
+                  {[10, 30, 60, 100, 180].map((num) => (
+                    <option
+                      className="text-white bg-[#0e0e0e]"
+                      key={num}
+                      value={num}
+                    >
+                      {num}
+                    </option>
+                  ))}
+                </select>
+              </div>
+         }
             <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
               <label className="block  text-[#999999]">Time Limit:</label>
               <select
@@ -204,6 +248,17 @@ const QuizApp = () => {
                   </option>
                 ))}
               </select>
+            </div>
+            <div className="flex items-center gap-2 justify-center w-full max-w-[300px]"> 
+              <label htmlFor="testOnly"> Test questions only</label>
+              <input 
+                id="testOnly" 
+                type="checkbox"
+                checked={testOnlyMode}
+                onChange={(e) => {
+                  setTestOnlyMode(e.target.checked)
+                }}
+              />
             </div>
             <button
               className="mt-4 bg-blue-500 hover:brightness-105 active:bg-blue-600 text-white px-6 py-3 rounded-xl hover:shadow-xl hover:shadow-[#99999920] duration-150 mb-8"
@@ -238,39 +293,36 @@ const QuizApp = () => {
               </h1>
             </div>
 
-            {questions.map((q, index) => {
-              console.log(`Rendering question ${index + 1}:`, q.id);
-              return (
-                <div
-                  key={q.id}
-                  className="questionCard stickytop-0 bgwhite bg-[#99999915]  p-2 backdrop-blur-sm   border-spacing-9  rounded-xl  my-4  "
-                >
-                  <p className="font-bold p-4  text-left">
-                    {index + 1}. {q.question}
-                  </p>
-                  {q.options.map((opt) => (
-                    <label
-                      key={opt}
-                      className="option hover:bg-[#99999910] duration-200 *:duration-200 py-2 rounded-lg cursor-pointer px-4 items-center flex gap-2 text-left"
-                    >
-                      <input
-                        type="radio"
-                        hidden={true}
-                        className="invisible hidden opacity-0"
-                        name={q.id}
-                        value={opt}
-                        checked={userAnswers[q.id] === opt}
-                        onChange={() => handleAnswer(q.id, opt)}
-                      />{" "}
-                      <div className="radio flex items-center justify-center min-h-2 min-w-2 shrink-0 w-4 h-4 border-2 border-gray-300 rounded">
-                        <div className="ticked radio-check grow-0 w-2 h-2 min-w-2 min-h-2 bg-green-500 rounded-sm shrink-0"></div>
-                      </div>
-                      {opt}
-                    </label>
-                  ))}
-                </div>
-              );
-            })}
+            {questions.map((q, index) => (
+              <div
+                key={q.id}
+                className="questionCard stickytop-0 bgwhite bg-[#99999915]  p-2 backdrop-blur-sm   border-spacing-9  rounded-xl  my-4  "
+              >
+                <p className="font-bold p-4  text-left">
+                  {index + 1}. {q.question}
+                </p>
+                {q.options.map((opt) => (
+                  <label
+                    key={opt}
+                    className="option hover:bg-[#99999910] duration-200 *:duration-200 py-2 rounded-lg cursor-pointer px-4 items-center flex gap-2 text-left"
+                  >
+                    <input
+                      type="radio"
+                      hidden={true}
+                      className="invisible hidden opacity-0"
+                      name={q.id}
+                      value={opt}
+                      checked={userAnswers[q.id] === opt}
+                      onChange={() => handleAnswer(q.id, opt)}
+                    />{" "}
+                    <div className="radio flex items-center justify-center min-h-2 min-w-2 shrink-0 w-4 h-4 border-2 border-gray-300 rounded">
+                      <div className="ticked radio-check grow-0 w-2 h-2 min-w-2 min-h-2 bg-green-500 rounded-sm shrink-0"></div>
+                    </div>
+                    {opt}
+                  </label>
+                ))}
+              </div>
+            ))}
 
             <button
               className="mt-4 my-8 bg-green-500 active:bg-green-600 text-white px-6 py-3 rounded-xl hover:shadow-xl hover:shadow-[#99999920] duration-150 hover:brightness-105"

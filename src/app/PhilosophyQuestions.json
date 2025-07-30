@@ -1098,5 +1098,783 @@
       "Full of wisdom"
     ],
     "correct": "Not worth living"
+  },
+  {
+    "id": 101,
+    "question": "Aesthetics concerns",
+    "options": [
+      "moral rules",
+      "beauty and art",
+      "knowledge theory",
+      "logical forms"
+    ],
+    "correct": "beauty and art"
+  },
+  {
+    "id": 102,
+    "question": "Demonstrative knowledge involves",
+    "options": [
+      "reasoning",
+      "deductive/inductive procedures",
+      "empirical observation",
+      "both A and B"
+    ],
+    "correct": "both A and B"
+  },
+  {
+    "id": 103,
+    "question": "Slippery slope is a fallacy of",
+    "options": [
+      "ambiguity",
+      "relevance",
+      "composition",
+      "division"
+    ],
+    "correct": "relevance"
+  },
+  {
+    "id": 104,
+    "question": "“You cannot step twice into the same river” is by",
+    "options": [
+      "Heraclitus",
+      "Parmenides",
+      "Plato",
+      "Aristotle"
+    ],
+    "correct": "Heraclitus"
+  },
+  {
+    "id": 105,
+    "question": "The Greek word Logikē means",
+    "options": [
+      "science of thought",
+      "art of reason",
+      "love of wisdom",
+      "study of words"
+    ],
+    "correct": "art of reason"
+  },
+  {
+    "id": 106,
+    "question": "One definition of philosophy is",
+    "options": [
+      "the love of beauty",
+      "the study of language",
+      "the search for reality",
+      "the art of persuasion"
+    ],
+    "correct": "the search for reality"
+  },
+  {
+    "id": 107,
+    "question": "Existentialism’s slogan is",
+    "options": [
+      "living a good life",
+      "existence precedes essence",
+      "love thy neighbor",
+      "knowledge is power"
+    ],
+    "correct": "existence precedes essence"
+  },
+  {
+    "id": 108,
+    "question": "Islamic philosophers include all except",
+    "options": [
+      "Al Farabi",
+      "Avicenna",
+      "Averroes",
+      "Thomas Aquinas"
+    ],
+    "correct": "Thomas Aquinas"
+  },
+  {
+    "id": 109,
+    "question": "Hasty generalization is a fallacy of",
+    "options": [
+      "relevance",
+      "ambiguity",
+      "force",
+      "pity"
+    ],
+    "correct": "ambiguity"
+  },
+  {
+    "id": 110,
+    "question": "The ad verecundiam fallacy occurs when one",
+    "options": [
+      "appeals to authority over facts",
+      "argues from ignorance",
+      "attacks the person",
+      "uses ambiguous terms"
+    ],
+    "correct": "appeals to authority over facts"
+  },
+  {
+    "id": 111,
+    "question": "“If and only if” is symbolized as",
+    "options": [
+      "→",
+      "↔",
+      "≡",
+      "⇔"
+    ],
+    "correct": "≡"
+  },
+  {
+    "id": 112,
+    "question": "African philosophy debates began in",
+    "options": [
+      "1920s",
+      "1950s",
+      "1970s",
+      "1990s"
+    ],
+    "correct": "1970s"
+  },
+  {
+    "id": 113,
+    "question": "Which is the odd one out?",
+    "options": [
+      "deductive logic",
+      "inductive logic",
+      "modal logic",
+      "propositional calculus"
+    ],
+    "correct": "propositional calculus"
+  },
+  {
+    "id": 114,
+    "question": "Epistemology derives from the Greek",
+    "options": [
+      "logos & ethos",
+      "Sophia & philo",
+      "epistḗmē & logos",
+      "gnōsis & theoria"
+    ],
+    "correct": "epistḗmē & logos"
+  },
+  {
+    "id": 115,
+    "question": "Attacking personality instead of issue is",
+    "options": [
+      "ad hominem (circumstantial)",
+      "ad hominem (tu quoque)",
+      "ad hominem (abusive)",
+      "ad hominem (guilt by association)"
+    ],
+    "correct": "ad hominem (abusive)"
+  },
+  {
+    "id": 116,
+    "question": "The hallmark of philosophy is",
+    "options": [
+      "dogmatism",
+      "criticism",
+      "speculation",
+      "tradition"
+    ],
+    "correct": "criticism"
+  },
+  {
+    "id": 117,
+    "question": "The “Way of Truth” vs. “Way of Opinion” appears in",
+    "options": [
+      "Plato’s Republic",
+      "Parmenides’ On Nature",
+      "Aristotle’s Metaphysics",
+      "Heraclitus’ fragments"
+    ],
+    "correct": "Parmenides’ On Nature"
+  },
+  {
+    "id": 118,
+    "question": "The invalid argument form typical of “Argumentum ad baculum” is",
+    "options": [
+      "appeal to pity",
+      "appeal to popularity",
+      "appeal to force",
+      "appeal to ignorance"
+    ],
+    "correct": "appeal to force"
+  },
+  {
+    "id": 119,
+    "question": "The main proponents of pragmatism include",
+    "options": [
+      "William James, John Dewey",
+      "John Locke",
+      "Immanuel Kant",
+      "René Descartes"
+    ],
+    "correct": "William James, John Dewey"
+  },
+  {
+    "id": 120,
+    "question": "The story of philosophy began with",
+    "options": [
+      "mythology and poetry",
+      "scientific observation",
+      "logical analysis",
+      "theological debate"
+    ],
+    "correct": "mythology and poetry"
+  },
+  {
+    "id": 121,
+    "question": "Pragmatism’s truth test is",
+    "options": [
+      "what works in practice",
+      "logical consistency",
+      "divine command",
+      "historical precedent"
+    ],
+    "correct": "what works in practice"
+  },
+  {
+    "id": 122,
+    "question": "Which isn’t a characteristic of philosophy?",
+    "options": [
+      "rational",
+      "universal",
+      "coherent",
+      "dogmatic"
+    ],
+    "correct": "dogmatic"
+  },
+  {
+    "id": 123,
+    "question": "Attitude of professional philosophers: philosophy must be",
+    "options": [
+      "communal",
+      "critical & systematic",
+      "metaphorical",
+      "ritualistic"
+    ],
+    "correct": "critical & systematic"
+  },
+  {
+    "id": 124,
+    "question": "Materialism holds that reality is",
+    "options": [
+      "pure matter",
+      "ideas",
+      "spirit",
+      "forms"
+    ],
+    "correct": "pure matter"
+  },
+  {
+    "id": 125,
+    "question": "Slippery slope is a fallacy of",
+    "options": [
+      "ambiguity",
+      "relevance",
+      "composition",
+      "division"
+    ],
+    "correct": "relevance"
+  },
+  {
+    "id": 126,
+    "question": "“Esse est percipi” was posited by",
+    "options": [
+      "Plato",
+      "George Berkeley",
+      "Descartes",
+      "Hume"
+    ],
+    "correct": "George Berkeley"
+  },
+  {
+    "id": 127,
+    "question": "The scope of philosophy includes all except",
+    "options": [
+      "science",
+      "religion",
+      "politics",
+      "engineering"
+    ],
+    "correct": "engineering"
+  },
+  {
+    "id": 128,
+    "question": "All kinds of logic deal with argument forms",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct": "true"
+  },
+  {
+    "id": 129,
+    "question": "Which is not a school in metaphysics?",
+    "options": [
+      "Idealism",
+      "Materialism",
+      "Existentialism",
+      "Vitalism"
+    ],
+    "correct": "Existentialism"
+  },
+  {
+    "id": 130,
+    "question": "The features of philosophy include all except",
+    "options": [
+      "critical analysis",
+      "rational coherence",
+      "judgmental value",
+      "universal inquiry"
+    ],
+    "correct": "judgmental value"
+  },
+  {
+    "id": 131,
+    "question": "Plato holds the essences of things are all except",
+    "options": [
+      "eternal",
+      "mutable",
+      "immaterial",
+      "immutable"
+    ],
+    "correct": "mutable"
+  },
+  {
+    "id": 132,
+    "question": "Ethnophilosophy claims African philosophy is found in",
+    "options": [
+      "academic journals",
+      "oral traditions & proverbs",
+      "legal codes",
+      "modern essays"
+    ],
+    "correct": "oral traditions & proverbs"
+  },
+  {
+    "id": 133,
+    "question": "Epistemology studies",
+    "options": [
+      "ethics",
+      "theory of knowledge",
+      "beauty",
+      "logic"
+    ],
+    "correct": "theory of knowledge"
+  },
+  {
+    "id": 134,
+    "question": "Another name for Ordinary Language Philosophy is",
+    "options": [
+      "logical positivism",
+      "analytical philosophy",
+      "linguistic philosophy",
+      "contemporary philosophy"
+    ],
+    "correct": "contemporary philosophy"
+  },
+  {
+    "id": 135,
+    "question": "Who coined the word “metaphysics”?",
+    "options": [
+      "Aristotle",
+      "Plato",
+      "Andronicus of Rhodes",
+      "Porphyry"
+    ],
+    "correct": "Andronicus of Rhodes"
+  },
+  {
+    "id": 136,
+    "question": "The dot “.” in symbolic logic represents",
+    "options": [
+      "conjunction",
+      "disjunction",
+      "negation",
+      "implication"
+    ],
+    "correct": "conjunction"
+  },
+  {
+    "id": 137,
+    "question": "Law of thought are basic principles because they are",
+    "options": [
+      "optional rules",
+      "context dependent",
+      "fundamental",
+      "empirical"
+    ],
+    "correct": "fundamental"
+  },
+  {
+    "id": 138,
+    "question": "Argumentum ad baculum is an appeal to",
+    "options": [
+      "force or threat",
+      "pity",
+      "ignorance",
+      "popularity"
+    ],
+    "correct": "force or threat"
+  },
+  {
+    "id": 139,
+    "question": "Pragmatism is of American origin associated with",
+    "options": [
+      "William James, John Dewey",
+      "C.S. Peirce, John Locke",
+      "John Dewey, Immanuel Kant",
+      "C.S. Peirce"
+    ],
+    "correct": "C.S. Peirce"
+  },
+  {
+    "id": 140,
+    "question": "Philosophy etymologically means",
+    "options": [
+      "love of humanity",
+      "love of wisdom",
+      "search for knowledge",
+      "study of ideas"
+    ],
+    "correct": "love of wisdom"
+  },
+  {
+    "id": 141,
+    "question": "Materialism holds that the ultimately real is",
+    "options": [
+      "spirit",
+      "matter",
+      "ideas",
+      "forms"
+    ],
+    "correct": "matter"
+  },
+  {
+    "id": 142,
+    "question": "A simple argument has",
+    "options": [
+      "many themes",
+      "few premises & one conclusion",
+      "multiple auxiliary conclusions",
+      "interlocking debates"
+    ],
+    "correct": "few premises & one conclusion"
+  },
+  {
+    "id": 143,
+    "question": "Empiricists hold knowledge begins with",
+    "options": [
+      "innate ideas",
+      "sense experience",
+      "divine inspiration",
+      "logical deduction"
+    ],
+    "correct": "sense experience"
+  },
+  {
+    "id": 144,
+    "question": "Metaphysics literally means",
+    "options": [
+      "beyond the mind",
+      "after the physical",
+      "study of nature",
+      "above logic"
+    ],
+    "correct": "after the physical"
+  },
+  {
+    "id": 145,
+    "question": "Which is not true of existentialism?",
+    "options": [
+      "existence precedes essence",
+      "life is absurd",
+      "a theory’s meaning depends on cash value",
+      "truth starts from subjectivity"
+    ],
+    "correct": "a theory’s meaning depends on cash value"
+  },
+  {
+    "id": 146,
+    "question": "The story of philosophy began with",
+    "options": [
+      "mythology and poetry",
+      "scientific observation",
+      "logical analysis",
+      "theological debate"
+    ],
+    "correct": "mythology and poetry"
+  },
+  {
+    "id": 147,
+    "question": "Slippery slope is a fallacy of",
+    "options": [
+      "ambiguity",
+      "relevance",
+      "composition",
+      "division"
+    ],
+    "correct": "relevance"
+  },
+  {
+    "id": 148,
+    "question": "Ordinary Language Philosophy focuses on",
+    "options": [
+      "clarifying everyday usage",
+      "experimenting in labs",
+      "mystical insight",
+      "communal rituals"
+    ],
+    "correct": "clarifying everyday usage"
+  },
+  {
+    "id": 149,
+    "question": "Two broad classes of informal fallacies are",
+    "options": [
+      "relevance & ambiguity",
+      "ambiguity & relevance",
+      "force & emotion",
+      "none"
+    ],
+    "correct": "ambiguity & relevance"
+  },
+  {
+    "id": 150,
+    "question": "Vitalism (dualism) posits reality is",
+    "options": [
+      "purely spiritual",
+      "purely material",
+      "a mixture of mind and matter",
+      "mathematical form"
+    ],
+    "correct": "a mixture of mind and matter"
+  },
+  {
+    "id": 151,
+    "question": "The skeptic attributed to “nothing exists” is",
+    "options": [
+      "Pyrrho",
+      "Gorgias",
+      "Sextus Empiricus",
+      "Protagoras"
+    ],
+    "correct": "Gorgias"
+  },
+  {
+    "id": 152,
+    "question": "The main proponents of pragmatism include",
+    "options": [
+      "William James, John Dewey",
+      "John Locke",
+      "Immanuel Kant",
+      "René Descartes"
+    ],
+    "correct": "William James, John Dewey"
+  },
+  {
+    "id": 153,
+    "question": "Which isn’t a characteristic of philosophy?",
+    "options": [
+      "rational",
+      "universal",
+      "coherent",
+      "dogmatic"
+    ],
+    "correct": "dogmatic"
+  },
+  {
+    "id": 154,
+    "question": "Axiology is the study of",
+    "options": [
+      "knowledge",
+      "value",
+      "argument",
+      "existence"
+    ],
+    "correct": "value"
+  },
+  {
+    "id": 155,
+    "question": "Attacking personality instead of issue is",
+    "options": [
+      "ad hominem (circumstantial)",
+      "ad hominem (tu quoque)",
+      "ad hominem (abusive)",
+      "ad hominem (guilt by association)"
+    ],
+    "correct": "ad hominem (abusive)"
+  },
+  {
+    "id": 156,
+    "question": "The scope of philosophy includes all except",
+    "options": [
+      "science",
+      "religion",
+      "politics",
+      "engineering"
+    ],
+    "correct": "engineering"
+  },
+  {
+    "id": 157,
+    "question": "Ethics studies",
+    "options": [
+      "being",
+      "knowledge",
+      "morality",
+      "language"
+    ],
+    "correct": "morality"
+  },
+  {
+    "id": 158,
+    "question": "Arg types based on truth/falsity are",
+    "options": [
+      "deductive",
+      "abductive",
+      "inductive",
+      "none"
+    ],
+    "correct": "inductive"
+  },
+  {
+    "id": 159,
+    "question": "Pragmatism’s truth test is",
+    "options": [
+      "what works in practice",
+      "logical consistency",
+      "divine command",
+      "historical precedent"
+    ],
+    "correct": "what works in practice"
+  },
+  {
+    "id": 160,
+    "question": "Philosophy of science examines",
+    "options": [
+      "scientific methods & ethics",
+      "political systems",
+      "literary criticism",
+      "religious dogma"
+    ],
+    "correct": "scientific methods & ethics"
+  },
+  {
+    "id": 161,
+    "question": "Which is not a school in metaphysics?",
+    "options": ["Idealism", "Materialism", "Existentialism", "Vitalism"],
+    "correct": "Existentialism"
+  },
+  {
+    "id": 162,
+    "question": "The story of philosophy began with",
+    "options": ["mythology and poetry", "scientific observation", "logical analysis", "theological debate"],
+    "correct": "mythology and poetry"
+  },
+  {
+    "id": 163,
+    "question": "Plato holds the essences of things are all except",
+    "options": ["eternal", "mutable", "immaterial", "immutable"],
+    "correct": "mutable"
+  },
+  {
+    "id": 164,
+    "question": "Epistemology studies",
+    "options": ["ethics", "theory of knowledge", "beauty", "logic"],
+    "correct": "theory of knowledge"
+  },
+  {
+    "id": 165,
+    "question": "Slippery slope is a fallacy of",
+    "options": ["ambiguity", "relevance", "composition", "division"],
+    "correct": "relevance"
+  },
+  {
+    "id": 166,
+    "question": "Another name for Ordinary Language Philosophy is",
+    "options": ["logical positivism", "analytical philosophy", "linguistic philosophy", "contemporary philosophy"],
+    "correct": "contemporary philosophy"
+  },
+  {
+    "id": 167,
+    "question": "Which is the odd one out?",
+    "options": ["deductive logic", "inductive logic", "modal logic", "propositional calculus"],
+    "correct": "propositional calculus"
+  },
+  {
+    "id": 168,
+    "question": "“If and only if” is symbolized as",
+    "options": ["→", "↔", "≡", "⇔"],
+    "correct": "≡"
+  },
+  {
+    "id": 169,
+    "question": "Law of thought are basic principles because they are",
+    "options": ["optional rules", "context dependent", "fundamental", "empirical"],
+    "correct": "fundamental"
+  },
+  {
+    "id": 170,
+    "question": "Materialism holds that reality is",
+    "options": ["pure matter", "ideas", "spirit", "forms"],
+    "correct": "pure matter"
+  },
+  {
+    "id": 171,
+    "question": "Philosophy etymologically means",
+    "options": ["love of humanity", "love of wisdom", "search for knowledge", "study of ideas"],
+    "correct": "love of wisdom"
+  },
+  {
+    "id": 172,
+    "question": "Citing a few bad examples to condemn all is the fallacy of",
+    "options": ["hasty generalization", "slippery slope", "false cause", "accident"],
+    "correct": "accident"
+  },
+  {
+    "id": 173,
+    "question": "Ordinary Language Philosophy focuses on",
+    "options": ["clarifying everyday usage", "experimenting in labs", "mystical insight", "communal rituals"],
+    "correct": "clarifying everyday usage"
+  },
+  {
+    "id": 174,
+    "question": "Slippery slope is a fallacy of",
+    "options": ["ambiguity", "relevance", "composition", "division"],
+    "correct": "relevance"
+  },
+  {
+    "id": 175,
+    "question": "A simple argument has",
+    "options": ["many themes", "few premises & one conclusion", "multiple auxiliary conclusions", "interlocking debates"],
+    "correct": "few premises & one conclusion"
+  },
+  {
+    "id": 176,
+    "question": "Critical analysis of televised logic:",
+    "options": ["rational", "empirical", "logical positivist", "analytic"],
+    "correct": "rational"
+  },
+  {
+    "id": 177,
+    "question": "Argumentum ad baculum is an appeal to",
+    "options": ["force or threat", "pity", "ignorance", "popularity"],
+    "correct": "force or threat"
+  },
+  {
+    "id": 178,
+    "question": "Which isn’t a characteristic of philosophy?",
+    "options": ["rational", "universal", "coherent", "dogmatic"],
+    "correct": "dogmatic"
+  },
+  {
+    "id": 179,
+    "question": "All kinds of logic deal with argument forms",
+    "options": ["true", "false"],
+    "correct": "true"
+  },
+  {
+    "id": 180,
+    "question": "Axiology is the study of",
+    "options": ["knowledge", "value", "argument", "existence"],
+    "correct": "value"
   }
 ]
