@@ -1,196 +1,1102 @@
 [
-    {
-      "id": 1,
-      "question": "The Greek word Logike means",
-      "options": ["Argument", "Art of reason", "Instrument of action", "Knowledge of the art"],
-      "correct": "Art of reason"
-    },
-    {
-      "id": 2,
-      "question": "The main proponents of pragmatism are the following except",
-      "options": ["C.S. Peirce", "John Locke", "William James", "John Dewey"],
-      "correct": "John Locke"
-    },
-    {
-      "id": 3,
-      "question": "According to Plato, true justice can be found in",
-      "options": [
-        "When the peasants, soldiers and guardians perform the specific duties they are trained to perform",
-        "When the soldiers take the place of peasants",
-        "When the guardians perform the work of the soldiers",
-        "When both the peasants and soldiers take up the activities of the guardians"
-      ],
-      "correct": "When the peasants, soldiers and guardians perform the specific duties they are trained to perform"
-    },
-    {
-      "id": 41,
-      "question": "Which of the following best describes the goal of metaphysics?",
-      "options": [
-        "Understanding sensory experience",
-        "Analyzing moral values",
-        "Exploring the ultimate nature of reality",
-        "Studying logical arguments"
-      ],
-      "correct": "Exploring the ultimate nature of reality"
-    },
-    {
-      "id": 42,
-      "question": "The theory that knowledge is primarily gained through experience is called:",
-      "options": [
-        "Rationalism",
-        "Idealism",
-        "Empiricism",
-        "Materialism"
-      ],
-      "correct": "Empiricism"
-    },
-    {
-      "id": 43,
-      "question": "Which philosopher is associated with the phrase 'I think, therefore I am'?",
-      "options": ["Socrates", "Plato", "Rene Descartes", "Immanuel Kant"],
-      "correct": "Rene Descartes"
-    },
-    {
-      "id": 44,
-      "question": "An argument that moves from general to specific is known as:",
-      "options": ["Inductive reasoning", "Deductive reasoning", "Circular reasoning", "Fallacious reasoning"],
-      "correct": "Deductive reasoning"
-    },
-    {
-      "id": 45,
-      "question": "Which branch of philosophy deals with the nature of beauty and taste?",
-      "options": ["Aesthetics", "Metaphysics", "Ethics", "Epistemology"],
-      "correct": "Aesthetics"
-    },
-    {
-      "id": 46,
-      "question": "The fallacy of hasty generalization involves:",
-      "options": [
-        "Drawing a conclusion based on insufficient evidence",
-        "Attacking the person instead of the argument",
-        "Arguing in a circle",
-        "Using emotional appeal"
-      ],
-      "correct": "Drawing a conclusion based on insufficient evidence"
-    },
-    {
-      "id": 47,
-      "question": "Which of these is NOT a valid type of categorical proposition?",
-      "options": ["Universal affirmative", "Particular negative", "Universal negative", "Universal interrogative"],
-      "correct": "Universal interrogative"
-    },
-    {
-      "id": 48,
-      "question": "The law of identity in logic states that:",
-      "options": [
-        "A thing cannot both be and not be",
-        "If A = B and B = C, then A = C",
-        "Whatever is, is",
-        "Every statement is either true or false"
-      ],
-      "correct": "Whatever is, is"
-    },
-    {
-      "id": 49,
-      "question": "Who among the following is considered a rationalist?",
-      "options": ["Aristotle", "David Hume", "John Locke", "Baruch Spinoza"],
-      "correct": "Baruch Spinoza"
-    },
-    {
-      "id": 50,
-      "question": "A statement that is either true or false, but not both is a:",
-      "options": ["Contradiction", "Paradox", "Proposition", "Analogy"],
-      "correct": "Proposition"
-    },
-    {
-      "id": 51,
-      "question": "What does a truth table represent in logic?",
-      "options": [
-        "The moral value of a proposition",
-        "The historical background of an argument",
-        "All possible truth values of a logical expression",
-        "The statistical probability of a conclusion"
-      ],
-      "correct": "All possible truth values of a logical expression"
-    },
-    {
-      "id": 52,
-      "question": "Which of these best defines ethics?",
-      "options": [
-        "Study of language",
-        "Study of ultimate reality",
-        "Study of knowledge",
-        "Study of moral principles"
-      ],
-      "correct": "Study of moral principles"
-    },
-    {
-      "id": 53,
-      "question": "What kind of logic uses symbols and formulas to represent arguments?",
-      "options": ["Informal logic", "Metaphysics", "Symbolic logic", "Syllogism"],
-      "correct": "Symbolic logic"
-    },
-    {
-      "id": 54,
-      "question": "The concept of 'tabula rasa' or blank slate is associated with:",
-      "options": ["Plato", "Descartes", "Locke", "Kant"],
-      "correct": "Locke"
-    },
-    {
-      "id": 55,
-      "question": "A conditional statement uses which symbol in propositional logic?",
-      "options": ["~", "∧", "∨", "⊃"],
-      "correct": "⊃"
-    },
-    {
-      "id": 56,
-      "question": "The term 'ontology' refers to:",
-      "options": [
-        "Study of time",
-        "Study of values",
-        "Study of knowledge",
-        "Study of being"
-      ],
-      "correct": "Study of being"
-    },
-    {
-      "id": 57,
-      "question": "What is the fallacy of red herring?",
-      "options": [
-        "Attacking an irrelevant issue to distract from the real topic",
-        "Relying solely on authority",
-        "Making circular arguments",
-        "Overstating similarities in analogy"
-      ],
-      "correct": "Attacking an irrelevant issue to distract from the real topic"
-    },
-    {
-      "id": 58,
-      "question": "Which is an example of a synthetic a posteriori proposition?",
-      "options": [
-        "2 + 2 = 4",
-        "All bachelors are unmarried",
-        "The sun will rise tomorrow",
-        "A triangle has three sides"
-      ],
-      "correct": "The sun will rise tomorrow"
-    },
-    {
-      "id": 59,
-      "question": "What does epistemology study?",
-      "options": ["Reality", "Being", "Values", "Knowledge"],
-      "correct": "Knowledge"
-    },
-    {
-      "id": 60,
-      "question": "The fallacy known as 'false dilemma' presents:",
-      "options": [
-        "Only two options when more exist",
-        "An attack on the person not the issue",
-        "An irrelevant emotional appeal",
-        "An appeal to tradition"
-      ],
-      "correct": "Only two options when more exist"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "question": "The Greek word Logike means",
+    "options": [
+      "Argument",
+      "Art of reason",
+      "Instrument of action",
+      "Knowledge of the art"
+    ],
+    "correct": "Art of reason"
+  },
+  {
+    "id": 2,
+    "question": "The main proponents of pragmatism are the following except",
+    "options": [
+      "C.S. Peirce",
+      "John Locke",
+      "William James",
+      "John Dewey"
+    ],
+    "correct": "John Locke"
+  },
+  {
+    "id": 3,
+    "question": "According to Plato, true justice can be found in",
+    "options": [
+      "When the peasants, soldiers and guardians perform the specific duties they are trained to perform",
+      "When the soldiers take the place of peasants",
+      "When the guardians perform the work of the soldiers",
+      "When both the peasants and soldiers take up the activities of the guardians"
+    ],
+    "correct": "When the peasants, soldiers and guardians perform the specific duties they are trained to perform"
+  },
+  {
+    "id": 4,
+    "question": "The famous idealist dictum “esse est percipi” is translated as",
+    "options": [
+      "To be full of knowledge",
+      "To have understanding of reality",
+      "To be is to be perceived",
+      "None of the above"
+    ],
+    "correct": "To be is to be perceived"
+  },
+  {
+    "id": 5,
+    "question": "The following are the idealists except",
+    "options": [
+      "Plato",
+      "Leibniz",
+      "Aristotle",
+      "Berkeley"
+    ],
+    "correct": "Aristotle"
+  },
+  {
+    "id": 6,
+    "question": "According to George Berkeley, the existence of anything depends on its being perceived by the",
+    "options": [
+      "The brain",
+      "The mind",
+      "Heart",
+      "Emotive mind"
+    ],
+    "correct": "The mind"
+  },
+  {
+    "id": 7,
+    "question": "Philosophy is known as a wide discipline because",
+    "options": [
+      "It deals with whole realm of human experiences",
+      "It deals with specific areas of discipline",
+      "It deals with particular areas of human endeavor",
+      "None of the above"
+    ],
+    "correct": "It deals with whole realm of human experiences"
+  },
+  {
+    "id": 8,
+    "question": "The following are features of philosophy except",
+    "options": [
+      "Critical and analysis",
+      "Rational",
+      "Judgemental value",
+      "Coherent"
+    ],
+    "correct": "Judgemental value"
+  },
+  {
+    "id": 9,
+    "question": "The story of philosophy began with",
+    "options": [
+      "Mythology and poetry",
+      "Scientific knowledge",
+      "Education",
+      "Work of art"
+    ],
+    "correct": "Mythology and poetry"
+  },
+  {
+    "id": 10,
+    "question": "Materialism holds that the ultimately real is",
+    "options": [
+      "Mind",
+      "Matter",
+      "Spirit",
+      "Soul"
+    ],
+    "correct": "Matter"
+  },
+  {
+    "id": 11,
+    "question": "Which is the odd one",
+    "options": [
+      "Correspondence method",
+      "Pragmatic method",
+      "Coherence method",
+      "Propositional calculus"
+    ],
+    "correct": "Propositional calculus"
+  },
+  {
+    "id": 12,
+    "question": "Demonstrative knowledge involves",
+    "options": [
+      "Reasoning",
+      "It entails the deductive or inductive procedures",
+      "It involves coherent method",
+      "A and B above are correct"
+    ],
+    "correct": "A and B above are correct"
+  },
+  {
+    "id": 13,
+    "question": "The dot (.) sign represents",
+    "options": [
+      "Conjunction",
+      "Negation",
+      "Biconditional",
+      "Conditional"
+    ],
+    "correct": "Conjunction"
+  },
+  {
+    "id": 14,
+    "question": "The logical expression “if and only if” is symbolized as",
+    "options": [
+      "V",
+      "⊃",
+      "≡",
+      "≥"
+    ],
+    "correct": "≡"
+  },
+  {
+    "id": 15,
+    "question": "Ethics is also known as",
+    "options": [
+      "Moral philosophy",
+      "Philosophical analysis",
+      "Philosophical language",
+      "Atomistic philosophy"
+    ],
+    "correct": "Moral philosophy"
+  },
+  {
+    "id": 16,
+    "question": "The hallmark of philosophy is",
+    "options": [
+      "Ideas",
+      "Criticism",
+      "Consensus",
+      "Abstractions"
+    ],
+    "correct": "Criticism"
+  },
+  {
+    "id": 17,
+    "question": "Another name for Ordinary Language Philosophy is",
+    "options": [
+      "Logical atomism",
+      "Logical positivism",
+      "Existentialism",
+      "Contemporary philosophy"
+    ],
+    "correct": "Logical atomism"
+  },
+  {
+    "id": 18,
+    "question": "Pragmatism is a movement of American origin associated with",
+    "options": [
+      "Plato",
+      "Rene Descartes",
+      "Berkeley",
+      "C.S. Peirce"
+    ],
+    "correct": "C.S. Peirce"
+  },
+  {
+    "id": 19,
+    "question": "The prominent names in existentialism are the following except",
+    "options": [
+      "Soren Kierkegaard",
+      "Maltin Buber",
+      "Kant",
+      "Jean Paul Sartre"
+    ],
+    "correct": "Kant"
+  },
+  {
+    "id": 20,
+    "question": "The Islamic philosophers are the following except",
+    "options": [
+      "Avicenna",
+      "Averroes",
+      "Alfarabi",
+      "Aquinas"
+    ],
+    "correct": "Aquinas"
+  },
+  {
+    "id": 21,
+    "question": "_____ Sceptic is attributed to the statement “nothing exists, that even if anything existed, it cannot be known, and that even if it can be known, it can be communicated to other people”",
+    "options": [
+      "Timon",
+      "Georgias",
+      "Kant",
+      "Augustine"
+    ],
+    "correct": "Georgias"
+  },
+  {
+    "id": 22,
+    "question": "Epistemology derives from two Greek words _________ & _________",
+    "options": [
+      "Episteme & matter",
+      "Logos & ideas",
+      "Episteme & logos",
+      "Mind & matter"
+    ],
+    "correct": "Episteme & logos"
+  },
+  {
+    "id": 23,
+    "question": "Plato holds that the true nature or the essences of things are _______ except",
+    "options": [
+      "Visible",
+      "Immutable",
+      "Eternal",
+      "Immaterial"
+    ],
+    "correct": "Visible"
+  },
+  {
+    "id": 24,
+    "question": "To say that the scope of philosophy is very wide means that",
+    "options": [
+      "Philosophy deals with the whole realm of human experience.",
+      "Philosophy questions whatever is at all",
+      "Philosophy at the very beginning with the Greeks embraced all subjects",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 25,
+    "question": "The way a philosopher perceives philosophy is often coloured by",
+    "options": [
+      "His peculiar experience",
+      "His orientation or training",
+      "His circumstances and environment",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 26,
+    "question": "The ad verecundiam fallacy is committed when one",
+    "options": [
+      "Appeals to authority rather than to the facts or evidence",
+      "Appeals to force",
+      "Appeals to ignorance",
+      "Appeals to God"
+    ],
+    "correct": "Appeals to authority rather than to the facts or evidence"
+  },
+  {
+    "id": 27,
+    "question": "When a few bad persons are cited as examples to condemn all persons, which fallacy is committed?",
+    "options": [
+      "False cause",
+      "Converse accident",
+      "Argumentum ad populum",
+      "Accident"
+    ],
+    "correct": "Converse accident"
+  },
+  {
+    "id": 28,
+    "question": "All kinds of logic deal with argument forms",
+    "options": [
+      "True",
+      "False",
+      "None of the above",
+      "All of the above"
+    ],
+    "correct": "True"
+  },
+  {
+    "id": 29,
+    "question": "The types of propositions to exclude in logic are",
+    "options": [
+      "Exclamatory sentence",
+      "Interrogative sentences",
+      "Imperative sentences",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is not true of existentialism?",
+    "options": [
+      "It is a continental European philosophy, prominent in France and Germany",
+      "Reality is in action and truth must start from subjectivity",
+      "A theory is meaningful if it has cash value",
+      "Man first of all exists, turns up and only afterwards defines himself"
+    ],
+    "correct": "A theory is meaningful if it has cash value"
+  },
+  {
+    "id": 31,
+    "question": "Laws of thought are the basic principles of the thinking process because",
+    "options": [
+      "They constitute the absolute starting points of all forms of reasoning.",
+      "They form the backgrounders to all human thinking processes and discourse",
+      "Only (a) to (b)",
+      "None of the above"
+    ],
+    "correct": "Only (a) to (b)"
+  },
+  {
+    "id": 32,
+    "question": "_____________ & _____________ are the two broad classes of informal fallacies",
+    "options": [
+      "Equivocation & division",
+      "Ambiguity & relevance",
+      "Complex & false cause",
+      "Composition & accident"
+    ],
+    "correct": "Ambiguity & relevance"
+  },
+  {
+    "id": 33,
+    "question": "______ is a philosopher who asserted that you cannot step twice into the same river",
+    "options": [
+      "Heraclitus",
+      "Parmenides",
+      "Plato",
+      "Anaximenes"
+    ],
+    "correct": "Heraclitus"
+  },
+  {
+    "id": 34,
+    "question": "______ postulated the idealist dictum 'Esse Est Percipi' — to be is to be perceived",
+    "options": [
+      "Rene Descartes",
+      "George Berkeley",
+      "Plato",
+      "Parmenides"
+    ],
+    "correct": "George Berkeley"
+  },
+  {
+    "id": 35,
+    "question": "_______ was the philosopher who first coined the word metaphysics",
+    "options": [
+      "Aristotle",
+      "Plato",
+      "Andronicus of Rhodes",
+      "Rene Descartes"
+    ],
+    "correct": "Andronicus of Rhodes"
+  },
+  {
+    "id": 36,
+    "question": "Which fallacy is committed when we pose questions to our opponent in such a way that whichever answer he gives would make him guilty?",
+    "options": [
+      "Ignorantio Elenchi",
+      "False cause",
+      "Complex question",
+      "Accident"
+    ],
+    "correct": "Complex question"
+  },
+  {
+    "id": 37,
+    "question": "Which type of fallacy of relevance attacks personalities rather than the point at stake?",
+    "options": [
+      "Argumentum ad ignorantiam",
+      "False cause",
+      "The abusive variety of the ad hominem argument",
+      "Accident"
+    ],
+    "correct": "The abusive variety of the ad hominem argument"
+  },
+  {
+    "id": 38,
+    "question": "Modern philosophy concentrated on",
+    "options": [
+      "The elaboration of rationalism and empiricism",
+      "The espousal of two-realm cosmologies",
+      "The elaboration of atomism",
+      "All of the above"
+    ],
+    "correct": "All of the above"
+  },
+  {
+    "id": 39,
+    "question": "Argument types that thrive not on formal validity, but on the truth or falsity, correctness or incorrectness of their propositions are known as",
+    "options": [
+      "Reductive arguments",
+      "Syllogisms",
+      "Inductive arguments",
+      "Deductive inference"
+    ],
+    "correct": "Inductive arguments"
+  },
+  {
+    "id": 40,
+    "question": "The following form of invalid argument is typical of which fallacy? 'I have taken your car. I am bigger and stronger than you are. Therefore, you cannot get your car back.'",
+    "options": [
+      "Argumentum ad Hominem",
+      "Argumentum ad Misericordiam",
+      "Argumentum ad Baculum",
+      "Ignoratio elenchi"
+    ],
+    "correct": "Argumentum ad Baculum"
+  },
+  {
+    "id": 41,
+    "question": "Which of the following best describes the goal of metaphysics?",
+    "options": [
+      "Understanding sensory experience",
+      "Analyzing moral values",
+      "Exploring the ultimate nature of reality",
+      "Studying logical arguments"
+    ],
+    "correct": "Exploring the ultimate nature of reality"
+  },
+  {
+    "id": 42,
+    "question": "The theory that knowledge is primarily gained through experience is called:",
+    "options": [
+      "Rationalism",
+      "Idealism",
+      "Empiricism",
+      "Materialism"
+    ],
+    "correct": "Empiricism"
+  },
+  {
+    "id": 43,
+    "question": "Which philosopher is associated with the phrase 'I think, therefore I am'?",
+    "options": [
+      "Socrates",
+      "Plato",
+      "Rene Descartes",
+      "Immanuel Kant"
+    ],
+    "correct": "Rene Descartes"
+  },
+  {
+    "id": 44,
+    "question": "An argument that moves from general to specific is known as:",
+    "options": [
+      "Inductive reasoning",
+      "Deductive reasoning",
+      "Circular reasoning",
+      "Fallacious reasoning"
+    ],
+    "correct": "Deductive reasoning"
+  },
+  {
+    "id": 45,
+    "question": "Which branch of philosophy deals with the nature of beauty and taste?",
+    "options": [
+      "Aesthetics",
+      "Metaphysics",
+      "Ethics",
+      "Epistemology"
+    ],
+    "correct": "Aesthetics"
+  },
+  {
+    "id": 46,
+    "question": "The fallacy of hasty generalization involves:",
+    "options": [
+      "Drawing a conclusion based on insufficient evidence",
+      "Attacking the person instead of the argument",
+      "Arguing in a circle",
+      "Using emotional appeal"
+    ],
+    "correct": "Drawing a conclusion based on insufficient evidence"
+  },
+  {
+    "id": 47,
+    "question": "Which of these is NOT a valid type of categorical proposition?",
+    "options": [
+      "Universal affirmative",
+      "Particular negative",
+      "Universal negative",
+      "Universal interrogative"
+    ],
+    "correct": "Universal interrogative"
+  },
+  {
+    "id": 48,
+    "question": "The law of identity in logic states that:",
+    "options": [
+      "A thing cannot both be and not be",
+      "If A = B and B = C, then A = C",
+      "Whatever is, is",
+      "Every statement is either true or false"
+    ],
+    "correct": "Whatever is, is"
+  },
+  {
+    "id": 49,
+    "question": "Who among the following is considered a rationalist?",
+    "options": [
+      "Aristotle",
+      "David Hume",
+      "John Locke",
+      "Baruch Spinoza"
+    ],
+    "correct": "Baruch Spinoza"
+  },
+  {
+    "id": 50,
+    "question": "A statement that is either true or false, but not both is a:",
+    "options": [
+      "Contradiction",
+      "Paradox",
+      "Proposition",
+      "Analogy"
+    ],
+    "correct": "Proposition"
+  },
+  {
+    "id": 51,
+    "question": "What does a truth table represent in logic?",
+    "options": [
+      "The moral value of a proposition",
+      "The historical background of an argument",
+      "All possible truth values of a logical expression",
+      "The statistical probability of a conclusion"
+    ],
+    "correct": "All possible truth values of a logical expression"
+  },
+  {
+    "id": 52,
+    "question": "Which of these best defines ethics?",
+    "options": [
+      "Study of language",
+      "Study of ultimate reality",
+      "Study of knowledge",
+      "Study of moral principles"
+    ],
+    "correct": "Study of moral principles"
+  },
+  {
+    "id": 53,
+    "question": "What kind of logic uses symbols and formulas to represent arguments?",
+    "options": [
+      "Informal logic",
+      "Metaphysics",
+      "Symbolic logic",
+      "Syllogism"
+    ],
+    "correct": "Symbolic logic"
+  },
+  {
+    "id": 54,
+    "question": "The concept of 'tabula rasa' or blank slate is associated with:",
+    "options": [
+      "Plato",
+      "Descartes",
+      "Locke",
+      "Kant"
+    ],
+    "correct": "Locke"
+  },
+  {
+    "id": 55,
+    "question": "A conditional statement uses which symbol in propositional logic?",
+    "options": [
+      "~",
+      "∧",
+      "∨",
+      "⊃"
+    ],
+    "correct": "⊃"
+  },
+  {
+    "id": 56,
+    "question": "The term 'ontology' refers to:",
+    "options": [
+      "Study of time",
+      "Study of values",
+      "Study of knowledge",
+      "Study of being"
+    ],
+    "correct": "Study of being"
+  },
+  {
+    "id": 57,
+    "question": "What is the fallacy of red herring?",
+    "options": [
+      "Attacking an irrelevant issue to distract from the real topic",
+      "Relying solely on authority",
+      "Making circular arguments",
+      "Overstating similarities in analogy"
+    ],
+    "correct": "Attacking an irrelevant issue to distract from the real topic"
+  },
+  {
+    "id": 58,
+    "question": "Which is an example of a synthetic a posteriori proposition?",
+    "options": [
+      "2 + 2 = 4",
+      "All bachelors are unmarried",
+      "The sun will rise tomorrow",
+      "A triangle has three sides"
+    ],
+    "correct": "The sun will rise tomorrow"
+  },
+  {
+    "id": 59,
+    "question": "What does epistemology study?",
+    "options": [
+      "Reality",
+      "Being",
+      "Values",
+      "Knowledge"
+    ],
+    "correct": "Knowledge"
+  },
+  {
+    "id": 60,
+    "question": "The fallacy known as 'false dilemma' presents:",
+    "options": [
+      "Only two options when more exist",
+      "An attack on the person not the issue",
+      "An irrelevant emotional appeal",
+      "An appeal to tradition"
+    ],
+    "correct": "Only two options when more exist"
+  },
+  {
+    "id": 61,
+    "question": "Which philosopher argued that reality is composed of unchanging forms?",
+    "options": [
+      "Aristotle",
+      "Plato",
+      "Heraclitus",
+      "Kant"
+    ],
+    "correct": "Plato"
+  },
+  {
+    "id": 62,
+    "question": "In propositional logic, the symbol '∨' stands for:",
+    "options": [
+      "Negation",
+      "Disjunction",
+      "Conjunction",
+      "Conditional"
+    ],
+    "correct": "Disjunction"
+  },
+  {
+    "id": 63,
+    "question": "Which of the following best defines an inductive argument?",
+    "options": [
+      "An argument with a necessarily true conclusion",
+      "An argument based on statistics or observation",
+      "A valid syllogism",
+      "A deductive fallacy"
+    ],
+    "correct": "An argument based on statistics or observation"
+  },
+  {
+    "id": 64,
+    "question": "What type of fallacy is committed when someone argues that a claim is true simply because many people believe it?",
+    "options": [
+      "Ad populum",
+      "Ad hominem",
+      "Ad baculum",
+      "Red herring"
+    ],
+    "correct": "Ad populum"
+  },
+  {
+    "id": 65,
+    "question": "What does the term 'philosophy' literally mean in Greek?",
+    "options": [
+      "Love of nature",
+      "Love of reason",
+      "Love of wisdom",
+      "Search for God"
+    ],
+    "correct": "Love of wisdom"
+  },
+  {
+    "id": 66,
+    "question": "The philosophical idea that nothing exists outside our perception is closely tied to:",
+    "options": [
+      "Materialism",
+      "Empiricism",
+      "Idealism",
+      "Existentialism"
+    ],
+    "correct": "Idealism"
+  },
+  {
+    "id": 67,
+    "question": "The principle of sufficient reason is most associated with which philosopher?",
+    "options": [
+      "Leibniz",
+      "Hume",
+      "Sartre",
+      "Plato"
+    ],
+    "correct": "Leibniz"
+  },
+  {
+    "id": 68,
+    "question": "A valid deductive argument with false premises leads to:",
+    "options": [
+      "A true conclusion",
+      "An invalid argument",
+      "A possibly false conclusion",
+      "An inductive fallacy"
+    ],
+    "correct": "A possibly false conclusion"
+  },
+  {
+    "id": 69,
+    "question": "Socratic method primarily involves:",
+    "options": [
+      "Memorization",
+      "Observation",
+      "Question and answer dialogue",
+      "Symbolic reasoning"
+    ],
+    "correct": "Question and answer dialogue"
+  },
+  {
+    "id": 70,
+    "question": "Which fallacy involves attacking the speaker instead of the argument?",
+    "options": [
+      "Strawman",
+      "Red herring",
+      "Ad hominem",
+      "Appeal to ignorance"
+    ],
+    "correct": "Ad hominem"
+  },
+  {
+    "id": 71,
+    "question": "Kant’s philosophy centers around the idea of:",
+    "options": [
+      "Divine command theory",
+      "Moral relativism",
+      "Categorical imperative",
+      "Utilitarian calculus"
+    ],
+    "correct": "Categorical imperative"
+  },
+  {
+    "id": 72,
+    "question": "A syllogism is a form of reasoning involving:",
+    "options": [
+      "One premise",
+      "Two premises and a conclusion",
+      "Inductive evidence",
+      "Contradictory terms"
+    ],
+    "correct": "Two premises and a conclusion"
+  },
+  {
+    "id": 73,
+    "question": "Which of the following philosophers is known for the concept of 'being-toward-death'?",
+    "options": [
+      "Camus",
+      "Heidegger",
+      "Nietzsche",
+      "Hume"
+    ],
+    "correct": "Heidegger"
+  },
+  {
+    "id": 74,
+    "question": "Which term refers to the study of valid reasoning?",
+    "options": [
+      "Epistemology",
+      "Logic",
+      "Metaphysics",
+      "Aesthetics"
+    ],
+    "correct": "Logic"
+  },
+  {
+    "id": 75,
+    "question": "An argument is sound if and only if:",
+    "options": [
+      "It is valid and its premises are true",
+      "It uses symbols",
+      "It is persuasive",
+      "It has a long history"
+    ],
+    "correct": "It is valid and its premises are true"
+  },
+  {
+    "id": 76,
+    "question": "The law of excluded middle asserts that:",
+    "options": [
+      "Every proposition is both true and false",
+      "Something cannot both be and not be",
+      "A statement is either true or false",
+      "All truths are subjective"
+    ],
+    "correct": "A statement is either true or false"
+  },
+  {
+    "id": 77,
+    "question": "John Stuart Mill is best known for developing which ethical theory?",
+    "options": [
+      "Deontology",
+      "Virtue ethics",
+      "Utilitarianism",
+      "Egoism"
+    ],
+    "correct": "Utilitarianism"
+  },
+  {
+    "id": 78,
+    "question": "What does the fallacy of composition assume?",
+    "options": [
+      "What is true of the parts is true of the whole",
+      "A premise leads to itself",
+      "The conclusion has emotional appeal",
+      "No evidence is needed"
+    ],
+    "correct": "What is true of the parts is true of the whole"
+  },
+  {
+    "id": 79,
+    "question": "Which of the following best describes phenomenology?",
+    "options": [
+      "Study of logic through truth tables",
+      "Study of knowledge based on sensory data",
+      "Study of conscious experience",
+      "Study of ethics in political contexts"
+    ],
+    "correct": "Study of conscious experience"
+  },
+  {
+    "id": 80,
+    "question": "Which ancient Greek philosopher tutored Alexander the Great?",
+    "options": [
+      "Socrates",
+      "Aristotle",
+      "Plato",
+      "Epicurus"
+    ],
+    "correct": "Aristotle"
+  },
+  {
+    "id": 81,
+    "question": "To argue that a claim is true because it has never been proven false is what fallacy?",
+    "options": [
+      "Appeal to force",
+      "Appeal to ignorance",
+      "Red herring",
+      "Begging the question"
+    ],
+    "correct": "Appeal to ignorance"
+  },
+  {
+    "id": 82,
+    "question": "Who is regarded as the father of modern philosophy?",
+    "options": [
+      "Plato",
+      "Kant",
+      "Descartes",
+      "Hegel"
+    ],
+    "correct": "Descartes"
+  },
+  {
+    "id": 83,
+    "question": "Which of these is a formal fallacy?",
+    "options": [
+      "Strawman",
+      "Denying the antecedent",
+      "Appeal to pity",
+      "Ad populum"
+    ],
+    "correct": "Denying the antecedent"
+  },
+  {
+    "id": 84,
+    "question": "What does it mean if an argument is invalid?",
+    "options": [
+      "The premises do not support the conclusion logically",
+      "It is offensive",
+      "It’s not persuasive",
+      "It uses technical terms"
+    ],
+    "correct": "The premises do not support the conclusion logically"
+  },
+  {
+    "id": 85,
+    "question": "According to Aristotle, the 'Golden Mean' refers to:",
+    "options": [
+      "Mathematical balance",
+      "Middle path between two extremes",
+      "Divine rule",
+      "Law of averages"
+    ],
+    "correct": "Middle path between two extremes"
+  },
+  {
+    "id": 86,
+    "question": "Nietzsche famously declared:",
+    "options": [
+      "I doubt, therefore I am",
+      "Man is a political animal",
+      "God is dead",
+      "Knowledge is perception"
+    ],
+    "correct": "God is dead"
+  },
+  {
+    "id": 87,
+    "question": "Which of these best defines dualism?",
+    "options": [
+      "All reality is physical",
+      "All knowledge is subjective",
+      "Mind and body are separate substances",
+      "Truth is based on usefulness"
+    ],
+    "correct": "Mind and body are separate substances"
+  },
+  {
+    "id": 88,
+    "question": "Which philosopher is known for the 'categorical imperative'?",
+    "options": [
+      "Descartes",
+      "Aristotle",
+      "Kant",
+      "Bentham"
+    ],
+    "correct": "Kant"
+  },
+  {
+    "id": 89,
+    "question": "A fallacy of equivocation occurs when:",
+    "options": [
+      "An irrelevant issue is introduced",
+      "An appeal is made to fear",
+      "A word is used in two different senses",
+      "Authority is misused"
+    ],
+    "correct": "A word is used in two different senses"
+  },
+  {
+    "id": 90,
+    "question": "The concept of 'absurdity' in philosophy is linked with:",
+    "options": [
+      "Camus",
+      "Hobbes",
+      "Kant",
+      "Locke"
+    ],
+    "correct": "Camus"
+  },
+  {
+    "id": 91,
+    "question": "Logic that relies on if-then statements is called:",
+    "options": [
+      "Predicate logic",
+      "Conditional reasoning",
+      "Empirical logic",
+      "Analytic logic"
+    ],
+    "correct": "Conditional reasoning"
+  },
+  {
+    "id": 92,
+    "question": "In ethics, what is moral relativism?",
+    "options": [
+      "All moral truth is universal",
+      "Morality depends on culture or perspective",
+      "There are no moral values",
+      "Morality is derived from laws"
+    ],
+    "correct": "Morality depends on culture or perspective"
+  },
+  {
+    "id": 93,
+    "question": "Existentialism focuses heavily on:",
+    "options": [
+      "Mathematical certainty",
+      "Abstract concepts",
+      "Human freedom and responsibility",
+      "Biological survival"
+    ],
+    "correct": "Human freedom and responsibility"
+  },
+  {
+    "id": 94,
+    "question": "An analytic proposition is one that is:",
+    "options": [
+      "True by definition",
+      "Based on observation",
+      "Always false",
+      "Discovered through experimentation"
+    ],
+    "correct": "True by definition"
+  },
+  {
+    "id": 95,
+    "question": "Which symbol represents logical negation?",
+    "options": [
+      "~",
+      "∨",
+      "⊃",
+      "≡"
+    ],
+    "correct": "~"
+  },
+  {
+    "id": 96,
+    "question": "The idea that 'truth is what works' is most aligned with:",
+    "options": [
+      "Rationalism",
+      "Empiricism",
+      "Pragmatism",
+      "Idealism"
+    ],
+    "correct": "Pragmatism"
+  },
+  {
+    "id": 97,
+    "question": "Who believed that human beings are born with innate ideas?",
+    "options": [
+      "Aristotle",
+      "John Locke",
+      "David Hume",
+      "Plato"
+    ],
+    "correct": "Plato"
+  },
+  {
+    "id": 98,
+    "question": "What is the principle of non-contradiction?",
+    "options": [
+      "A statement must be verified",
+      "Two things can't occupy the same space",
+      "A statement cannot be both true and false at the same time",
+      "Contradictions lead to truth"
+    ],
+    "correct": "A statement cannot be both true and false at the same time"
+  },
+  {
+    "id": 99,
+    "question": "Which ethical theory says actions are right if they produce the greatest happiness for the greatest number?",
+    "options": [
+      "Deontology",
+      "Utilitarianism",
+      "Virtue ethics",
+      "Nihilism"
+    ],
+    "correct": "Utilitarianism"
+  },
+  {
+    "id": 100,
+    "question": "According to Socrates, the unexamined life is:",
+    "options": [
+      "Joyful",
+      "Peaceful",
+      "Not worth living",
+      "Full of wisdom"
+    ],
+    "correct": "Not worth living"
+  }
+]

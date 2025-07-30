@@ -35,7 +35,12 @@ const QuizApp = () => {
 
     window.scrollTo({ top: 0, behavior: "smooth" });
     const shuffled = [...questionsData].sort(() => 0.5 - Math.random());
-    setQuestions(shuffled.slice(0, numQuestions));
+    console.log("Total questions in data:", questionsData.length);
+    console.log("Number of questions requested:", numQuestions);
+    console.log("Shuffled array length:", shuffled.length);
+    const selectedQuestions = shuffled.slice(0, numQuestions);
+    console.log("Selected questions length:", selectedQuestions.length);
+    setQuestions(selectedQuestions);
     setUserAnswers({});
     setQuizStarted(true);
     setTimer(timeLimit * 60);
@@ -107,33 +112,33 @@ const QuizApp = () => {
       <div className="p-5  min-h-screen flex flex-col max-w-2xl mx-auto text-center">
         {score !== null && (
           <>
-          <div className="mt-4 text-center items-center py-20 flex flex-col gap-2">
-            <h2 className=" font-bold text-3xl pb-4">Your result</h2>
-            <p>
-              Score: {score} / {questions.length}
-            </p>
-            <p>Percentage: {Math.round(percent)}%</p>
+            <div className="mt-4 text-center items-center py-20 flex flex-col gap-2">
+              <h2 className=" font-bold text-3xl pb-4">Your result</h2>
+              <p>
+                Score: {score} / {questions.length}
+              </p>
+              <p>Percentage: {Math.round(percent)}%</p>
 
-            <p className="text-lg text-[#999999] py-4">
-              {" "}
-              {percent < 1
-                ? "Did you even try?!"
-                : percent >= 100
-                ? "Go ace that exam!"
-                : percent > 70
-                ? "Little more practice to perfection "
-                : percent > 50
-                ? "You just might be ready "
-                : "You definitely can do better"}
-            </p>
+              <p className="text-lg text-[#999999] py-4">
+                {" "}
+                {percent < 1
+                  ? "Did you even try?!"
+                  : percent >= 100
+                    ? "Go ace that exam!"
+                    : percent > 70
+                      ? "Little more practice to perfection "
+                      : percent > 50
+                        ? "You just might be ready "
+                        : "You definitely can do better"}
+              </p>
 
-            <button
-              className="mt-4 w-max bg-[#f9f9f9] text-[#191919] px-6 py-3 rounded-xl hover:brightness-105 hover:shadow-xl hover:shadow-[#99999920] duration-150"
-              onClick={retryQuiz}
-            >
-              Hide result
-            </button>
-          </div>
+              <button
+                className="mt-4 w-max bg-[#f9f9f9] text-[#191919] px-6 py-3 rounded-xl hover:brightness-105 hover:shadow-xl hover:shadow-[#99999920] duration-150"
+                onClick={retryQuiz}
+              >
+                Hide result
+              </button>
+            </div>
 
 
             {/* {allFailed.map(x => (
@@ -170,7 +175,7 @@ const QuizApp = () => {
                 {/* MAPPING NUMBER OF QUESTIONS */}
                 {/* [ 10, 20, 30, 60, 85] */}
                 {/* [10, 20, 30, 55] */}
-                {[10, 30, 60, 100, 130].map((num) => (
+                {[10, 30, 60, 100].map((num) => (
                   <option
                     className="text-white bg-[#0e0e0e]"
                     key={num}
@@ -217,7 +222,7 @@ const QuizApp = () => {
               />
 
               <div className="my-4  w-full text-sm text-[#999999] text-start">
-                  Time Left: { (Math.floor(timer / 60))< 10 ?"0": ""}{Math.floor(timer / 60)}:{(timer % 60)< 10? "0": ""}{timer % 60}
+                Time Left: {(Math.floor(timer / 60)) < 10 ? "0" : ""}{Math.floor(timer / 60)}:{(timer % 60) < 10 ? "0" : ""}{timer % 60}
               </div>
               <div className="METER-BAR w-full bg-[#99999930] h-max p-1 mb-2 rounded-full">
                 <div
@@ -233,36 +238,39 @@ const QuizApp = () => {
               </h1>
             </div>
 
-            {questions.map((q, index) => (
-              <div
-                key={q.id}
-                className="questionCard stickytop-0 bgwhite bg-[#99999915]  p-2 backdrop-blur-sm   border-spacing-9  rounded-xl  my-4  "
-              >
-                <p className="font-bold p-4  text-left">
-                  {index + 1}. {q.question}
-                </p>
-                {q.options.map((opt) => (
-                  <label
-                    key={opt}
-                    className="option hover:bg-[#99999910] duration-200 *:duration-200 py-2 rounded-lg cursor-pointer px-4 items-center flex gap-2 text-left"
-                  >
-                    <input
-                      type="radio"
-                      hidden={true}
-                      className="invisible hidden opacity-0"
-                      name={q.id}
-                      value={opt}
-                      checked={userAnswers[q.id] === opt}
-                      onChange={() => handleAnswer(q.id, opt)}
-                    />{" "}
-                    <div className="radio flex items-center justify-center min-h-2 min-w-2 shrink-0 w-4 h-4 border-2 border-gray-300 rounded">
-                      <div className="ticked radio-check grow-0 w-2 h-2 min-w-2 min-h-2 bg-green-500 rounded-sm shrink-0"></div>
-                    </div>
-                    {opt}
-                  </label>
-                ))}
-              </div>
-            ))}
+            {questions.map((q, index) => {
+              console.log(`Rendering question ${index + 1}:`, q.id);
+              return (
+                <div
+                  key={q.id}
+                  className="questionCard stickytop-0 bgwhite bg-[#99999915]  p-2 backdrop-blur-sm   border-spacing-9  rounded-xl  my-4  "
+                >
+                  <p className="font-bold p-4  text-left">
+                    {index + 1}. {q.question}
+                  </p>
+                  {q.options.map((opt) => (
+                    <label
+                      key={opt}
+                      className="option hover:bg-[#99999910] duration-200 *:duration-200 py-2 rounded-lg cursor-pointer px-4 items-center flex gap-2 text-left"
+                    >
+                      <input
+                        type="radio"
+                        hidden={true}
+                        className="invisible hidden opacity-0"
+                        name={q.id}
+                        value={opt}
+                        checked={userAnswers[q.id] === opt}
+                        onChange={() => handleAnswer(q.id, opt)}
+                      />{" "}
+                      <div className="radio flex items-center justify-center min-h-2 min-w-2 shrink-0 w-4 h-4 border-2 border-gray-300 rounded">
+                        <div className="ticked radio-check grow-0 w-2 h-2 min-w-2 min-h-2 bg-green-500 rounded-sm shrink-0"></div>
+                      </div>
+                      {opt}
+                    </label>
+                  ))}
+                </div>
+              );
+            })}
 
             <button
               className="mt-4 my-8 bg-green-500 active:bg-green-600 text-white px-6 py-3 rounded-xl hover:shadow-xl hover:shadow-[#99999920] duration-150 hover:brightness-105"
@@ -286,3 +294,4 @@ const QuizApp = () => {
 };
 
 export default QuizApp;
+
