@@ -165,7 +165,7 @@ const QuizApp = () => {
           </>
         )}
 
-        {score !== null && showCorrections && (
+        {score !== null && (
           <div className="correction-board border-y border-white/15 py-8 mb-8">
             <div className="head flex w-full items-center gap-4 justify-between">
               <div>
@@ -175,13 +175,13 @@ const QuizApp = () => {
 
               <div 
                 className="border w-max p-1 px-3 rounded-lg cursor-pointer border-[#9c9c9c]/40 duration-200 hover:bg-[#9c9c9c]/15"
-                onClick={() => setShowCorrections(false)}
+                onClick={() => setShowCorrections(prev => !prev)}
               >
-                Hide
+                {showCorrections? "Hide": "Show"}
               </div>
             </div>
             
-            <div className="allCorrections py-4">
+            { showCorrections && <div className="allCorrections py-4">
               {allFailed.map((question, index) => (
                 <div key={question.id} className="correction-box text-left rounded-md mt-2 border-[#9c9c9c]/30 bg border p-4">
                   <div className="failed-question">
@@ -193,7 +193,7 @@ const QuizApp = () => {
                   </div>
                 </div>
               ))}
-            </div>
+            </div>}
           </div>
         )}
 
