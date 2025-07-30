@@ -165,7 +165,7 @@ const QuizApp = () => {
           </>
         )}
 
-        {
+        {score !== null && showCorrections && (
           <div className="correction-board border-y border-white/15 py-8 mb-8">
             <div className="head flex w-full items-center gap-4 justify-between">
               <div>
@@ -173,29 +173,29 @@ const QuizApp = () => {
                 <p className="text-[#9c9c9c]/90">{allFailed.length} questions wrong</p>
               </div>
 
-              <div
+              <div 
                 className="border w-max p-1 px-3 rounded-lg cursor-pointer border-[#9c9c9c]/40 duration-200 hover:bg-[#9c9c9c]/15"
-                onClick={() => setShowCorrections(prev => !prev)}
+                onClick={() => setShowCorrections(false)}
               >
-                {showCorrections? "Hide": "Show"}
+                Hide
               </div>
             </div>
-
-            {score !== null && showCorrections && <div className="allCorrections py-4">
+            
+            <div className="allCorrections py-4">
               {allFailed.map((question, index) => (
                 <div key={question.id} className="correction-box text-left rounded-md mt-2 border-[#9c9c9c]/30 bg border p-4">
                   <div className="failed-question">
                     {question.question}
                   </div>
                   <div className="correct-answer flex gap-4 items-center justify-between text-[#9c9c9c]/60 text-sm mt-1">
-                    <p className="text-green-500">{question.correct}</p>
+                    <p className="text-green-500">{question.correct}</p> 
                     <span>Correct answer</span>
                   </div>
                 </div>
               ))}
-            </div>}
+            </div>
           </div>
-        }
+        )}
 
 
         {!quizStarted ? (
@@ -219,8 +219,8 @@ const QuizApp = () => {
                   </label>
                   <select
                     className={`p-4 rounded-xl px-4 w-full ${testOnlyMode
-                      ? "bg-[#99999910] cursor-not-allowed"
-                      : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
+                        ? "bg-[#99999910] cursor-not-allowed"
+                        : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
                       } duration-150`}
                     value={40}
                     disabled={testOnlyMode}
@@ -244,8 +244,8 @@ const QuizApp = () => {
                   </label>
                   <select
                     className={`p-4 rounded-xl px-4 w-full ${testOnlyMode
-                      ? "bg-[#99999910] cursor-not-allowed"
-                      : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
+                        ? "bg-[#99999910] cursor-not-allowed"
+                        : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
                       } duration-150`}
                     value={numQuestions}
                     onChange={(e) => setNumQuestions(Number(e.target.value))}
