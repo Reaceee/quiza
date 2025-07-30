@@ -19,6 +19,7 @@ const QuizApp = () => {
   const [course, setCourse] = useState("Philosophy, Logic and Human Existence");
   const [courseCode, setCourseCode] = useState("GST 212");
   const [testOnlyMode, setTestOnlyMode] = useState(false);
+  const [showCorrections, setShowCorrections] = useState(false);
   useEffect(() => {
     if (quizStarted && timer >= 0) {
       const interval = setInterval(() => setTimer((prev) => prev - 1), 1000);
@@ -44,10 +45,10 @@ const QuizApp = () => {
     setAllFailed([]);
 
     window.scrollTo({ top: 0, behavior: "smooth" });
-    
+
     // Choose question source based on test-only mode
     const questionSource = testOnlyMode ? testOnly : questionsData;
-    
+
     const shuffled = [...questionSource].sort(() => 0.5 - Math.random());
     const selectedQuestions = shuffled.slice(0, numQuestions);
     setQuestions(selectedQuestions);
@@ -67,18 +68,21 @@ const QuizApp = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 
     let correctAnswers = 0;
+    const failedQuestions = [];
     questions.forEach((q) => {
       if (userAnswers[q.id] === q.correct) {
         correctAnswers++;
       } else {
-        setAllFailed(allFailed.concat(q))
+        failedQuestions.push(q);
       }
     });
+    setAllFailed(failedQuestions);
     const calculatedScore = correctAnswers;
     const calculatedPercent = (correctAnswers / questions.length) * 100;
     setScore(calculatedScore);
     setPercent(calculatedPercent.toFixed(2));
     setQuizStarted(false);
+    setShowCorrections(failedQuestions.length > 0);
   };
 
   const retryQuiz = () => {
@@ -89,6 +93,7 @@ const QuizApp = () => {
     setTimeLimit(10);
     setScore(null);
     setPercent(null);
+    setShowCorrections(false);
   };
 
   const [loading, setLoading] = useState(true);
@@ -160,6 +165,39 @@ const QuizApp = () => {
           </>
         )}
 
+        {
+          <div className="correction-board border-y border-white/15 py-8 mb-8">
+            <div className="head flex w-full items-center gap-4 justify-between">
+              <div>
+                <h1 className="text-2xl font-bold">Corrections</h1>
+                <p className="text-[#9c9c9c]/90">{allFailed.length} questions wrong</p>
+              </div>
+
+              <div
+                className="border w-max p-1 px-3 rounded-lg cursor-pointer border-[#9c9c9c]/40 duration-200 hover:bg-[#9c9c9c]/15"
+                onClick={() => setShowCorrections(prev => !prev)}
+              >
+                {showCorrections? "Hide": "Show"}
+              </div>
+            </div>
+
+            {score !== null && showCorrections && <div className="allCorrections py-4">
+              {allFailed.map((question, index) => (
+                <div key={question.id} className="correction-box text-left rounded-md mt-2 border-[#9c9c9c]/30 bg border p-4">
+                  <div className="failed-question">
+                    {question.question}
+                  </div>
+                  <div className="correct-answer flex gap-4 items-center justify-between text-[#9c9c9c]/60 text-sm mt-1">
+                    <p className="text-green-500">{question.correct}</p>
+                    <span>Correct answer</span>
+                  </div>
+                </div>
+              ))}
+            </div>}
+          </div>
+        }
+
+
         {!quizStarted ? (
           <div className="SETTINGS  h-full w-full my-auto flex flex-col items-center gap-4  ">
             <h1 className="text-2xl font-bold">Quiz settings</h1>
@@ -175,61 +213,59 @@ const QuizApp = () => {
             </div>
             {
               testOnlyMode ?
-              <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
-              <label className="block  text-[#999999]">
-                Number of Questions:
-              </label>
-              <select
-                className={`p-4 rounded-xl px-4 w-full ${
-                  testOnlyMode 
-                    ? "bg-[#99999910] cursor-not-allowed" 
-                    : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
-                } duration-150`}
-                value={40}
-                disabled={testOnlyMode}
-              >
-               
-                {["40 (MAX)"].map((num) => (
-                  <option
-                    className="text-white bg-[#0e0e0e]"
-                    key={num}
-                    value={num}
-                  >
-                    {num}
-                  </option>
-                ))}
-              </select>
-                </div> :
-                
                 <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
-                <label className="block  text-[#999999]">
-                  Number of Questions:
-                </label>
-                <select
-                  className={`p-4 rounded-xl px-4 w-full ${
-                    testOnlyMode 
-                      ? "bg-[#99999910] cursor-not-allowed" 
+                  <label className="block  text-[#999999]">
+                    Number of Questions:
+                  </label>
+                  <select
+                    className={`p-4 rounded-xl px-4 w-full ${testOnlyMode
+                      ? "bg-[#99999910] cursor-not-allowed"
                       : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
-                  } duration-150`}
-                  value={numQuestions}
-                  onChange={(e) => setNumQuestions(Number(e.target.value))}
-                  disabled={testOnlyMode}
-                >
-                  {/* MAPPING NUMBER OF QUESTIONS */}
-                  {/* [ 10, 20, 30, 60, 85] */}
-                  {/* [10, 20, 30, 55] */}
-                  {[10, 30, 60, 100, 180].map((num) => (
-                    <option
-                      className="text-white bg-[#0e0e0e]"
-                      key={num}
-                      value={num}
-                    >
-                      {num}
-                    </option>
-                  ))}
-                </select>
-              </div>
-         }
+                      } duration-150`}
+                    value={40}
+                    disabled={testOnlyMode}
+                  >
+
+                    {["40 (MAX)"].map((num) => (
+                      <option
+                        className="text-white bg-[#0e0e0e]"
+                        key={num}
+                        value={num}
+                      >
+                        {num}
+                      </option>
+                    ))}
+                  </select>
+                </div> :
+
+                <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
+                  <label className="block  text-[#999999]">
+                    Number of Questions:
+                  </label>
+                  <select
+                    className={`p-4 rounded-xl px-4 w-full ${testOnlyMode
+                      ? "bg-[#99999910] cursor-not-allowed"
+                      : "bg-[#99999920] cursor-pointer hover:bg-[#99999940]"
+                      } duration-150`}
+                    value={numQuestions}
+                    onChange={(e) => setNumQuestions(Number(e.target.value))}
+                    disabled={testOnlyMode}
+                  >
+                    {/* MAPPING NUMBER OF QUESTIONS */}
+                    {/* [ 10, 20, 30, 60, 85] */}
+                    {/* [10, 20, 30, 55] */}
+                    {[10, 30, 60, 100, 180].map((num) => (
+                      <option
+                        className="text-white bg-[#0e0e0e]"
+                        key={num}
+                        value={num}
+                      >
+                        {num}
+                      </option>
+                    ))}
+                  </select>
+                </div>
+            }
             <div className="mt-4 grid gap-2  w-full text-left max-w-[300px] ">
               <label className="block  text-[#999999]">Time Limit:</label>
               <select
@@ -249,10 +285,10 @@ const QuizApp = () => {
                 ))}
               </select>
             </div>
-            <div className="flex items-center gap-2 justify-center w-full max-w-[300px]"> 
+            <div className="flex items-center gap-2 justify-center w-full max-w-[300px]">
               <label htmlFor="testOnly"> Test questions only</label>
-              <input 
-                id="testOnly" 
+              <input
+                id="testOnly"
                 type="checkbox"
                 checked={testOnlyMode}
                 onChange={(e) => {
@@ -336,7 +372,7 @@ const QuizApp = () => {
           &copy; 2025. Crafted by <a onClick={(e) => {
             e.preventDefault()
             open("https://davidaustin.vercel.app")
-            
+
           }} className="font-semibold hover:underline" href="https://davidaustin.vercel.app">David Austin</a>
         </p>
       </div>
