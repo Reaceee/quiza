@@ -32,13 +32,13 @@ const QuizApp = () => {
     //ADD A FUNCTION TO REMIND USER THAT 5  MINS LEFT
   }, [quizStarted, timer]);
 
-  // useEffect(() => {
-  //   if (testOnlyMode) {
-  //     setNumQuestions(40);
-  //   } else {
-  //     setNumQuestions(10);
-  //   }
-  // }, [testOnlyMode]);
+  useEffect(() => {
+    if (testOnlyMode) {
+      setNumQuestions(40);
+    } else {
+      setNumQuestions(10);
+    }
+  }, [testOnlyMode]);
 
   const startQuiz = () => {
     setAllFailed([]);
