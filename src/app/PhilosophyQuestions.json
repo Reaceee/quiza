@@ -1,0 +1,196 @@
+[
+    {
+      "id": 1,
+      "question": "The Greek word Logike means",
+      "options": ["Argument", "Art of reason", "Instrument of action", "Knowledge of the art"],
+      "correct": "Art of reason"
+    },
+    {
+      "id": 2,
+      "question": "The main proponents of pragmatism are the following except",
+      "options": ["C.S. Peirce", "John Locke", "William James", "John Dewey"],
+      "correct": "John Locke"
+    },
+    {
+      "id": 3,
+      "question": "According to Plato, true justice can be found in",
+      "options": [
+        "When the peasants, soldiers and guardians perform the specific duties they are trained to perform",
+        "When the soldiers take the place of peasants",
+        "When the guardians perform the work of the soldiers",
+        "When both the peasants and soldiers take up the activities of the guardians"
+      ],
+      "correct": "When the peasants, soldiers and guardians perform the specific duties they are trained to perform"
+    },
+    {
+      "id": 41,
+      "question": "Which of the following best describes the goal of metaphysics?",
+      "options": [
+        "Understanding sensory experience",
+        "Analyzing moral values",
+        "Exploring the ultimate nature of reality",
+        "Studying logical arguments"
+      ],
+      "correct": "Exploring the ultimate nature of reality"
+    },
+    {
+      "id": 42,
+      "question": "The theory that knowledge is primarily gained through experience is called:",
+      "options": [
+        "Rationalism",
+        "Idealism",
+        "Empiricism",
+        "Materialism"
+      ],
+      "correct": "Empiricism"
+    },
+    {
+      "id": 43,
+      "question": "Which philosopher is associated with the phrase 'I think, therefore I am'?",
+      "options": ["Socrates", "Plato", "Rene Descartes", "Immanuel Kant"],
+      "correct": "Rene Descartes"
+    },
+    {
+      "id": 44,
+      "question": "An argument that moves from general to specific is known as:",
+      "options": ["Inductive reasoning", "Deductive reasoning", "Circular reasoning", "Fallacious reasoning"],
+      "correct": "Deductive reasoning"
+    },
+    {
+      "id": 45,
+      "question": "Which branch of philosophy deals with the nature of beauty and taste?",
+      "options": ["Aesthetics", "Metaphysics", "Ethics", "Epistemology"],
+      "correct": "Aesthetics"
+    },
+    {
+      "id": 46,
+      "question": "The fallacy of hasty generalization involves:",
+      "options": [
+        "Drawing a conclusion based on insufficient evidence",
+        "Attacking the person instead of the argument",
+        "Arguing in a circle",
+        "Using emotional appeal"
+      ],
+      "correct": "Drawing a conclusion based on insufficient evidence"
+    },
+    {
+      "id": 47,
+      "question": "Which of these is NOT a valid type of categorical proposition?",
+      "options": ["Universal affirmative", "Particular negative", "Universal negative", "Universal interrogative"],
+      "correct": "Universal interrogative"
+    },
+    {
+      "id": 48,
+      "question": "The law of identity in logic states that:",
+      "options": [
+        "A thing cannot both be and not be",
+        "If A = B and B = C, then A = C",
+        "Whatever is, is",
+        "Every statement is either true or false"
+      ],
+      "correct": "Whatever is, is"
+    },
+    {
+      "id": 49,
+      "question": "Who among the following is considered a rationalist?",
+      "options": ["Aristotle", "David Hume", "John Locke", "Baruch Spinoza"],
+      "correct": "Baruch Spinoza"
+    },
+    {
+      "id": 50,
+      "question": "A statement that is either true or false, but not both is a:",
+      "options": ["Contradiction", "Paradox", "Proposition", "Analogy"],
+      "correct": "Proposition"
+    },
+    {
+      "id": 51,
+      "question": "What does a truth table represent in logic?",
+      "options": [
+        "The moral value of a proposition",
+        "The historical background of an argument",
+        "All possible truth values of a logical expression",
+        "The statistical probability of a conclusion"
+      ],
+      "correct": "All possible truth values of a logical expression"
+    },
+    {
+      "id": 52,
+      "question": "Which of these best defines ethics?",
+      "options": [
+        "Study of language",
+        "Study of ultimate reality",
+        "Study of knowledge",
+        "Study of moral principles"
+      ],
+      "correct": "Study of moral principles"
+    },
+    {
+      "id": 53,
+      "question": "What kind of logic uses symbols and formulas to represent arguments?",
+      "options": ["Informal logic", "Metaphysics", "Symbolic logic", "Syllogism"],
+      "correct": "Symbolic logic"
+    },
+    {
+      "id": 54,
+      "question": "The concept of 'tabula rasa' or blank slate is associated with:",
+      "options": ["Plato", "Descartes", "Locke", "Kant"],
+      "correct": "Locke"
+    },
+    {
+      "id": 55,
+      "question": "A conditional statement uses which symbol in propositional logic?",
+      "options": ["~", "∧", "∨", "⊃"],
+      "correct": "⊃"
+    },
+    {
+      "id": 56,
+      "question": "The term 'ontology' refers to:",
+      "options": [
+        "Study of time",
+        "Study of values",
+        "Study of knowledge",
+        "Study of being"
+      ],
+      "correct": "Study of being"
+    },
+    {
+      "id": 57,
+      "question": "What is the fallacy of red herring?",
+      "options": [
+        "Attacking an irrelevant issue to distract from the real topic",
+        "Relying solely on authority",
+        "Making circular arguments",
+        "Overstating similarities in analogy"
+      ],
+      "correct": "Attacking an irrelevant issue to distract from the real topic"
+    },
+    {
+      "id": 58,
+      "question": "Which is an example of a synthetic a posteriori proposition?",
+      "options": [
+        "2 + 2 = 4",
+        "All bachelors are unmarried",
+        "The sun will rise tomorrow",
+        "A triangle has three sides"
+      ],
+      "correct": "The sun will rise tomorrow"
+    },
+    {
+      "id": 59,
+      "question": "What does epistemology study?",
+      "options": ["Reality", "Being", "Values", "Knowledge"],
+      "correct": "Knowledge"
+    },
+    {
+      "id": 60,
+      "question": "The fallacy known as 'false dilemma' presents:",
+      "options": [
+        "Only two options when more exist",
+        "An attack on the person not the issue",
+        "An irrelevant emotional appeal",
+        "An appeal to tradition"
+      ],
+      "correct": "Only two options when more exist"
+    }
+  ]
+  

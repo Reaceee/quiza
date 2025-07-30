@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useId } from "react";
 // import questionsData from "./questions.json";
 // import questionsData from "./characterQuestions.json";
-import questionsData from "./entQuestions.json";
+import questionsData from "./PhilosophyQuestions.json";
 const logo = "../logo.svg";
 
 const QuizApp = () => {
@@ -15,8 +15,8 @@ const QuizApp = () => {
   const [score, setScore] = useState(null);
   const [percent, setPercent] = useState(null);
   const [allFailed, setAllFailed] = useState([]);
-  const [course, setCourse] = useState("Entrepreneurship and Innovation");
-  const [courseCode, setCourseCode] = useState("ENT 211");
+  const [course, setCourse] = useState("Philosophy, Logic and Human Existence");
+  const [courseCode, setCourseCode] = useState("GST 212");
   useEffect(() => {
     if (quizStarted && timer >= 0) {
       const interval = setInterval(() => setTimer((prev) => prev - 1), 1000);
@@ -217,15 +217,15 @@ const QuizApp = () => {
               />
 
               <div className="my-4  w-full text-sm text-[#999999] text-start">
-                Time Left: {Math.floor(timer / 60)}:{timer % 60}
+                  Time Left: { (Math.floor(timer / 60))< 10 ?"0": ""}{Math.floor(timer / 60)}:{(timer % 60)< 10? "0": ""}{timer % 60}
               </div>
-              <div className="METER-BAR w-full bg-[#99999930] h-max p-1 rounded-full">
+              <div className="METER-BAR w-full bg-[#99999930] h-max p-1 mb-2 rounded-full">
                 <div
                   className="meter bg-green-500 duration-1000 w-full h-2 rounded"
                   style={{ width: `${(timer / (timeLimit * 60)) * 100}%` }}
                 ></div>
               </div>
-              <h1 className=" text-left text-2xl duration-200 my-4   font-bold">
+              <h1 className="code-chip text-left text-2xl duration-200   font-bold">
                 <span className="text-green-500 text-xs font-normal bg-[#64dd6428] p-1.5 px-3 rounded-full whitespace-nowrap">
                   {courseCode}
                 </span>{" "}
@@ -244,7 +244,7 @@ const QuizApp = () => {
                 {q.options.map((opt) => (
                   <label
                     key={opt}
-                    className="option hover:bg-[#99999910] duration-150 py-2 rounded-lg cursor-pointer px-4 items-center flex gap-2 text-left"
+                    className="option hover:bg-[#99999910] duration-200 *:duration-200 py-2 rounded-lg cursor-pointer px-4 items-center flex gap-2 text-left"
                   >
                     <input
                       type="radio"
