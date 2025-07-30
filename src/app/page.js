@@ -281,7 +281,11 @@ const QuizApp = () => {
           </div>
         )}
         <p className="text-sm text-[#999999]">
-          &copy; 2025. Crafted by David Austin
+          &copy; 2025. Crafted by <a onClick={(e) => {
+            e.preventDefault()
+            open("https://davidaustin.vercel.app")
+            
+          }} className="font-semibold hover:underline" href="https://davidaustin.vercel.app">David Austin</a>
         </p>
       </div>
 
