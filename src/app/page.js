@@ -2,7 +2,8 @@
 import React, { useState, useEffect, useId } from "react";
 // import questionsData from "./questions.json";
 // import questionsData from "./characterQuestions.json";
-import questionsData from "./PhilosophyQuestions.json";
+// import questionsData from "./PhilosophyQuestions.json";
+import questionsData from "./CtcQuestions.json";
 import testOnly from "./PhilosophyTestsOnly.json";
 const logo = "../logo.svg";
 
@@ -16,8 +17,8 @@ const QuizApp = () => {
   const [score, setScore] = useState(null);
   const [percent, setPercent] = useState(null);
   const [allFailed, setAllFailed] = useState([]);
-  const [course, setCourse] = useState("Philosophy, Logic and Human Existence");
-  const [courseCode, setCourseCode] = useState("GST 212");
+  const [course, setCourse] = useState(" Tech Plus III");
+  const [courseCode, setCourseCode] = useState("CTC 208");
   const [testOnlyMode, setTestOnlyMode] = useState(false);
   const [showCorrections, setShowCorrections] = useState(false);
   useEffect(() => {
@@ -47,7 +48,11 @@ const QuizApp = () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
 
     // Choose question source based on test-only mode
-    const questionSource = testOnlyMode ? testOnly : questionsData;
+
+
+    //CHANGE THIS BACKK IF YOU WANT TO ADD "TESTMODE"
+    // const questionSource = testOnlyMode ? testOnly : questionsData;
+    const questionSource = questionsData;
 
     const shuffled = [...questionSource].sort(() => 0.5 - Math.random());
     const selectedQuestions = shuffled.slice(0, numQuestions);
@@ -254,7 +259,8 @@ const QuizApp = () => {
                     {/* MAPPING NUMBER OF QUESTIONS */}
                     {/* [ 10, 20, 30, 60, 85] */}
                     {/* [10, 20, 30, 55] */}
-                    {[10, 30, 60, 100, 180].map((num) => (
+                    {/* [10, 30, 60, 100, 180] */}
+                    {[10, 30, 60, 100, 150, 200].map((num) => (
                       <option
                         className="text-white bg-[#0e0e0e]"
                         key={num}
@@ -285,7 +291,7 @@ const QuizApp = () => {
                 ))}
               </select>
             </div>
-            <div className="flex items-center gap-2 justify-center w-full max-w-[300px]">
+            {/* <div className="flex items-center gap-2 justify-center w-full max-w-[300px]">
               <label htmlFor="testOnly"> Test questions only</label>
               <input
                 id="testOnly"
@@ -295,7 +301,7 @@ const QuizApp = () => {
                   setTestOnlyMode(e.target.checked)
                 }}
               />
-            </div>
+            </div> */}
             <button
               className="mt-4 bg-blue-500 hover:brightness-105 active:bg-blue-600 text-white px-6 py-3 rounded-xl hover:shadow-xl hover:shadow-[#99999920] duration-150 mb-8"
               onClick={startQuiz}
@@ -386,4 +392,3 @@ const QuizApp = () => {
 };
 
 export default QuizApp;
-

@@ -1,0 +1,2097 @@
+[
+  {
+    "id": 1,
+    "question": "Which of the following best defines a computer network?",
+    "options": [
+      "Connection of monitors",
+      "Interconnection of computers for communication and resource sharing",
+      "Link between keyboards",
+      "Database setup"
+    ],
+    "correct": "Interconnection of computers for communication and resource sharing"
+  },
+  {
+    "id": 2,
+    "question": "The main purpose of a network is to:",
+    "options": [
+      "Play games",
+      "Store passwords",
+      "Share resources and data",
+      "Print documents only"
+    ],
+    "correct": "Share resources and data"
+  },
+  {
+    "id": 3,
+    "question": "A topology where every device is connected to every other device is:",
+    "options": ["Ring", "Bus", "Mesh", "Star"],
+    "correct": "Mesh"
+  },
+  {
+    "id": 4,
+    "question": "What is the central device in a star topology?",
+    "options": ["Router", "Hub/Switch", "Repeater", "Firewall"],
+    "correct": "Hub/Switch"
+  },
+  {
+    "id": 5,
+    "question": "In which topology do data travel in a unidirectional circular manner?",
+    "options": ["Star", "Mesh", "Ring", "Hybrid"],
+    "correct": "Ring"
+  },
+  {
+    "id": 6,
+    "question": "The most expensive and complex topology to maintain is:",
+    "options": ["Bus", "Mesh", "Ring", "Star"],
+    "correct": "Mesh"
+  },
+  {
+    "id": 7,
+    "question": "Which device is used to amplify weak signals in a network?",
+    "options": ["Switch", "Router", "Repeater", "Hub"],
+    "correct": "Repeater"
+  },
+  {
+    "id": 8,
+    "question": "Which layer of the OSI model is responsible for logical addressing and routing?",
+    "options": ["Session", "Data Link", "Network", "Physical"],
+    "correct": "Network"
+  },
+  {
+    "id": 9,
+    "question": "In which OSI layer is the IP protocol located?",
+    "options": ["Transport", "Data Link", "Network", "Application"],
+    "correct": "Network"
+  },
+  {
+    "id": 10,
+    "question": "Which protocol is used for remote login?",
+    "options": ["HTTP", "FTP", "SSH", "POP3"],
+    "correct": "SSH"
+  },
+  {
+    "id": 11,
+    "question": "The TCP/IP model consists of how many layers?",
+    "options": ["3", "5", "4", "7"],
+    "correct": "5"
+  },
+  {
+    "id": 12,
+    "question": "What is the function of the transport layer?",
+    "options": [
+      "Physical connection",
+      "Encryption",
+      "End-to-end communication and error handling",
+      "IP addressing"
+    ],
+    "correct": "End-to-end communication and error handling"
+  },
+  {
+    "id": 13,
+    "question": "What does FTP stand for?",
+    "options": [
+      "File Transfer Process",
+      "File Telecommunication Protocol",
+      "File Transfer Protocol",
+      "File Transmission Point"
+    ],
+    "correct": "File Transfer Protocol"
+  },
+  {
+    "id": 14,
+    "question": "Which device uses IP addresses to forward packets?",
+    "options": ["Hub", "Switch", "Router", "Repeater"],
+    "correct": "Router"
+  },
+  {
+    "id": 15,
+    "question": "A switch operates primarily at which OSI layer?",
+    "options": ["Physical", "Data Link", "Network", "Transport"],
+    "correct": "Data Link"
+  },
+  {
+    "id": 16,
+    "question": "The star topology is preferred in LANs because:",
+    "options": [
+      "It saves cable",
+      "It isolates failures easily",
+      "It is cheapest",
+      "It uses IP"
+    ],
+    "correct": "It isolates failures easily"
+  },
+  {
+    "id": 17,
+    "question": "What is the full meaning of OSI?",
+    "options": [
+      "Open System Interlink",
+      "Organized Security Interface",
+      "Open Systems Interconnection",
+      "Output Signal Integration"
+    ],
+    "correct": "Open Systems Interconnection"
+  },
+  {
+    "id": 18,
+    "question": "A hybrid topology is:",
+    "options": [
+      "A combination of two or more topologies",
+      "A variation of mesh topology",
+      "Another name for bus",
+      "The same as peer-to-peer"
+    ],
+    "correct": "A combination of two or more topologies"
+  },
+  {
+    "id": 19,
+    "question": "What is bandwidth?",
+    "options": [
+      "Cable speed",
+      "Channel size",
+      "Amount of data transmitted over a network in a given time",
+      "Length of wire"
+    ],
+    "correct": "Amount of data transmitted over a network in a given time"
+  },
+  {
+    "id": 20,
+    "question": "Which network type covers a campus or a set of buildings?",
+    "options": ["WAN", "LAN", "MAN", "PAN"],
+    "correct": "MAN"
+  },
+  {
+    "id": 21,
+    "question": "Which protocol ensures secure communication over the web?",
+    "options": ["HTTP", "FTP", "HTTPS", "POP"],
+    "correct": "HTTPS"
+  },
+  {
+    "id": 22,
+    "question": "The IP address 192.168.1.1 is an example of:",
+    "options": ["Public IP", "MAC address", "Private IP", "Dynamic DNS"],
+    "correct": "Private IP"
+  },
+  {
+    "id": 23,
+    "question": "The physical path through which signals travel is called:",
+    "options": ["Topology", "Channel", "Router", "Bus"],
+    "correct": "Channel"
+  },
+  {
+    "id": 24,
+    "question": "Which layer provides services to the user in OSI model?",
+    "options": ["Network", "Session", "Presentation", "Application"],
+    "correct": "Application"
+  },
+  {
+    "id": 25,
+    "question": "The device that connects two different networks together is called:",
+    "options": ["Switch", "Router", "Repeater", "Hub"],
+    "correct": "Router"
+  },
+  {
+    "id": 26,
+    "question": "The addressing method used in Layer 2 is:",
+    "options": ["IP", "MAC", "Domain name", "TCP"],
+    "correct": "MAC"
+  },
+  {
+    "id": 27,
+    "question": "Data encryption occurs at which OSI layer?",
+    "options": ["Transport", "Network", "Presentation", "Application"],
+    "correct": "Presentation"
+  },
+  {
+    "id": 28,
+    "question": "Which of the following is a peer-to-peer protocol?",
+    "options": ["SMTP", "FTP", "BitTorrent", "TCP"],
+    "correct": "BitTorrent"
+  },
+  {
+    "id": 29,
+    "question": "The process of dividing data into packets is done at:",
+    "options": [
+      "Data Link layer",
+      "Transport layer",
+      "Application layer",
+      "Physical layer"
+    ],
+    "correct": "Transport layer"
+  },
+  {
+    "id": 30,
+    "question": "Which of these is NOT a guided transmission medium?",
+    "options": ["Twisted Pair", "Coaxial Cable", "Fiber Optic", "Microwave"],
+    "correct": "Microwave"
+  },
+  {
+    "id": 31,
+    "question": "DNS stands for:",
+    "options": [
+      "Data Network Server",
+      "Dynamic Network System",
+      "Domain Name System",
+      "Digital Name Service"
+    ],
+    "correct": "Domain Name System"
+  },
+  {
+    "id": 32,
+    "question": "Which of these is considered an unguided medium?",
+    "options": [
+      "Fiber",
+      "Satellite",
+      "Coaxial",
+      "Ethernet"
+    ],
+    "correct": "Satellite"
+  },
+  {
+    "id": 33,
+    "question": "SMTP is used for:",
+    "options": [
+      "Web browsing",
+      "Secure login",
+      "Sending emails",
+      "Downloading files"
+    ],
+    "correct": "Sending emails"
+  },
+  {
+    "id": 34,
+    "question": "A NIC is essential in networking. What does NIC stand for?",
+    "options": [
+      "Network Information Channel",
+      "Network Interface Card",
+      "Network Internet Connection",
+      "Node Integration Chip"
+    ],
+    "correct": "Network Interface Card"
+  },
+  {
+    "id": 35,
+    "question": "UDP stands for:",
+    "options": [
+      "User Download Protocol",
+      "Unverified Data Path",
+      "User Datagram Protocol",
+      "Universal Data Protocol"
+    ],
+    "correct": "User Datagram Protocol"
+  },
+  {
+    "id": 36,
+    "question": "Which protocol is connectionless?",
+    "options": [
+      "TCP",
+      "FTP",
+      "UDP",
+      "HTTP"
+    ],
+    "correct": "UDP"
+  },
+  {
+    "id": 37,
+    "question": "Which layer breaks data into segments?",
+    "options": [
+      "Application",
+      "Network",
+      "Transport",
+      "Physical"
+    ],
+    "correct": "Transport"
+  },
+  {
+    "id": 38,
+    "question": "The MAC address is used at which OSI layer?",
+    "options": [
+      "Physical",
+      "Transport",
+      "Data Link",
+      "Session"
+    ],
+    "correct": "Data Link"
+  },
+  {
+    "id": 39,
+    "question": "ICMP is a protocol used to:",
+    "options": [
+      "Measure signal strength",
+      "Send error messages and diagnostics",
+      "Secure a server",
+      "Translate IP addresses"
+    ],
+    "correct": "Send error messages and diagnostics"
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is a core function of the data link layer?",
+    "options": [
+      "IP addressing",
+      "Routing",
+      "Error detection and flow control",
+      "Encryption"
+    ],
+    "correct": "Error detection and flow control"
+  },
+  {
+    "id": 41,
+    "question": "ARP is used to:",
+    "options": [
+      "Send encrypted mail",
+      "Convert IP to MAC address",
+      "Define domain names",
+      "Transfer files"
+    ],
+    "correct": "Convert IP to MAC address"
+  },
+  {
+    "id": 42,
+    "question": "Which of these is a switching technique?",
+    "options": [
+      "Hub switching",
+      "Packet switching",
+      "Signal switching",
+      "Address switching"
+    ],
+    "correct": "Packet switching"
+  },
+  {
+    "id": 43,
+    "question": "The Application layer provides:",
+    "options": [
+      "Logical addressing",
+      "User interface services",
+      "MAC addressing",
+      "Cable management"
+    ],
+    "correct": "User interface services"
+  },
+  {
+    "id": 44,
+    "question": "Which transmission mode uses a single channel to send both directions but not simultaneously?",
+    "options": [
+      "Full duplex",
+      "Half duplex",
+      "Simplex",
+      "Hybrid"
+    ],
+    "correct": "Half duplex"
+  },
+  {
+    "id": 45,
+    "question": "Simplex mode of transmission means:",
+    "options": [
+      "Two-way alternate communication",
+      "One-way only communication",
+      "Simultaneous communication",
+      "Broadcast mode"
+    ],
+    "correct": "One-way only communication"
+  },
+  {
+    "id": 46,
+    "question": "In networking, jitter refers to:",
+    "options": [
+      "Fast data delivery",
+      "Variation in packet arrival time",
+      "Transmission loss",
+      "Encryption method"
+    ],
+    "correct": "Variation in packet arrival time"
+  },
+  {
+    "id": 47,
+    "question": "The data unit at the Network layer is:",
+    "options": [
+      "Frame",
+      "Segment",
+      "Packet",
+      "Bit"
+    ],
+    "correct": "Packet"
+  },
+  {
+    "id": 48,
+    "question": "TDM stands for:",
+    "options": [
+      "Time-Divided Mode",
+      "Time Division Multiplexing",
+      "Transfer Data Mode",
+      "Topology Defined Method"
+    ],
+    "correct": "Time Division Multiplexing"
+  },
+  {
+    "id": 49,
+    "question": "In guided media, signals are transmitted through:",
+    "options": [
+      "Air",
+      "Vacuum",
+      "Physical cables",
+      "Satellites"
+    ],
+    "correct": "Physical cables"
+  },
+  {
+    "id": 50,
+    "question": "What is the data rate unit of a network?",
+    "options": [
+      "Hertz",
+      "Bytes",
+      "Packets",
+      "Bits per second (bps)"
+    ],
+    "correct": "Bits per second (bps)"
+  },
+  {
+    "id": 51,
+    "question": "What layer in OSI handles dialog control and synchronization?",
+    "options": [
+      "Presentation",
+      "Session",
+      "Transport",
+      "Data Link"
+    ],
+    "correct": "Session"
+  },
+  {
+    "id": 52,
+    "question": "The maximum data rate supported by standard Ethernet is:",
+    "options": [
+      "10 Mbps",
+      "100 Mbps",
+      "1 Gbps",
+      "10 Gbps"
+    ],
+    "correct": "10 Mbps"
+  },
+  {
+    "id": 53,
+    "question": "The basic purpose of the presentation layer is:",
+    "options": [
+      "Compression and encryption",
+      "Address translation",
+      "Routing decisions",
+      "Media access control"
+    ],
+    "correct": "Compression and encryption"
+  },
+  {
+    "id": 54,
+    "question": "HTTP stands for:",
+    "options": [
+      "Hyper Technical Transfer Protocol",
+      "Hypertext Transfer Protocol",
+      "High Time Transmission Protocol",
+      "Host To Terminal Protocol"
+    ],
+    "correct": "Hypertext Transfer Protocol"
+  },
+  {
+    "id": 55,
+    "question": "The unit of data at the transport layer is called:",
+    "options": [
+      "Bit",
+      "Frame",
+      "Segment",
+      "Packet"
+    ],
+    "correct": "Segment"
+  },
+  {
+    "id": 56,
+    "question": "A broadcast domain is defined by:",
+    "options": [
+      "Hub",
+      "Router",
+      "Switch",
+      "All devices sharing a single broadcast"
+    ],
+    "correct": "All devices sharing a single broadcast"
+  },
+  {
+    "id": 57,
+    "question": "The physical layer concerns itself with:",
+    "options": [
+      "IP addressing",
+      "Hardware devices and transmission media",
+      "User application",
+      "Error handling"
+    ],
+    "correct": "Hardware devices and transmission media"
+  },
+  {
+    "id": 58,
+    "question": "The protocol used for file transfer over a network is:",
+    "options": [
+      "DNS",
+      "FTP",
+      "POP",
+      "ARP"
+    ],
+    "correct": "FTP"
+  },
+  {
+    "id": 59,
+    "question": "The IP protocol is said to be:",
+    "options": [
+      "Connection-oriented",
+      "Unreliable",
+      "Secure",
+      "Switch-based"
+    ],
+    "correct": "Unreliable"
+  },
+  {
+    "id": 60,
+    "question": "The standard that defines wireless LAN is:",
+    "options": [
+      "IEEE 802.3",
+      "IEEE 802.5",
+      "IEEE 802.11",
+      "IEEE 802.2"
+    ],
+    "correct": "IEEE 802.11"
+  },
+  {
+    "id": 61,
+    "question": "Full-duplex communication:",
+    "options": [
+      "Data flows one way only",
+      "Data flows alternately",
+      "Data flows simultaneously both ways",
+      "Data never flows"
+    ],
+    "correct": "Data flows simultaneously both ways"
+  },
+  {
+    "id": 62,
+    "question": "The OSI layer responsible for error detection and correction is:",
+    "options": [
+      "Application",
+      "Network",
+      "Transport",
+      "Data Link"
+    ],
+    "correct": "Data Link"
+  },
+  {
+    "id": 63,
+    "question": "What is the main function of the application layer?",
+    "options": [
+      "Translation of data",
+      "Address assignment",
+      "End-user services like email and file transfer",
+      "Encoding signals"
+    ],
+    "correct": "End-user services like email and file transfer"
+  },
+  {
+    "id": 64,
+    "question": "Which layer segments messages and manages packet sequencing?",
+    "options": [
+      "Network",
+      "Transport",
+      "Data Link",
+      "Session"
+    ],
+    "correct": "Transport"
+  },
+  {
+    "id": 65,
+    "question": "Which of these network devices breaks up collision domains?",
+    "options": [
+      "Router",
+      "Repeater",
+      "Switch",
+      "Hub"
+    ],
+    "correct": "Switch"
+  },
+  {
+    "id": 66,
+    "question": "What device regenerates signals in the same network?",
+    "options": [
+      "Switch",
+      "Router",
+      "Repeater",
+      "Bridge"
+    ],
+    "correct": "Repeater"
+  },
+  {
+    "id": 67,
+    "question": "The process of converting analog signals to digital is:",
+    "options": [
+      "Modulation",
+      "Demodulation",
+      "Multiplexing",
+      "Digitization"
+    ],
+    "correct": "Digitization"
+  },
+  {
+    "id": 68,
+    "question": "Which protocol retrieves mail from the server?",
+    "options": [
+      "SMTP",
+      "POP3",
+      "FTP",
+      "HTTP"
+    ],
+    "correct": "POP3"
+  },
+  {
+    "id": 69,
+    "question": "A MAC address is how many bits long?",
+    "options": [
+      "32 bits",
+      "48 bits",
+      "64 bits",
+      "128 bits"
+    ],
+    "correct": "48 bits"
+  },
+  {
+    "id": 70,
+    "question": "IPv6 has how many bits in an address?",
+    "options": [
+      "32",
+      "48",
+      "64",
+      "128"
+    ],
+    "correct": "128"
+  },
+  {
+    "id": 71,
+    "question": "A VPN is used to:",
+    "options": [
+      "Increase internet speed",
+      "Create a secure connection over a public network",
+      "Manage emails",
+      "Host a website"
+    ],
+    "correct": "Create a secure connection over a public network"
+  },
+  {
+    "id": 72,
+    "question": "Which cable has the highest data transmission rate?",
+    "options": [
+      "Coaxial",
+      "Twisted Pair",
+      "Optical Fiber",
+      "Parallel"
+    ],
+    "correct": "Optical Fiber"
+  },
+  {
+    "id": 73,
+    "question": "NIC connects a computer to a:",
+    "options": [
+      "Database",
+      "Printer",
+      "Network",
+      "Modem"
+    ],
+    "correct": "Network"
+  },
+  {
+    "id": 74,
+    "question": "Ping command uses which protocol?",
+    "options": [
+      "HTTP",
+      "TCP",
+      "ICMP",
+      "ARP"
+    ],
+    "correct": "ICMP"
+  },
+  {
+    "id": 75,
+    "question": "What is the default port number for HTTP?",
+    "options": [
+      "20",
+      "21",
+      "80",
+      "110"
+    ],
+    "correct": "80"
+  },
+  {
+    "id": 76,
+    "question": "TCP is said to be:",
+    "options": [
+      "Connectionless and fast",
+      "Reliable and connection-oriented",
+      "Broadcast-based",
+      "Low latency"
+    ],
+    "correct": "Reliable and connection-oriented"
+  },
+  {
+    "id": 77,
+    "question": "The time it takes a packet to travel from source to destination is called:",
+    "options": [
+      "Jitter",
+      "Bandwidth",
+      "Latency",
+      "Throughput"
+    ],
+    "correct": "Latency"
+  },
+  {
+    "id": 78,
+    "question": "Network topology defines:",
+    "options": [
+      "The type of cable used",
+      "The layout of connected devices",
+      "The domain controller",
+      "Internet speed"
+    ],
+    "correct": "The layout of connected devices"
+  },
+  {
+    "id": 79,
+    "question": "Which of the following is a private IP address?",
+    "options": [
+      "172.16.0.1",
+      "8.8.8.8",
+      "192.0.2.1",
+      "10.0.0.1"
+    ],
+    "correct": "172.16.0.1"
+  },
+  {
+    "id": 80,
+    "question": "The full meaning of ISP is:",
+    "options": [
+      "Internet Service Provider",
+      "Internal Switching Platform",
+      "International System Protocol",
+      "Intra-System Path"
+    ],
+    "correct": "Internet Service Provider"
+  },
+  {
+    "id": 81,
+    "question": "Port number 443 is reserved for:",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SMTP"
+    ],
+    "correct": "HTTPS"
+  },
+  {
+    "id": 82,
+    "question": "DNS translates:",
+    "options": [
+      "MAC to IP",
+      "Hostnames to IP addresses",
+      "IP to binary",
+      "Text to packets"
+    ],
+    "correct": "Hostnames to IP addresses"
+  },
+  {
+    "id": 83,
+    "question": "The standard transmission rate for Fast Ethernet is:",
+    "options": [
+      "10 Mbps",
+      "100 Mbps",
+      "1 Gbps",
+      "5 Gbps"
+    ],
+    "correct": "100 Mbps"
+  },
+  {
+    "id": 84,
+    "question": "Which type of network spans a single building or floor?",
+    "options": [
+      "PAN",
+      "WAN",
+      "LAN",
+      "MAN"
+    ],
+    "correct": "LAN"
+  },
+  {
+    "id": 85,
+    "question": "IEEE 802.3 defines:",
+    "options": [
+      "Token Ring",
+      "Wireless networking",
+      "Ethernet",
+      "IP routing"
+    ],
+    "correct": "Ethernet"
+  },
+  {
+    "id": 86,
+    "question": "Which OSI layer ensures reliable transmission of data?",
+    "options": [
+      "Network",
+      "Session",
+      "Transport",
+      "Application"
+    ],
+    "correct": "Transport"
+  },
+  {
+    "id": 87,
+    "question": "Which of the following is an example of an unguided medium?",
+    "options": [
+      "Coaxial cable",
+      "Fiber-optic cable",
+      "Microwave",
+      "Twisted pair"
+    ],
+    "correct": "Microwave"
+  },
+  {
+    "id": 88,
+    "question": "Error correction and detection occur in which layer?",
+    "options": [
+      "Network",
+      "Data Link",
+      "Physical",
+      "Presentation"
+    ],
+    "correct": "Data Link"
+  },
+  {
+    "id": 89,
+    "question": "A system of connected computers sharing resources is called:",
+    "options": [
+      "Workstation",
+      "Server",
+      "Network",
+      "Firewall"
+    ],
+    "correct": "Network"
+  },
+  {
+    "id": 90,
+    "question": "Which OSI layer is responsible for encryption and compression?",
+    "options": [
+      "Presentation",
+      "Application",
+      "Data Link",
+      "Physical"
+    ],
+    "correct": "Presentation"
+  },
+  {
+    "id": 91,
+    "question": "Which layer initiates the connection in OSI model?",
+    "options": [
+      "Physical",
+      "Session",
+      "Transport",
+      "Application"
+    ],
+    "correct": "Application"
+  },
+  {
+    "id": 92,
+    "question": "A switch is smarter than a hub because it:",
+    "options": [
+      "Amplifies signals",
+      "Uses MAC address to forward packets",
+      "Increases speed",
+      "Caches websites"
+    ],
+    "correct": "Uses MAC address to forward packets"
+  },
+  {
+    "id": 93,
+    "question": "The IP address 127.0.0.1 is used for:",
+    "options": [
+      "Gateway",
+      "Broadcasting",
+      "Loopback testing",
+      "Public DNS"
+    ],
+    "correct": "Loopback testing"
+  },
+  {
+    "id": 94,
+    "question": "Protocols that do not establish a connection before sending data are:",
+    "options": [
+      "Connectionless",
+      "Secure",
+      "Connection-oriented",
+      "Reliable"
+    ],
+    "correct": "Connectionless"
+  },
+  {
+    "id": 95,
+    "question": "Port number 25 is used by which protocol?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "SSH",
+      "POP3"
+    ],
+    "correct": "SMTP"
+  },
+  {
+    "id": 96,
+    "question": "HTTP is used for:",
+    "options": [
+      "Email sending",
+      "File download",
+      "Web browsing",
+      "Name resolution"
+    ],
+    "correct": "Web browsing"
+  },
+  {
+    "id": 97,
+    "question": "A firewall is used to:",
+    "options": [
+      "Store user files",
+      "Provide power backup",
+      "Control access and security in a network",
+      "Print documents"
+    ],
+    "correct": "Control access and security in a network"
+  },
+  {
+    "id": 98,
+    "question": "A proxy server is used to:",
+    "options": [
+      "Connect to Wi-Fi",
+      "Provide physical security",
+      "Act as an intermediary for client requests",
+      "Repair Ethernet ports"
+    ],
+    "correct": "Act as an intermediary for client requests"
+  },
+  {
+    "id": 99,
+    "question": "The protocol used to assign IP addresses automatically is:",
+    "options": [
+      "TCP",
+      "DNS",
+      "DHCP",
+      "FTP"
+    ],
+    "correct": "DHCP"
+  },
+  {
+    "id": 100,
+    "question": "A ping utility checks:",
+    "options": [
+      "Connection delay",
+      "Web loading speed",
+      "Signal strength",
+      "Cable length"
+    ],
+    "correct": "Connection delay"
+  },
+  {
+    "id": 101,
+    "question": "Which of the following is not a function of the network layer?",
+    "options": [
+      "Routing",
+      "Logical addressing",
+      "Error correction",
+      "Packet forwarding"
+    ],
+    "correct": "Error correction"
+  },
+  {
+    "id": 102,
+    "question": "The two sublayers of the Data Link layer are:",
+    "options": [
+      "Transport & Session",
+      "MAC & LLC",
+      "Network & Physical",
+      "IP & TCP"
+    ],
+    "correct": "MAC & LLC"
+  },
+  {
+    "id": 103,
+    "question": "A signal that degrades over long distance requires a:",
+    "options": [
+      "Modem",
+      "Switch",
+      "Repeater",
+      "Bridge"
+    ],
+    "correct": "Repeater"
+  },
+  {
+    "id": 104,
+    "question": "A combination of Star and Bus topologies is called:",
+    "options": [
+      "Hybrid",
+      "Extended Star",
+      "Ring Bus",
+      "Mesh"
+    ],
+    "correct": "Hybrid"
+  },
+  {
+    "id": 105,
+    "question": "The TCP/IP Application Layer corresponds to which OSI layers?",
+    "options": [
+      "Session, Presentation, and Application",
+      "Transport and Network",
+      "Data Link and Physical",
+      "Application only"
+    ],
+    "correct": "Session, Presentation, and Application"
+  },
+  {
+    "id": 106,
+    "question": "IP addressing is performed at which layer of the OSI model?",
+    "options": [
+      "Network",
+      "Transport",
+      "Session",
+      "Application"
+    ],
+    "correct": "Network"
+  },
+  {
+    "id": 107,
+    "question": "Which of these is not a common copper transmission medium?",
+    "options": [
+      "Twisted Pair",
+      "Coaxial Cable",
+      "Fiber Optic",
+      "Shielded Twisted Pair"
+    ],
+    "correct": "Fiber Optic"
+  },
+  {
+    "id": 108,
+    "question": "What topology connects all devices using a central backbone cable?",
+    "options": [
+      "Mesh",
+      "Bus",
+      "Ring",
+      "Tree"
+    ],
+    "correct": "Bus"
+  },
+  {
+    "id": 109,
+    "question": "What is a major limitation of the ring topology?",
+    "options": [
+      "Cost of cabling",
+      "Broadcast traffic",
+      "Failure of one device affects the whole network",
+      "Limited security"
+    ],
+    "correct": "Failure of one device affects the whole network"
+  },
+  {
+    "id": 110,
+    "question": "In fiber optics, the signal is carried as:",
+    "options": [
+      "Electric pulses",
+      "Magnetic waves",
+      "Light pulses",
+      "Radio signals"
+    ],
+    "correct": "Light pulses"
+  },
+  {
+    "id": 111,
+    "question": "What is a default gateway in networking?",
+    "options": [
+      "The IP address of the DNS",
+      "The IP address of the host",
+      "The IP address of the router interface on the local LAN",
+      "The MAC address of the router"
+    ],
+    "correct": "The IP address of the router interface on the local LAN"
+  },
+  {
+    "id": 112,
+    "question": "Which topology is easiest to install and extend?",
+    "options": [
+      "Bus",
+      "Mesh",
+      "Ring",
+      "Star"
+    ],
+    "correct": "Star"
+  },
+  {
+    "id": 113,
+    "question": "The address used for data delivery within the same network is:",
+    "options": [
+      "IP address",
+      "MAC address",
+      "Gateway",
+      "Subnet"
+    ],
+    "correct": "MAC address"
+  },
+  {
+    "id": 114,
+    "question": "Ethernet is an example of:",
+    "options": [
+      "WAN protocol",
+      "LAN standard",
+      "Routing device",
+      "DNS"
+    ],
+    "correct": "LAN standard"
+  },
+  {
+    "id": 115,
+    "question": "Which of the following cables is immune to electromagnetic interference (EMI)?",
+    "options": [
+      "UTP",
+      "Coaxial",
+      "Shielded twisted pair",
+      "Fiber optic"
+    ],
+    "correct": "Fiber optic"
+  },
+  {
+    "id": 116,
+    "question": "Which transmission medium is the most expensive to install?",
+    "options": [
+      "Twisted pair",
+      "Coaxial",
+      "Fiber optic",
+      "Microwave"
+    ],
+    "correct": "Fiber optic"
+  },
+  {
+    "id": 117,
+    "question": "What protocol helps find the MAC address of a given IP address?",
+    "options": [
+      "ICMP",
+      "ARP",
+      "FTP",
+      "IPX"
+    ],
+    "correct": "ARP"
+  },
+  {
+    "id": 118,
+    "question": "Which device breaks up both collision and broadcast domains?",
+    "options": [
+      "Router",
+      "Switch",
+      "Hub",
+      "Repeater"
+    ],
+    "correct": "Router"
+  },
+  {
+    "id": 119,
+    "question": "Which of the following defines the speed of data transmission?",
+    "options": [
+      "Bandwidth",
+      "Latency",
+      "Jitter",
+      "Routing table"
+    ],
+    "correct": "Bandwidth"
+  },
+  {
+    "id": 120,
+    "question": "A gateway can operate at which layers of the OSI model?",
+    "options": [
+      "Only Layer 3",
+      "Layer 1",
+      "All layers",
+      "Only Layer 2"
+    ],
+    "correct": "All layers"
+  },
+  {
+    "id": 121,
+    "question": "Which of these provides host-to-host reliable data delivery?",
+    "options": [
+      "UDP",
+      "TCP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": "TCP"
+  },
+  {
+    "id": 122,
+    "question": "Which device reads MAC addresses and forwards frames?",
+    "options": [
+      "Router",
+      "Switch",
+      "Repeater",
+      "NIC"
+    ],
+    "correct": "Switch"
+  },
+  {
+    "id": 123,
+    "question": "Multiplexing allows:",
+    "options": [
+      "Single data stream",
+      "Multiple signals to share one medium",
+      "Wireless access",
+      "IP assignment"
+    ],
+    "correct": "Multiple signals to share one medium"
+  },
+  {
+    "id": 124,
+    "question": "A MAC address is usually assigned by:",
+    "options": [
+      "ISP",
+      "IP protocol",
+      "Manufacturer",
+      "DNS"
+    ],
+    "correct": "Manufacturer"
+  },
+  {
+    "id": 125,
+    "question": "Which of the following is a packet-switching technology?",
+    "options": [
+      "Ethernet",
+      "DSL",
+      "Circuit-switching",
+      "ATM"
+    ],
+    "correct": "ATM"
+  },
+  {
+    "id": 126,
+    "question": "The physical topology that requires the least amount of cabling is:",
+    "options": [
+      "Mesh",
+      "Star",
+      "Ring",
+      "Bus"
+    ],
+    "correct": "Bus"
+  },
+  {
+    "id": 127,
+    "question": "What unit does the Physical Layer work with?",
+    "options": [
+      "Packets",
+      "Frames",
+      "Bits",
+      "Segments"
+    ],
+    "correct": "Bits"
+  },
+  {
+    "id": 128,
+    "question": "Which protocol is used for address resolution in TCP/IP networks?",
+    "options": [
+      "DNS",
+      "DHCP",
+      "ARP",
+      "RIP"
+    ],
+    "correct": "ARP"
+  },
+  {
+    "id": 129,
+    "question": "The purpose of a modem is to:",
+    "options": [
+      "Amplify signal",
+      "Convert digital to analog and vice versa",
+      "Assign IP address",
+      "Provide routing"
+    ],
+    "correct": "Convert digital to analog and vice versa"
+  },
+  {
+    "id": 130,
+    "question": "One advantage of the TCP protocol is:",
+    "options": [
+      "Lower overhead",
+      "Guaranteed delivery",
+      "Unreliable transfer",
+      "Simple design"
+    ],
+    "correct": "Guaranteed delivery"
+  },
+  {
+    "id": 131,
+    "question": "The device that connects two different protocols or networks is:",
+    "options": [
+      "Switch",
+      "Bridge",
+      "Router",
+      "Gateway"
+    ],
+    "correct": "Gateway"
+  },
+  {
+    "id": 132,
+    "question": "In which topology does every computer have exactly two neighbors?",
+    "options": [
+      "Star",
+      "Ring",
+      "Mesh",
+      "Tree"
+    ],
+    "correct": "Ring"
+  },
+  {
+    "id": 133,
+    "question": "A “bit” is a:",
+    "options": [
+      "Byte",
+      "Unit of storage",
+      "Binary digit",
+      "Header"
+    ],
+    "correct": "Binary digit"
+  },
+  {
+    "id": 134,
+    "question": "Which layer creates a virtual circuit between sender and receiver?",
+    "options": [
+      "Session",
+      "Network",
+      "Data Link",
+      "Application"
+    ],
+    "correct": "Session"
+  },
+  {
+    "id": 135,
+    "question": "FTP commonly uses port numbers:",
+    "options": [
+      "21 and 22",
+      "20 and 21",
+      "25 and 110",
+      "53 and 80"
+    ],
+    "correct": "20 and 21"
+  },
+  {
+    "id": 136,
+    "question": "Which of these represents a Class A IP address?",
+    "options": [
+      "10.0.0.1",
+      "192.168.1.1",
+      "172.16.0.1",
+      "224.0.0.1"
+    ],
+    "correct": "10.0.0.1"
+  },
+  {
+    "id": 137,
+    "question": "What does DNS help you do?",
+    "options": [
+      "Encrypt data",
+      "Convert domain names into IP addresses",
+      "Send data securely",
+      "Route traffic"
+    ],
+    "correct": "Convert domain names into IP addresses"
+  },
+  {
+    "id": 138,
+    "question": "Which port does DHCP operate on by default?",
+    "options": [
+      "53",
+      "67/68",
+      "80",
+      "110"
+    ],
+    "correct": "67/68"
+  },
+  {
+    "id": 139,
+    "question": "A “collision domain” is:",
+    "options": [
+      "Area with IP conflict",
+      "Part of network where collisions can happen",
+      "Switch's MAC table",
+      "Broadcast area"
+    ],
+    "correct": "Part of network where collisions can happen"
+  },
+  {
+    "id": 140,
+    "question": "The “TTL” field in an IP packet is used to:",
+    "options": [
+      "Encrypt data",
+      "Determine lifetime of a packet",
+      "Assign MAC address",
+      "Control error detection"
+    ],
+    "correct": "Determine lifetime of a packet"
+  },
+  {
+    "id": 141,
+    "question": "A device that translates between different data formats is at:",
+    "options": [
+      "Session layer",
+      "Presentation layer",
+      "Transport layer",
+      "Application layer"
+    ],
+    "correct": "Presentation layer"
+  },
+  {
+    "id": 142,
+    "question": "CSMA/CD is a method used in:",
+    "options": [
+      "Token Ring",
+      "Wireless networks",
+      "Ethernet LAN",
+      "WAN"
+    ],
+    "correct": "Ethernet LAN"
+  },
+  {
+    "id": 143,
+    "question": "The unit of transmission at Data Link layer is:",
+    "options": [
+      "Bit",
+      "Frame",
+      "Segment",
+      "Packet"
+    ],
+    "correct": "Frame"
+  },
+  {
+    "id": 144,
+    "question": "Which layer is responsible for segmentation and reassembly?",
+    "options": [
+      "Data Link",
+      "Application",
+      "Transport",
+      "Network"
+    ],
+    "correct": "Transport"
+  },
+  {
+    "id": 145,
+    "question": "127.0.0.1 is called:",
+    "options": [
+      "Broadcast address",
+      "Localhost or loopback address",
+      "Network gateway",
+      "Default route"
+    ],
+    "correct": "Localhost or loopback address"
+  },
+  {
+    "id": 146,
+    "question": "HTTP is a protocol that runs on:",
+    "options": [
+      "Layer 1",
+      "Layer 7",
+      "Layer 3",
+      "Layer 4"
+    ],
+    "correct": "Layer 7"
+  },
+  {
+    "id": 147,
+    "question": "Which protocol is used for error reporting?",
+    "options": [
+      "TCP",
+      "UDP",
+      "ICMP",
+      "IP"
+    ],
+    "correct": "ICMP"
+  },
+  {
+    "id": 148,
+    "question": "Which protocol dynamically assigns IP addresses?",
+    "options": [
+      "ICMP",
+      "DHCP",
+      "FTP",
+      "DNS"
+    ],
+    "correct": "DHCP"
+  },
+  {
+    "id": 149,
+    "question": "Which device operates at Layer 2 and uses MAC addresses?",
+    "options": [
+      "Router",
+      "Switch",
+      "Gateway",
+      "Firewall"
+    ],
+    "correct": "Switch"
+  },
+  {
+    "id": 150,
+    "question": "A logical topology describes:",
+    "options": [
+      "Physical structure of cables",
+      "How data flows in a network",
+      "MAC table entries",
+      "Number of IP addresses"
+    ],
+    "correct": "How data flows in a network"
+  },
+  {
+    "id": 151,
+    "question": "Which layer establishes, manages, and terminates connections?",
+    "options": [
+      "Application",
+      "Session",
+      "Transport",
+      "Presentation"
+    ],
+    "correct": "Session"
+  },
+  {
+    "id": 152,
+    "question": "What type of cable is most commonly used in modern LANs?",
+    "options": [
+      "Fiber optic",
+      "Coaxial",
+      "Twisted pair",
+      "Parallel"
+    ],
+    "correct": "Twisted pair"
+  },
+  {
+    "id": 153,
+    "question": "TCP and UDP are protocols at which OSI layer?",
+    "options": [
+      "Network",
+      "Transport",
+      "Session",
+      "Data Link"
+    ],
+    "correct": "Transport"
+  },
+  {
+    "id": 154,
+    "question": "What is the function of a NIC?",
+    "options": [
+      "Resolving hostnames",
+      "Assigning MAC addresses",
+      "Connecting a computer to a network",
+      "Transmitting wireless signals"
+    ],
+    "correct": "Connecting a computer to a network"
+  },
+  {
+    "id": 155,
+    "question": "Which protocol provides guaranteed delivery of packets?",
+    "options": [
+      "TCP",
+      "UDP",
+      "IP",
+      "ARP"
+    ],
+    "correct": "TCP"
+  },
+  {
+    "id": 156,
+    "question": "What device connects different types of networks?",
+    "options": [
+      "Switch",
+      "Router",
+      "Bridge",
+      "Gateway"
+    ],
+    "correct": "Gateway"
+  },
+  {
+    "id": 157,
+    "question": "A VLAN helps to:",
+    "options": [
+      "Assign IP addresses",
+      "Increase cable length",
+      "Logically segment a LAN",
+      "Provide DNS service"
+    ],
+    "correct": "Logically segment a LAN"
+  },
+  {
+    "id": 158,
+    "question": "Which of the following is a layered network architecture?",
+    "options": [
+      "WAN",
+      "OSI",
+      "Ethernet",
+      "HTTP"
+    ],
+    "correct": "OSI"
+  },
+  {
+    "id": 159,
+    "question": "Which class of IP addresses supports few hosts per network?",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "correct": "Class C"
+  },
+  {
+    "id": 160,
+    "question": "SMTP is used to:",
+    "options": [
+      "Transfer web pages",
+      "Encrypt data",
+      "Send emails",
+      "Assign MAC addresses"
+    ],
+    "correct": "Send emails"
+  },
+  {
+    "id": 161,
+    "question": "A bridge operates at:",
+    "options": [
+      "Network layer",
+      "Transport layer",
+      "Data Link layer",
+      "Physical layer"
+    ],
+    "correct": "Data Link layer"
+  },
+  {
+    "id": 162,
+    "question": "The main function of the Network Layer is:",
+    "options": [
+      "Data formatting",
+      "Encryption",
+      "Routing and addressing",
+      "File compression"
+    ],
+    "correct": "Routing and addressing"
+  },
+  {
+    "id": 163,
+    "question": "UTP cable stands for:",
+    "options": [
+      "Unified Terminal Protocol",
+      "Unshielded Twisted Pair",
+      "Untranslated Text Packet",
+      "Ultra Transfer Path"
+    ],
+    "correct": "Unshielded Twisted Pair"
+  },
+  {
+    "id": 164,
+    "question": "Which topology is least secure due to shared communication lines?",
+    "options": [
+      "Ring",
+      "Star",
+      "Mesh",
+      "Bus"
+    ],
+    "correct": "Bus"
+  },
+  {
+    "id": 165,
+    "question": "The process of breaking a message into smaller units is:",
+    "options": [
+      "Sequencing",
+      "Multiplexing",
+      "Fragmentation",
+      "Encoding"
+    ],
+    "correct": "Fragmentation"
+  },
+  {
+    "id": 166,
+    "question": "What type of signal is used in wireless communication?",
+    "options": [
+      "Electrical",
+      "Optical",
+      "Radio waves",
+      "Ethernet"
+    ],
+    "correct": "Radio waves"
+  },
+  {
+    "id": 167,
+    "question": "A public IP address can be:",
+    "options": [
+      "10.0.0.1",
+      "192.168.0.1",
+      "172.16.1.1",
+      "8.8.8.8"
+    ],
+    "correct": "8.8.8.8"
+  },
+  {
+    "id": 168,
+    "question": "Which of the following devices works with public and private networks?",
+    "options": [
+      "Router",
+      "Hub",
+      "NIC",
+      "Switch"
+    ],
+    "correct": "Router"
+  },
+  {
+    "id": 169,
+    "question": "What is used to map IP addresses to hostnames?",
+    "options": [
+      "FTP",
+      "SMTP",
+      "DNS",
+      "ARP"
+    ],
+    "correct": "DNS"
+  },
+  {
+    "id": 170,
+    "question": "A device that simply forwards electrical signals without filtering is a:",
+    "options": [
+      "Repeater",
+      "Hub",
+      "Router",
+      "Gateway"
+    ],
+    "correct": "Hub"
+  },
+  {
+    "id": 171,
+    "question": "The OSI model was developed by:",
+    "options": [
+      "IEEE",
+      "ISO",
+      "ITU",
+      "IANA"
+    ],
+    "correct": "ISO"
+  },
+  {
+    "id": 172,
+    "question": "Which protocol works on the application layer for remote login?",
+    "options": [
+      "SMTP",
+      "Telnet",
+      "FTP",
+      "POP3"
+    ],
+    "correct": "Telnet"
+  },
+  {
+    "id": 173,
+    "question": "Which topology has the highest fault tolerance?",
+    "options": [
+      "Bus",
+      "Ring",
+      "Mesh",
+      "Star"
+    ],
+    "correct": "Mesh"
+  },
+  {
+    "id": 174,
+    "question": "What assigns IP addresses dynamically in a network?",
+    "options": [
+      "DNS",
+      "DHCP",
+      "ARP",
+      "TCP"
+    ],
+    "correct": "DHCP"
+  },
+  {
+    "id": 175,
+    "question": "A network protocol ensures:",
+    "options": [
+      "Speed",
+      "Agreement in communication rules",
+      "Device synchronization",
+      "Signal amplification"
+    ],
+    "correct": "Agreement in communication rules"
+  },
+  {
+    "id": 176,
+    "question": "What’s a drawback of the ring topology?",
+    "options": [
+      "Complex cabling",
+      "Requires a central hub",
+      "Network halts if one node fails",
+      "High installation cost"
+    ],
+    "correct": "Network halts if one node fails"
+  },
+  {
+    "id": 177,
+    "question": "Which protocol is connectionless?",
+    "options": [
+      "TCP",
+      "FTP",
+      "UDP",
+      "SMTP"
+    ],
+    "correct": "UDP"
+  },
+  {
+    "id": 178,
+    "question": "A switch improves network performance by:",
+    "options": [
+      "Creating one collision domain",
+      "Reducing bandwidth",
+      "Forwarding frames based on MAC addresses",
+      "Broadcasting all frames"
+    ],
+    "correct": "Forwarding frames based on MAC addresses"
+  },
+  {
+    "id": 179,
+    "question": "The process of encoding digital data for transmission is handled at:",
+    "options": [
+      "Data Link",
+      "Network",
+      "Session",
+      "Transport"
+    ],
+    "correct": "Data Link"
+  },
+  {
+    "id": 180,
+    "question": "The default subnet mask for a Class A network is:",
+    "options": [
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.255"
+    ],
+    "correct": "255.0.0.0"
+  },
+  {
+    "id": 181,
+    "question": "The lowest layer of the OSI model is:",
+    "options": [
+      "Application",
+      "Network",
+      "Data Link",
+      "Physical"
+    ],
+    "correct": "Physical"
+  },
+  {
+    "id": 182,
+    "question": "The Application Layer provides:",
+    "options": [
+      "Network routing",
+      "End-user interface and services",
+      "Encryption only",
+      "Address assignment"
+    ],
+    "correct": "End-user interface and services"
+  },
+  {
+    "id": 183,
+    "question": "Which protocol retrieves emails from the server?",
+    "options": [
+      "SMTP",
+      "POP",
+      "FTP",
+      "HTTP"
+    ],
+    "correct": "POP"
+  },
+  {
+    "id": 184,
+    "question": "What is the role of ICMP?",
+    "options": [
+      "Assign MAC address",
+      "Control web traffic",
+      "Report errors and reachability",
+      "Transfer files"
+    ],
+    "correct": "Report errors and reachability"
+  },
+  {
+    "id": 185,
+    "question": "Which class of IP addresses supports many hosts per network?",
+    "options": [
+      "Class A",
+      "Class B",
+      "Class C",
+      "Class D"
+    ],
+    "correct": "Class A"
+  },
+  {
+    "id": 186,
+    "question": "What’s the correct order of TCP/IP layers?",
+    "options": [
+      "Physical, Data Link, Session, Network",
+      "Application, Transport, Internet, Network Access",
+      "Data Link, Network, Transport, Application",
+      "Physical, Application, Transport, Network"
+    ],
+    "correct": "Application, Transport, Internet, Network Access"
+  },
+  {
+    "id": 187,
+    "question": "The “Presentation Layer” ensures:",
+    "options": [
+      "Format conversion and encryption",
+      "Logical addressing",
+      "Packet switching",
+      "Session termination"
+    ],
+    "correct": "Format conversion and encryption"
+  },
+  {
+    "id": 188,
+    "question": "What is true about Class D IP addresses?",
+    "options": [
+      "Used for public browsing",
+      "Reserved for experimental use",
+      "Reserved for multicasting",
+      "Assigned to mobile phones"
+    ],
+    "correct": "Reserved for multicasting"
+  },
+  {
+    "id": 189,
+    "question": "The main disadvantage of UTP cables is:",
+    "options": [
+      "Low speed",
+      "Cost",
+      "Susceptibility to EMI",
+      "Inflexibility"
+    ],
+    "correct": "Susceptibility to EMI"
+  },
+  {
+    "id": 190,
+    "question": "A collision occurs when:",
+    "options": [
+      "Devices wait for each other",
+      "Two devices send data simultaneously on the same channel",
+      "No transmission is occurring",
+      "A packet reaches its destination"
+    ],
+    "correct": "Two devices send data simultaneously on the same channel"
+  },
+  {
+    "id": 191,
+    "question": "What does the DNS protocol resolve?",
+    "options": [
+      "Hostnames to MAC",
+      "Hostnames to IP addresses",
+      "URLs to ISP",
+      "DNS to domain"
+    ],
+    "correct": "Hostnames to IP addresses"
+  },
+  {
+    "id": 192,
+    "question": "What command is used to test connectivity?",
+    "options": [
+      "FTP",
+      "Ping",
+      "Ipconfig",
+      "Trace"
+    ],
+    "correct": "Ping"
+  },
+  {
+    "id": 193,
+    "question": "A MAC address is unique to:",
+    "options": [
+      "Each device",
+      "Each network",
+      "Each IP address",
+      "Each DNS"
+    ],
+    "correct": "Each device"
+  },
+  {
+    "id": 194,
+    "question": "Transport layer deals with:",
+    "options": [
+      "IP addressing",
+      "Logical topology",
+      "Reliable data transfer",
+      "Device naming"
+    ],
+    "correct": "Reliable data transfer"
+  },
+  {
+    "id": 195,
+    "question": "A firewall is used to:",
+    "options": [
+      "Speed up data",
+      "Control network access and security",
+      "Manage printers",
+      "Share files"
+    ],
+    "correct": "Control network access and security"
+  },
+  {
+    "id": 196,
+    "question": "A protocol defines:",
+    "options": [
+      "Syntax, semantics, and timing",
+      "Device size",
+      "LAN length",
+      "Cable color"
+    ],
+    "correct": "Syntax, semantics, and timing"
+  },
+  {
+    "id": 197,
+    "question": "What does attenuation mean in networking?",
+    "options": [
+      "Signal amplification",
+      "Signal distortion",
+      "Signal loss over distance",
+      "Packet duplication"
+    ],
+    "correct": "Signal loss over distance"
+  },
+  {
+    "id": 198,
+    "question": "Data flow from one sender to one receiver is called:",
+    "options": [
+      "Multicast",
+      "Broadcast",
+      "Unicast",
+      "Anycast"
+    ],
+    "correct": "Unicast"
+  },
+  {
+    "id": 199,
+    "question": "Which tool helps view the route taken by packets?",
+    "options": [
+      "Ping",
+      "Ipconfig",
+      "Traceroute",
+      "Netstat"
+    ],
+    "correct": "Traceroute"
+  },
+  {
+    "id": 200,
+    "question": "The transport layer handles:",
+    "options": [
+      "MAC address resolution",
+      "DNS queries",
+      "Port numbers and sessions",
+      "IP fragmentation"
+    ],
+    "correct": "Port numbers and sessions"
+  }
+ ]
